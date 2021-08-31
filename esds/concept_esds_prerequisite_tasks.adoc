@@ -1,0 +1,345 @@
+---
+permalink: esds/concept_esds_prerequisite_tasks.html
+sidebar: sidebar
+keywords: solidfire esds,software-defined storage,ports,prerequisites
+summary: Ensure that you perform the necessary checks and verify that your environment meets the configuration, IP addressing, and networking requirements before you install SolidFire eSDS.
+---
+= Perform the prerequisite tasks for installation
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Ensure that you perform the necessary checks and verify that your environment meets the configuration, IP addressing, and networking requirements before you install SolidFire eSDS.
+
+.*Install the required hardware*
+** Install the supported server. See https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU#welcome[NetApp Interoperability Matrix (login required)^] for more information.
+** Ensure that your hardware configuration is balanced and all channels are populated. For more information about maximizing bandwidth, see the https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/SolidFire_Enterprise_SDS/How_to_balance_memory_and_maximize_bandwidth_for_your_hardware_configurations[KB article^] (login required).
+
+.*Configure the host (node)*
+** Install RHEL based on the supported versions listed in the https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU#welcome[NetApp Interoperability Matrix (login required)^].
+** Configure a Network Time Protocol (NTP) server to use with all the hosts in your network.
+** When selecting the installation destination, select the radio button to manually configure file system partitioning. On the *Manual Partitioning* page, use the *+* and *-* buttons to remove any existing partitions, and create new partitions and size them following the recommendations listed here. Using the default LVM partitioning scheme enables you to easily resize later, if needed.
++
+NOTE: By default, RHEL chooses `xfs` as the default file system for the partitions that you manually create. You should change it to `ext4`, except for the `/boot` and `swap` partitions. Your `/boot` partition should use `ext2`.
++
+[%header,cols=2*]
+|===
+| Partition| Size
+a|
+/boot
+a|
+1GB
+a|
+/opt
+a|
+50GB
+a|
+/var
+a|
+50GB
+a|
+swap
+a|
+4GB
+a|
+/home
+a|
+5GB
+a|
+/ and /usr
+a|
+Split remaining space
+|===
+The minimum required partition layout is as follows:
++
+[%header,cols=2*]
+|===
+| Partition| Size
+a|
+/opt
+a|
+40GB
+a|
+/var
+a|
+40GB
+a|
+/
+a|
+10GB (RedHat recommendation)
+|===
++
+NOTE: The `/dev/sdb` disk is not used by any process.
+
+** Disable RAID for /boot.
+** On the Software Selection screen, where you select specific packages to install, select *Server* or *Infrastructure Server* based on your RHEL version.
+** After the first boot, do the following:
+*** Install Red Hat Subscription Manager, and enable the following repositories:
++
+----
+
+rhel-7-server-ansible-2.9-rpms
+rhel-7-server-optional-rpms
+rhel-7-server-extras-rpms
+----
+
+*** Enable SSH on your nodes.
+*** If you want to disable IPv6, follow the steps detailed in this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/SolidFire_Enterprise_SDS/How_to_disable_IPv6_for_SolidFire_eSDS[KB article (login required)^].
+
+.*Install the required software*
+** Install Ansible, Git, and Python 3.0.
+
+.*Verify that your configuration matches NetApp's requirements for installing SolidFire eSDS*
+** Use the SolidFire eSDS configuration listed in the https://mysupport.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool (IMT)] as a reference.
++
+IMPORTANT: If you contact NetApp Support for assistance with issues relating to SolidFire eSDS, Support will first verify that your platform complies with the reference configuration for SolidFire eSDS listed in the IMT. If Support determines that your underlying platform does not comply with the reference configuration, Support will guide you in aligning the non-compliant firmware, software, and/or hardware components with the correct versions in the IMT.
+
+** Run a compliance check for SolidFire eSDS.
+... Run the `ansible-galaxy install` command to install the `nar_solidfire_sds_compliance` role.
++
+----
+ansible-galaxy install git+https://github.com/NetApp-Automation/nar_solidfire_sds_compliance.git
+----
++
+You can also manually install the role by copying it from the https://github.com/NetApp-Automation[NetApp GitHub repository^] and placing the role in the `~/.ansible/roles` directory. NetApp provides a README file, which includes information about how to run a role.
++
+NOTE: Ensure that you always download the latest versions of the roles.
+
+... Move the roles that you downloaded up one directory from where they were installed.
++
+----
+ $ mv ~/.ansible/roles/ansible/nar_solidfire_sds_* ~/.ansible/roles/
+----
+
+... Run the `ansible-galaxy role list` command to ensure that Ansible is configured to utilize the new roles.
++
+----
+ $ ansible-galaxy role list
+ # ~/.ansible/roles
+ - nar_solidfire_sds_install, (unknown version)
+ - nar_solidfire_sds_upgrade, (unknown version)
+ - ansible, (unknown version)
+ - nar_solidfire_sds_compliance, (unknown version)
+----
+
+... Create the playbook to use for the compliance check.
+... Run the compliance check playbook as shown in the following example:
++
+----
+ $ ansible-playbook -i yourinventory.yml yourplaybook.yml
+----
+
++
+NOTE: Even after you start using the SolidFire eSDS system, you should run the compliance check regularly to ensure that your system is in compliance. In some cases, NetApp Support will ask you to run the compliance check to help diagnose and troubleshoot issues.
+
+.*Understand network and IP address requirements*
+** Familiarize yourself with how to configure and manage networks and network interfaces in RHEL. See the https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/index[ RedHat documentation^].
+** Configure your network following the IP requirements detailed here:
++
+[%header,cols=4*]
+|===
+| Component| Storage network IP address| Management network IP address| Total # of IP addresses
+a|
+Storage node
+a|
+1
+a|
+1
+a|
+2 per node
+a|
+Management node
+a|
+(Optional) 1
+a|
+1
+a|
+1 per cluster on the storage network + 1 per cluster on the management network + 1 FQDN per cluster for the management node
+a|
+Storage cluster
+a|
+1 storage IP (SVIP)
+a|
+1 management IP (MVIP)
+a|
+2 per storage cluster
+|===
+
+** Configure the storage network on 25GbE Ethernet switches and the management network on 10GbE switches. See the following cabling illustration:
++
+image::../media/esds_dl360_ports.png[Shows the ports on the DL360 node.]
++
+[%header,cols=2*]
+|===
+| Item| Description| 1
+a|
+Ports for storage network
+a|
+2
+a|
+Port for IPMI
+a|
+3
+a|
+Ports for management network
+|===
+
+IMPORTANT: The illustration given here is intended to be an example. Your actual hardware might be different based on the server you have.
+
+** Change the switch port MTU to 9216 bytes.
+
+.*Allow specific ports through your datacenter's firewall*
+** If `firewalld` is enabled on the storage node running RHEL, ensure that you have the following ports open, so that you can manage the system remotely, allow clients outside of your datacenter to connect to resources, and ensure that internal services can function properly:
++
+[%header,cols=4*]
+|===
+| Source| Destination| Port| Description
+a|
+Storage node MIP
+a|
+Management node
+a|
+80 TCP/UDP
+a|
+Cluster upgrades
+a|
+SNMP server
+a|
+Storage node MIP
+a|
+161 UDP
+a|
+SNMP polling
+a|
+System administrator PC
+a|
+Management node
+a|
+442 TCP
+a|
+HTTPS UI access to management node
+a|
+System administrator PC
+a|
+Storage node MIP
+a|
+442 TCP
+a|
+HTTPS UI access to storage node
+a|
+iSCSI clients
+a|
+Storage cluster MVIP
+a|
+443 TCP
+a|
+(Optional) UI and API access
+a|
+Management node
+a|
+monitoring.solidfire.com
+a|
+443 TCP
+a|
+Storage cluster reporting to Active IQ
+a|
+Storage node MIP
+a|
+Remote storage cluster MVIP
+a|
+443 TCP
+a|
+Remote replication cluster pairing communication
+a|
+Storage node MIP
+a|
+Remote storage node MIP
+a|
+443 TCP
+a|
+Remote replication cluster pairing communication
+a|
+SolidFire eSDSsfapp
+a|
+Per-node UI and API access to create a cluster
+a|
+2010 UDP
+a|
+Cluster beacon (to discover nodes to add to a cluster)
+a|
+iSCSI clients
+a|
+Storage cluster SVIP
+a|
+3260 TCP
+a|
+Client iSCSI communications
+a|
+iSCSI clients
+a|
+Storage cluster SIP
+a|
+3260 TCP
+a|
+Client iSCSI communications
+a|
+SOAP server
+a|
+SolidFire eSDSsfapp
+a|
+7627 TCP
+a|
+SOAP web services
+a|
+System administrator PC
+a|
+N/A
+a|
+8080 TCP
+a|
+System administrator communications
+a|
+vCenter Server
+a|
+Management node
+a|
+8443 TCP
+a|
+vCenter Plug-in QoSSIOC service
+|===
++
+NOTE: Ports 2181, 2182, and 2183 are needed for are needed for the Element distributed database, and will be dynamically opened from the Element container when you install SolidFire eSDS.
+
+** Use the following commands to open the ports mentioned above:
++
+----
+systemctl start firewalld
+firewall-cmd --permanent --add-service=snmp
+firewall-cmd --permanent --add-port=80/tcp
+firewall-cmd --permanent --add-port=80/udp
+firewall-cmd --permanent --add-port=442-443/tcp
+firewall-cmd --permanent --add-port=442-443/udp
+firewall-cmd --permanent --add-port=2010/udp
+firewall-cmd --permanent --add-source-port=2010/udp
+firewall-cmd --permanent --add-port=3260/tcp
+firewall-cmd --permanent --add-port=7627/tcp
+firewall-cmd --permanent --add-port=8080/tcp
+firewall-cmd --permanent --add-port=8443/tcp
+firewall-cmd –-reload
+----
+
+.*Configure your host network*
+* Configure your host network using the link:task_esds_configure_the_interface_config_files.html[best practices^] provided.
++
+IMPORTANT: You should complete the steps to configure your host network to ensure a successful installation of SolidFire eSDS.
+
+.*Complete additional requirements*
+** Install One Collect, which will be used by NetApp Support for host log collection. You can install One Collect from https://mysupport.netapp.com/site/tools/tool-eula/activeiq-onecollect[here^]. You need a NetApp account to access the download. You can also find the One Collect Installation Guide and Release Notes at the same location.
++
+NOTE: You must download and install One Collect in order to receive an optimal support experience.
+
+** Install the management node for log collection and to enable NetApp Support access for troubleshooting. For information about management node and installation steps, see link:../mnode/task_mnode_install.html[here^].
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

@@ -1,0 +1,101 @@
+---
+permalink: esds/reference_esds_element_links.html
+sidebar: sidebar
+keywords: element, solidfire esds, volumes, accounts, snapshots, virtual volumes, remote replication
+summary: After you install SolidFire eSDS on your storage clusters, you can use the Element UI, Element APIs, or the NetApp Element Plug-in for vCenter Server (VCP) to manage your storage clusters.
+---
+= Manage SolidFire eSDS storage
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you install SolidFire eSDS on your storage clusters, you can use the Element UI, Element APIs, or the NetApp Element Plug-in for vCenter Server (VCP) to manage your storage clusters.
+
+Here are the links to the content for various storage management tasks:
+
+* link:../storage/task_intro_use_basic_options_in_the_element_software_ui.html[Use basic options in the Element software UI^]
+* link:../storage/task_data_manage_accounts_work_with_accounts_task.html[Work with user accounts^]
+* link:../storage/task_data_manage_volumes_work_with_volumes_task.html[Work with volumes^]
++
+You can also find information about applying a QoS policy to volumes here.
+* link:../storage/concept_data_manage_vvol_work_virtual_volumes.html[Work with virtual volumes^]
+* link:../storage/concept_data_manage_vol_access_group_work_with_volume_access_groups_and_initiators.html[Work with volume access groups and initiators^]
+* link:../storage/task_data_protection_using_volume_snapshots.html[Work with snapshots^]
+* link:../storage/concept_system_manage_key_get_started_with_external_key_management.html[Get started with external key management^] _NEW!_
+* link:../storage/task_system_manage_key_set_up_external_key_management.html[Set up external key management^] _NEW!_
+* link:../storage/task_replication_perform_remote_replication_between_element_clusters.html[Perform remote replication between clusters^]
+* link:../storage/task_data_protection_back_up_and_restore_volumes.html[Back up and restore volumes^]
+* link:../api/index.html[Manage storage using Element APIs^]
+* link:../storage/concept_system_monitoring_and_troubleshooting.html[Troubleshoot your system^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server overview]
++
+You can navigate to specific tasks from the overview page.
+
+== Use Element APIs on SolidFire eSDS clusters
+
+* _NEW!_ *Software encryption at rest enhancements*: Element 12.3 introduces enhancements for the software encryption at rest feature, which is enabled by default when you create a SolidFire Enterprise SDS storage cluster. This feature encrypts all data stored on the SSDs in the storage nodes and causes only a very small (~2%) performance impact on client IO.
+
+The following are Element API methods related to software encryption at rest (see the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details about each method):
+
+* `CreateCluster`
+* `DisableEncryptionAtRest`
+* `EnableEncryptionAtRest`
+* `GetSoftwareEncryptionAtRestInfo`
+* `RekeySoftwareEncryptionAtRestMasterKey`
+
+* _NEW!_ *Ability to define a maximum number of snapshots to retain*: Element 12.3 introduces enhancements to the snapshot retention feature. The following APIs have been modified to support this enhancement (see the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details about each method):
+
+*	`CreateVolume`
+*	`ModifyVolume`
+*	`CreateSnapshot`
+*	`CreateSchedule`
+*	`ModifyGroupSnapshot`
+*	`ModifySchedule`
+*	`ModifySnapshot`
+*	`CreateGroupSnapshot`
+
+* _NEW!_ *Get information about Element software patches*: Element 12.3 introduces the `GetPatchInfo` method, which enables you to get information about Element software patches installed on a storage node. See the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details.
+
+* _NEW!_ *List statistics for each network interface on a node*: Element 12.3 introduces the `ListNetworkInterfaceStats` method, which enables you to list statistics, such as the number of dropped packets and various types of errors for each network interface on a node. This API method is intended for use on individual nodes; user ID and password authentication is required for access to individual nodes. However, you can use this method on the cluster if the parameter force is given the value true in the method call. When the parameter is used on the cluster, network statistics for all interfaces are listed. See the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details.
+
+* *APIs introduced and updated in Element 12.2 to support SolidFire eSDS*: Several new APIs were introduced in Element 12.2 that you can use on SolidFire eSDS clusters.
+
+Here is a list of new APIs in Element 12.2:
+
+* link:../api/reference_element_api_getlicensekey.html[`GetLicenseKey`^]
+* link:../api/reference_element_api_setlicensekey.html[`SetLicenseKey`^]
+* link:../api/reference_element_api_enablemaintenancemode.html[`EnableMaintenanceMode`^]
+* link:../api/reference_element_api_disablemaintenancemode.html[`DisableMaintenanceMode`^]
+
+The following 12.2 APIs have been updated to support SolidFire eSDS clusters:
+
+* link:../api/reference_element_api_addnodes.html[`AddNodes`^]
+* link:../api/reference_element_api_createcluster.html[`CreateCluster`^]
++
+NOTE: New parameters, `OrderNumber`, `SerialNumber`, and `enableSoftwareEncryptionAtRest` have been added to the `CreateCluster` method in Element software 12.2. You should specify these parameters while using this API method for creating a cluster after you install SolidFire eSDS.
+
+* *Element 12.2 APIs not supported on SolidFire eSDS clusters*: Here is a list of Element 12.2 APIs that are not supported on SolidFire eSDS clusters:
+
+* `ListClusterInterfacePreferences`
+* `ListNodeStats`
+* `DisableSsh`
+* `DisableClusterSsh`
+* `EnableClusterSsh`
+* `EnableSsh`
+* `GetIpmiConfig`
+* `GetIpmiInfo`
+* `GetSshInfo`
+* `ListNetworkInterfaces`
+* `ResetNode`
+* `RestartNetworking`
+* `ResetNetworkConfig`
+* `SetConfig`
+* `SetNetworkConfig`
+* `DisableBmcColdReset`
+* `EnableBmcColdReset`
+* `SetNtpInfo`
+* `TestAddressAvailability`
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

@@ -1,0 +1,96 @@
+---
+permalink: esds/task_esds_upgrade_cluster.html
+sidebar: sidebar
+keywords: solidfire esds, upgrading solidfire esds clusters, ansible role, clusters, upgrade clusters, esds upgrade
+summary: You can use Ansible to perform non-disruptive rolling upgrades on your SolidFire eSDS cluster. Using the `nar_solidfire_sds_upgrade` role provided by NetApp, Ansible performs rolling upgrades one node at a time while maintaining data availability to all the volumes.
+---
+= Upgrade the clusters
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use Ansible to perform non-disruptive rolling upgrades on your SolidFire eSDS cluster. Using the `nar_solidfire_sds_upgrade` role provided by NetApp, Ansible performs rolling upgrades one node at a time while maintaining data availability to all the volumes.
+
+.What you'll need
+
+Ensure that the following conditions are met before you upgrade:
+
+* There are no cluster faults in the Element UI.
+* The inventory file is up to date with the current RPM file build information and details about cluster member nodes.
+* The hosts are defined in the inventory file by using IP addresses (and not fully qualified domain names [FQDNs]).
+
+IMPORTANT: The upgrade will fail if you define the hosts by using FQDNs.
+
+* The hosts are defined in the inventory file using the format in the following example:
++
+----
+hosts:
+  10.117.136.26:
+  10.117.136.27:
+----
+
+* The number of nodes in your inventory file is the same as the number of nodes in the cluster that you are upgrading. If there is a number mismatch, the upgrade procedure will fail with a error similar to the following example: `"Cluster 10.194.79.151 consists of more nodes than what has been specified for upgrade!"`
+* The inventory file has the following variables specified: sf_mgmt_virt_ip (MVIP), sf_cluster_admin_username, sf_cluster_admin_passwd, and solidfire_element_rpm (path to the new RPM file).
+
+.Upgrade overview
+
+Here is an overview of what happens during the upgrade process:
+
+* The information you entered in the inventory file is validated.
+* Node information is collected.
+* RPM is installed on all nodes included in the inventory file in parallel.
+* After the RPM is installed on each node, each SolidFire eSDS node is upgraded one at a time. Each node is automatically placed in maintenance mode. You do not have to manually enable maintenance mode if you are running the upgrade playbook.
+* After the first node is placed in maintenance mode, volumes hosted on that SolidFire eSDS node are failed over to remaining SolidFire eSDS nodes in the cluster.
+* SolidFire service is restarted to pick up the latest version of the application.
+* Maintenance mode is deactivated for the node, and the cluster waits for the node to recover.
+* After the node comes back online, the cluster is balanced.
+* The same process is repeated for all the nodes in the cluster.
+* After all the nodes are upgraded, the cluster shows the latest version.
+
+NOTE: If an error happens during the upgrade or your cluster experiences a fault, the upgrade does not stop. It progresses to the extent that it can and prints out a list of all the nodes that were successfully and unsuccessfully upgraded. After you fix any errors, you can rerun the playbook or reject the file to complete the upgrade process.
+
+CAUTION: If the upgrade fails because of a fault, you should resolve it and resume the upgrade. The cluster remains in upgrade status until the upgrade is complete. If the fault is not cleared by Element while the cluster is in upgrade status, you should contact NetApp Support. Depending on the nature of the fault and if it is safe to do so, Support might instruct you to add the `yes_i_want_to_ignore_cluster_faults` variable and set it to true in your upgrade playbook and re-run playbook. Do not attempt this without consulting with Support.
+
+.Steps
+
+. Run the `ansible-galaxy install` command to install the `nar_solidfire_sds_upgrade` role.
++
+----
+ansible-galaxy install git+https://github.com/NetApp-Automation/nar_solidfire_sds_upgrade.git
+----
++
+You can also manually install the role by copying it from the https://github.com/NetApp-Automation[NetApp GitHub repository^] and placing the role in the `~/.ansible/roles` directory. NetApp provides a README file, which includes information about how to run a role.
++
+NOTE: Ensure that you always download the latest versions of the roles.
+
+. Move the roles that you downloaded up one directory from where they were installed.
++
+----
+ $ mv ~/.ansible/roles/ansible/nar_solidfire_sds_* ~/.ansible/roles/
+----
+. Run the ansible-galaxy role list command to ensure that Ansible is configured to utilize the new roles.
++
+----
+ $ ansible-galaxy role list
+ # ~/.ansible/roles
+ - nar_solidfire_sds_install, (unknown version)
+ - nar_solidfire_sds_upgrade, (unknown version)
+ - ansible, (unknown version)
+ - nar_solidfire_sds_compliance, (unknown version)
+----
+. Create the playbook to use for upgrades. If you already have a playbook and want to use that, ensure that you specify the `nar_solidfire_sds_upgrade` role in this playbook.
+. Run the playbook:
++
+----
+ $ ansible-playbook -i inventory.yaml playbook_upgrade_sample.yaml
+----
++
+NOTE: The playbook name used here is an example. You should replace it with the name of your playbook.
++
+Running the playbook validates the information that you entered in the inventory file and installs the RPM on all the nodes listed in the inventory. You can check the Ansible output to verify that each node is upgraded.
+
+. After the upgrade is complete, verify each node to ensure that the new version is running by using the Element UI or the cluster API.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

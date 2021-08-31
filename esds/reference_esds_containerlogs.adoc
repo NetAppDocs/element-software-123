@@ -1,0 +1,73 @@
+---
+permalink: esds/reference_esds_containerlogs.html
+sidebar: sidebar
+keywords: element, solidfire esds, get container logs, sds containers
+summary: Learn more about the SolidFire eSDS containers and where to get the logs associated with them. The information provided here is to help you get started with collecting logs for troubleshooting. It is best to engage NetApp Support, where trained engineers well versed with log analysis can help resolve issues.
+---
+= Collect container logs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn more about the SolidFire eSDS containers and where to get the logs associated with them. The information provided here is to help you get started with collecting logs for troubleshooting. It is best to engage https://www.netapp.com/company/contact-us/support/[NetApp Support^], where trained engineers well versed with log analysis can help resolve issues.
+
+SolidFire eSDS includes the following containers:
+
+* Element container (`element`): Hosts all of the Element services in a single container.
+* Element auth container (`element_auth`): Provides multifactor authentication (MFA) and session authentication tokens for the management UIs.
+* Network watchdog container (`sfnetwd`): Provides heartbeat monitoring of the local Element instance and failover of the virtual IPs (MVIP and SVIP).
+
+To access the containers on an eSDS node via SSH, the owner of the node should enable SSH and provide the login credentials. After you have SSH access to the host system, you can check the status of one or more containers by using the `podman ps` command. See the example below:
+
+----
+# podman ps
+CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+f6b8817c024a localhost/solidfire-element:12.2.0.777 --config /sf/etc/... 11 seconds ago Up 10 seconds ago sfnetwd
+c3fed6141259 localhost/solidfire-auth:12.2.0.777 --config /sf/etc/... 11 seconds ago Up 11 seconds ago element_auth
+1ffa8289c701 localhost/solidfire-element:12.2.0.777 --config /sf/etc/... 12 seconds ago Up 12 seconds ago element
+#
+----
+
+IMPORTANT: If one of the containers is not up or running, do not use Podman to directly control (stop or start) the containers. Element software is controlled via the `solidfire systemd` service unit. This service uses `elementctl` to orchestrate the software running in the three Element containers. Using `systemctl` to control the Solidfire service on the host is the recommended and supported way to start and stop Element software on any node; however, doing so on a live cluster should be only done under the guidance from Support.
+
+All of the logs related to SolidFire eSDS can be found in `/var/log/solidfire/` on the host, which is persisted across container instances. This directory contains the logs from the Element container, and contains the `element_auth/` and `sfnetwd/` subdirectories, which contain the logs from the `element_auth` and `sfnetwd` containers, respectively.
+From inside a container, you can access container-specific logs at `/var/log`.
+
+=== Use the NetApp Hybrid Cloud Control UI to collect logs
+
+You can collect logs to send to NetApp Support to help with diagnosing issues with your SolidFire eSDS clusters.
+
+Keep the following considerations in mind for collecting logs:
+
+* Do not use Podman commands to gather logs.
+* NetApp Support uses One Collect for host log collection. For an optimal support experience, you should have installed One Collect.
+
+.Steps
+
+. Open a web browser and browse to the IP address of the management node. For example:
++
+----
+https://[management node IP address]
+----
+
+. Log in to NetApp Hybrid Cloud Control by providing the storage cluster administrator credentials.
+. From the Dashboard, select the menu on the upper right.
+. Select *Collect Logs*.
+. Select a date range in the *Date Range* drop-down menu to specify what dates the logs should include.
++
+If you specify a custom start date, you can select the date to begin the date range. Logs will be collected from that date up to the present time.
+
+. In the *Log Collection* section, select the storage cluster or specific storage nodes.
+. Select *Collect Logs* to start log collection.
++
+Log collection runs in the background, and the page shows the progress.
++
+NOTE: Depending on the logs you collect, the progress bar might remain at a certain percentage for several minutes, or progress very slowly at some points.
+
+. Select *Download Logs* to download the log package.
++
+The log package is in a compressed UNIX `.tgz` file format.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

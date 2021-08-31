@@ -1,0 +1,38 @@
+---
+sidebar: sidebar
+permalink: upgrade/concept_element_upgrade_overview.html
+summary: The content in this section introduces the recommended upgrade sequence for components in a NetApp SolidFire all-flash storage system.
+keywords: netapp, solidfire upgrade, vcp upgrade, element upgrade, vsphere upgrade
+---
+
+= Upgrades overview
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+:keywords: solidfire, cloud, onprem, documentation, help
+
+[.lead]
+The content in this section introduces the recommended upgrade sequence for components in a NetApp SolidFire all-flash storage system. ​
+
+== System upgrade sequence
+
+The system upgrade sequence content describes the tasks that are needed to complete a SolidFire all-flash storage system upgrade. Ideally these procedures are performed as part of the larger upgrade sequence and not in isolation. If a component-based upgrade or update is needed, see the procedure prerequisites to ensure additional complexities are addressed.
+
+Use the following sequence to upgrade your NetApp SolidFire all-flash storage system for Element 12.3:
+
+* link:task_sf_upgrade_all.html[Upgrade your NetApp SolidFire all-flash storage system for Element 12.3].
+
+== vSphere upgrade sequence including Element Plug-in for vCenter Server
+
+The vSphere upgrade sequence including Element Plug-in for vCenter Server content describes additional pre- and post-upgrade steps required to re-install the Element Plug-in for vCenter Server.
+
+Use the following sequence to upgrade your vSphere components in a NetApp SolidFire all-flash storage system with Element Plug-in for vCenter Server:
+
+* link:task_sf_upgrade_all_vsphere.html[Upgrade your vSphere components for a NetApp SolidFire storage system with the Element Plug-in for vCenter Server].
+
+[discrete]
+== Find more information
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

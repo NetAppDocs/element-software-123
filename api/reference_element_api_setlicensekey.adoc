@@ -1,0 +1,95 @@
+---
+permalink: api/reference_element_api_setlicensekey.html
+sidebar: sidebar
+keywords: set,setting,license,key
+summary: 'On SolidFire Enterprise SDS storage clusters, you can use the SetLicenseKey method to set the license key for the storage cluster. The license key for a storage cluster consists of the cluster’s order number combined with the serial number, and activates the capacity model you have purchased for Element software.'
+---
+= SetLicenseKey
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+On SolidFire Enterprise SDS storage clusters, you can use the `SetLicenseKey` method to set the license key for the storage cluster. The license key for a storage cluster consists of the cluster's order number combined with the serial number, and activates the capacity model you have purchased for Element software.
+
+== Parameters
+
+This method has the following input parameters:
+
+[options="header"]
+|===
+|Name |Description |Type |Default value |Required
+a|
+orderNumber
+a|
+The new sales order number for this storage cluster.
+a|
+string
+a|
+None
+a|
+Yes
+a|
+serialNumber
+a|
+The new serial number for this storage cluster.
+a|
+string
+a|
+None
+a|
+Yes
+|===
+
+== Return values
+
+This method has the following return values:
+
+[options="header"]
+|===
+|Name |Description |Type
+a|
+orderNumber
+a|
+The new sales order number of the storage cluster.
+a|
+string
+a|
+serialNumber
+a|
+The new serial number of the storage cluster.
+a|
+string
+|===
+
+== Request example
+
+Requests for this method are similar to the following example:
+
+----
+{
+  "method": "SetLicenseKey",
+  "params": {
+    "orderNumber": "33601",
+    "serialNumber": "30G56E3WV"   },
+   "id" : 1
+}
+----
+
+== Response example
+
+This method returns a response similar to the following example:
+
+----
+{
+   "id" : 1,
+   "result" : {
+      "serialNumber": "30G56E3WV",
+      "orderNumber": "33601"
+     }
+   }
+}
+----
+
+== New since version
+
+12.2

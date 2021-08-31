@@ -1,0 +1,34 @@
+---
+permalink: concepts/reference_solidfire_element_ug_where_to_find_additional_information.html
+sidebar: sidebar
+keywords:
+summary: 'You can learn more about tasks related to the SolidFire storage system in NetApp SolidFire Documentation Center and from the resources available on the NetApp SolidFire Resources page.'
+---
+= Where to find additional information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can learn more about tasks related to the SolidFire storage system in NetApp SolidFire Documentation Center and from the resources available on the NetApp SolidFire Resources page.
+
+In the Documentation Center, you can also find information about hardware installation and maintenance, additional content resources available, links to known issues and resolved issues, and the latest release notes.
+
+* *NetApp SolidFire Resources page*
++
+Provides resources about Element software, including links to video content and technical reports.
++
+https://www.netapp.com/us/documentation/solidfire.aspx[SolidFire All-Flash Storage Resources]
+
+* *NetApp SolidFire Documentation Center*
++
+Provides information about hardware installation and maintenance, additional content resources available, links to known issues and resolved issues, and the latest release notes.
++
+https://docs.netapp.com/sfe-113/index.jsp[SolidFire and Element 11.3 Documentation Center]
+
+* *https://kb.netapp.com/app/answers/answer_view/a_id/1000941/loc/en_US[NetApp SolidFire Element Known Issues]*
++
+Provides a list of known issues in the current and earlier versions of Element software.
+
+* *https://kb.netapp.com/app/answers/answer_view/a_id/1000933[NetApp SolidFire Element Resolved Issues]*
++
+Provides a list of resolved issues in the current and earlier versions of Element software.

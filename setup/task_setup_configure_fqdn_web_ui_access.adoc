@@ -1,0 +1,58 @@
+---
+permalink: setup/task_setup_configure_fqdn_web_ui_access.html
+sidebar: sidebar
+keywords:
+summary: 'NetApp HCI with NetApp Element software 12.2 or later enables you to access storage cluster web interfaces using the Fully Qualified Domain Name \(FQDN\). If you want to use the FQDN to access web user interfaces such as the Element web UI, per-node UI, or management node UI, you must first add a storage cluster setting to identify the FQDN used by the cluster.'
+---
+= Configure Fully Qualified Domain Name web UI access
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+NetApp HCI with NetApp Element software 12.2 or later enables you to access storage cluster web interfaces using the Fully Qualified Domain Name (FQDN). If you want to use the FQDN to access web user interfaces such as the Element web UI, per-node UI, or management node UI, you must first add a storage cluster setting to identify the FQDN used by the cluster.
+
+This process enables the cluster to properly redirect a login session and improves integration with external services such as key managers and identity providers for multi-factor authentication.
+
+.What you'll need
+* This feature requires Element 12.2 or later and management services version 2.15 or later.
+* To use REST APIs, you must have deployed a management node running version 11.5 or later.
+
+.Steps
+. Ensure that the Element storage nodes and the mNode have DNS configured correctly for the network environment so that FQDNs in the environment can be resolved. To set DNS, go to the per-node UI for storage nodes and to the management node, then select *Network Settings* > *Management Network*.
+ .. Per-node UI for storage nodes: `https://<storage_node_management_IP>:442`
+ .. Per-node UI for the management node: `https://<management_node_IP>:442`
+. Access the Element API and create the following cluster interface preference using the link:../api/reference_element_api_createclusterinterfacepreference.html[CreateClusterInterfacePreference] API method, inserting the cluster MVIP FQDN for the preference value:
+ ** Name: `mvip_fqdn`
+ ** Value: `Fully Qualified Domain Name for the Cluster MVIP`
++
+In this example, FQDN=storagecluster.my.org:
++
+----
+https://<Cluster_MVIP>/json-rpc/12.2?
+method=CreateClusterInterfacePreference&name=mvip_fqdn&value=storagecluster.my.org
+----
+
+. Change the management node settings using the REST API on the management node:
+ .. Access the REST API UI for the management node by entering the management node IP address followed by `/mnode/2/`
++
+For example:
++
+`https://<management_node_IP>/mnode/2/`
+
+ .. Click *Authorize* or any lock icon and enter the cluster user name and password.
+ .. Enter the client ID as `mnode-client`.
+ .. Click *Authorize* to begin the session and then close the window.
+ .. From the server list, select `mnode2`.
+ .. Click *GET /settings*.
+ .. Click *Try it out*.
+ .. Click *Execute*.
+ .. Record any proxy settings reported in the response body.
+ .. Click *PUT/setttings*.
+ .. Click *Try it out*.
+ .. In the request body area, enter the management node FQDN as the value for the `mnode_fqdn` parameter.
+ .. Enter any proxy setting values you recorded earlier in the remaining parameters in the request body. If you leave the proxy parameters empty or do not include them in the request body, existing proxy settings will be removed.
+ .. Click *Execute*.
+
+ == Find more information
+ * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+ * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
