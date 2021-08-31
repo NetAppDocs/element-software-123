@@ -1,0 +1,129 @@
+---
+permalink: api/reference_element_api_listclusterfaults.html
+sidebar: sidebar
+keywords: cluster,list,listing,fault,faults,listclusterfaults,error,errors
+summary: 'You can use the ListClusterFaults method to list information about any faults detected on the cluster. With this method, you can list both current faults as well as faults that have been resolved. The system caches faults every 30 seconds.'
+---
+= ListClusterFaults
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the `ListClusterFaults` method to list information about any faults detected on the cluster. With this method, you can list both current faults as well as faults that have been resolved. The system caches faults every 30 seconds.
+
+== Parameters
+
+This method has the following input parameters:
+
+[options="header"]
+|===
+|Name |Description |Type |Default value |Required
+a|
+bestPractices
+a|
+Include faults triggered by sub-optimal system configuration. Possible values:
+
+* true
+* false
+
+a|
+boolean
+a|
+None
+a|
+No
+a|
+faultTypes
+a|
+Determines the types of faults returned. Possible values:
+
+* current: List active, unresolved faults.
+* resolved: List faults that were previously detected and resolved.
+* all: List both current and resolved faults. You can see the fault status in the "`resolved`" member of the fault object.
+
+a|
+string
+a|
+all
+a|
+No
+|===
+
+== Return value
+
+This method has the following return value:
+
+|===
+|Name |Description |Type
+a|
+faults
+a|
+An object describing the requested cluster faults.
+a|
+xref:reference_element_api_fault.adoc[fault]
+|===
+
+== Request example
+
+Requests for this method are similar to the following example:
+
+----
+{
+  "method": "ListClusterFaults",
+    "params": {
+      "faultTypes": "current",
+      "bestPractices": true
+    },
+    "id": 1
+}
+----
+
+== Response example
+
+This method returns a response similar to the following example:
+
+----
+{
+  "id": 1,
+  "result": {
+    "faults": [
+      {
+        "clusterFaultID": 1,
+        "code": "notUsingLACPBondMode",
+        "data": null,
+        "date": "2016-04-26T14:57:04.275286Z",
+        "details": "Bond1G interfaces found not using LACP bond mode. Nodes not set to LACP bond mode: {1,2,4,5}",
+        "driveID": 0,
+        "driveIDs": [],
+        "nodeHardwareFaultID": 0,
+        "nodeID": 0,
+        "resolved": false,
+        "resolvedDate": "",
+        "serviceID": 0,
+        "severity": "bestPractice",
+        "type": "cluster"
+      },
+      {
+        "clusterFaultID": 9,
+        "code": "disconnectedClusterPair",
+        "data": null,
+        "date": "2016-04-26T20:40:08.736597Z",
+        "details": "One of the clusters in a pair may have become misconfigured or disconnected.  Remove the local pairing and retry pairing the clusters. Disconnected Cluster Pairs: []. Misconfigured Cluster Pairs: [3]",
+        "driveID": 0,
+        "driveIDs": [],
+        "nodeHardwareFaultID": 0,
+        "nodeID": 0,
+        "resolved": false,
+        "resolvedDate": "",
+        "serviceID": 0,
+        "severity": "warning",
+        "type": "cluster"
+      }
+    ]
+  }
+}
+----
+
+== New since version
+
+9.6

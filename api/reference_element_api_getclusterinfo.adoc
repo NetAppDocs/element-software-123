@@ -1,0 +1,80 @@
+---
+permalink: api/reference_element_api_getclusterinfo.html
+sidebar: sidebar
+keywords: cluster,get,info,getting,getclusterinfo
+summary: 'You can use the GetClusterInfo method to return configuration information about the cluster.'
+---
+= GetClusterInfo
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the `GetClusterInfo` method to return configuration information about the cluster.
+
+== Parameters
+
+This method has no input parameters.
+
+== Return value
+
+This method has the following return value:
+
+[options="header"]
+|===
+|Name |Description |Type
+a|
+clusterInfo
+a|
+Cluster information.
+a|
+xref:reference_element_api_clusterinfo.adoc[clusterInfo]
+|===
+
+== Request example
+
+Requests for this method are similar to the following example:
+
+----
+{
+   "method": "GetClusterInfo",
+   "params": {},
+   "id" : 1
+}
+----
+
+== Response example
+
+This method returns a response similar to the following example:
+
+----
+{
+  "id": 1,
+  "result": {
+    "clusterInfo": {
+      "attributes": {},
+      "encryptionAtRestState": "disabled",
+      "ensemble": [
+        "10.10.21.23",
+        "10.10.21.24",
+        "10.10.21.25"
+      ],
+      "mvip": "10.10.1.57",
+      "mvipInterface": "Bond1G",
+      "mvipNodeID": 2,
+      "mvipVlanTag": "120",
+      "name": "Hulk",
+      "repCount": 2,
+      "svip": "10.10.21.57",
+      "svipInterface": "Bond10G",
+      "svipNodeID": 2,
+      "svipVlanTag": "0",
+      "uniqueID": "17nx",
+      "uuid": "8d385a91-9acf-4371-8939-b29e085191fd"
+    }
+  }
+}
+----
+
+== New since version
+
+9.6

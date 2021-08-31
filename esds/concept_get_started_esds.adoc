@@ -1,0 +1,126 @@
+---
+permalink: esds/concept_get_started_esds.html
+sidebar: sidebar
+keywords: solidfire esds,software-defined storage
+summary: NetApp SolidFire Enterprise SDS (eSDS) provides the benefits of SolidFire scale-out technology and NetApp Element software data services on the hardware of your choice that meets the reference configuration for SolidFire eSDS. SolidFire eSDS delivers NetApp Element software independent of the underlying hardware. This enables you to use all the Element functionality either on a NetApp-branded appliance or on a general-purpose server, which complies with the NetApp reference configuration.
+---
+= Get started with NetApp SolidFire Enterprise SDS
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+NetApp SolidFire Enterprise SDS (eSDS) provides the benefits of SolidFire scale-out technology and NetApp Element software data services on the hardware of your choice that meets the reference configuration for SolidFire eSDS. SolidFire eSDS delivers NetApp Element software independent of the underlying hardware. This enables you to use all the Element functionality either on a NetApp-branded appliance or on a general-purpose server, which complies with the NetApp reference configuration.
+
+== Key features of SolidFire eSDS
+
+* Enables you to install and run Element software via containers.
+* Delivers enterprise storage features and reliability using pre-validated commodity server platforms. You can run production workloads after installing the SolidFire eSDS software on the prescribed x86 server platform and underlying components (CPU, memory, SSD drives, cache, networking, firmware), per the published reference configuration in the https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT[NetApp Interoperability Matrix Tool (IMT)]. 
+* Provides Software Encryption at Rest. Software Encryption at Rest enables all data written to the SSDs in a storage cluster to be encrypted. This provides a primary layer of encryption in SolidFire eSDS nodes that do not include Self-Encrypting Drives (SEDs).
+* Provides predictable cluster performance using Quality of Service (QoS) policies.
+* Provides support for four to 40-node clusters.
+* Licensed with the Term Capacity License model.
+* Uses a new model for providing support by using support agreements with technology partners.
+
+With SolidFire eSDS, NetApp provides containers for Element that you can run on commodity hardware that meets the necessary requirements. You bring your own server with an operating system already installed. You use an automation tool, such as Ansible, to run the pre-installation compliance check and install SolidFire eSDS. As part of your pre-installation setup tasks, you should install the management node to support log bundle collection as well as other services, such as SolidFire AIQ. Here is an architectural overview that shows the various components in the SolidFire eSDS environment:
+
+image::../media/esds_architecture_overview.png[Shows the architectural overview of the eSDS environment.]
+
+NOTE: You are responsible for configuring, monitoring, and managing the life cycle of the platform as well as configuring the network interfaces and routing tables.
+
+Some features of NetApp Element software are not applicable to SolidFire eSDS. Native Element features for traditional SolidFire storage nodes, such as hardware monitoring, firmware updates, Encryption as Rest (EAR) with Self-Encrypting Drives (SEDs), and Fibre Channel are disabled for SolidFire eSDS.
+
+* External Key Management (EKM)
+* Hardware encryption
+* Multi-drive slice service (MDSS)
+* Hardware monitoring, host platform updates (example: drivers, firmware, and operating system packages), and Fibre Channel
+
+== Quick start information
+
+You can find a condensed set of instructions for installing SolidFire eSDS link:../media/SDS_Quick_Start_Guide.pdf[here^].
+
+== Licensing policies
+
+SolidFire eSDS is governed by NetApp Term Capacity License model.
+
+Here is a high-level overview of the policies of this model:
+
+* Software costs are based on raw capacity (size of the drive times the number of drives in the node or cluster), making the software costs for this model easy to predict.
+* You do not require a software license key. You will receive a master serial number for the software on the sales order, which is included with the document kit you receive after you order. You must retain this master serial number because it will be used for support entitlement.
+
+For more information, see https://www.netapp.com/us/media/sb-4059.pdf[Purchasing models for NetApp HCI and SolidFire].
+
+== Interfaces for installing and using SolidFire eSDS
+
+Here is a list of tools and interfaces you use for installing, monitoring, and managing SolidFire eSDS:
+
+[%header,cols=3*]
+|===
+| Tool/interface| Who uses it| Description
+
+a|
+Ansible compliance check role
+a|
+Customer
+a|
+For verifying that the platform matches the reference configuration listed in the https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT[NetApp Interoperability Matrix Tool (login required)^]. You should do this  before installing SolidFire eSDS.
+a|
+Ansible install role
+a|
+Customer
+a|
+For installing SolidFire eSDS.
+a|
+Management node
+a|
+Customer
+a|
+For log bundle collection and management services, such as AIQ.
+a|
+NetApp Hybrid Cloud Control
+a|
+Customer, NetApp Support
+a|
+For cluster creation and per-node management, as well as log collection from the management node.
+a|
+Hewlett Packard Enterprise (HPE) Integrated Lights Out (iLO)
+a|
+Customer, HPE Support
+a|
+For collecting data about events and statuses for root cause analysis.
+a|
+Dell Integrated Dell Remote Access Controller (iDRAC)
+a|
+Customer, Dell Support
+a|
+For collecting data about events and statuses for root cause analysis.
+a|
+NetApp Element software UI
+a|
+Customer
+a|
+For managing SolidFire eSDS storage clusters.
+a|
+Active IQ
+a|
+Customer, NetApp Support
+a|
+For cluster health status monitoring.
+a|
+One Collect
+a|
+NetApp Support
+a|
+For supplemental log collection.
+|===
+
+=== Installation overview
+
+You can install SolidFire eSDS using an automation tool, such as Ansible.
+
+Here is the high-level overview of the installation using Ansible:
+
+image::../media/esds_installation_workflow.png[Shows the installation workflow.]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

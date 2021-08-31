@@ -1,0 +1,31 @@
+---
+permalink: storage/concept_prereq_switch_configuration_for_solidfire_clusters.html
+sidebar: sidebar
+keywords: cluster switch configuration, best practices for switch configuration, optimal storage performance, node hardware, traffic, cluster, Element software, best practices, switches, switch requirements, storage, performance, storage performance
+summary: 'The NetApp Element software system has certain switch requirements and best practices for optimal storage performance.'
+---
+= Switch configuration for clusters running Element software
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The NetApp Element software system has certain switch requirements and best practices for optimal storage performance.
+
+Storage nodes require 10 or 25GbE Ethernet switches, depending on specific node hardware, for iSCSI storage services and node intra-cluster services communication. 1GbE switches can be used for these types of traffic:
+
+* Management of the cluster and the nodes
+* Intra-cluster management traffic between the nodes
+* Traffic between the cluster nodes and the management node virtual machine
+
+|===
+a|
+*Best Practice:* You should implement the following best practices when configuring Ethernet switches for cluster traffic:
+
+* For non-storage traffic in the cluster, deploy a pair of 1GbE switches to provide high availability and load sharing.
+* On the storage network switches, deploy switches in pairs and configure and utilize jumbo frames (an MTU size of 9216 bytes). This ensures a successful installation and eliminates storage network errors due to fragmented packets.
+
+|===
+
+== For more information
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
