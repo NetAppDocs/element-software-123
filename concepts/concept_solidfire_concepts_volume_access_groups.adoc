@@ -19,3 +19,4 @@ Volume access groups have the following limits:
 * A maximum of 64 access groups per volume.
 * An access group can be made up of a maximum of 2000 volumes.
 * An IQN or WWPN can belong to only one volume access group.
+* For Fibre Channel clusters, a single volume can belong to a maximum of four access groups.  

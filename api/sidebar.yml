@@ -901,8 +901,6 @@ entries:
       url: "/api/reference_element_api_listvirtualvolumetasks.html"
     - title: ModifyStorageContainer
       url: "/api/reference_element_api_modifystoragecontainer.html"
-  - title: Cluster fault codes
-    url: "/api/reference_element_api_app_a_cluster_fault_codes.html"
   - title: Access control
     url: "/api/reference_element_api_app_b_access_control.html"
   - title: Response examples

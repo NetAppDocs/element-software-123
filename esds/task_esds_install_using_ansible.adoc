@@ -53,6 +53,8 @@ NOTE: Ensure that you always download the latest versions of the roles.
  - nar_solidfire_sds_upgrade, (unknown version)
  - ansible, (unknown version)
  - nar_solidfire_sds_compliance, (unknown version)
+ - nar_solidfire_cluster_config, (unknown version)
+ - nar_solidfire_sds_uninstall, (unknown version)
 ----
 +
 NOTE: The README file associated with roles includes a list of all the required and optional variables that you should define as shown below:

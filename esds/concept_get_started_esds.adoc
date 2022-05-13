@@ -1,7 +1,7 @@
 ---
 permalink: esds/concept_get_started_esds.html
 sidebar: sidebar
-keywords: solidfire esds,software-defined storage
+keywords: solidfire esds,software-defined storage, dynamic node rating
 summary: NetApp SolidFire Enterprise SDS (eSDS) provides the benefits of SolidFire scale-out technology and NetApp Element software data services on the hardware of your choice that meets the reference configuration for SolidFire eSDS. SolidFire eSDS delivers NetApp Element software independent of the underlying hardware. This enables you to use all the Element functionality either on a NetApp-branded appliance or on a general-purpose server, which complies with the NetApp reference configuration.
 ---
 = Get started with NetApp SolidFire Enterprise SDS
@@ -14,7 +14,7 @@ NetApp SolidFire Enterprise SDS (eSDS) provides the benefits of SolidFire scale-
 == Key features of SolidFire eSDS
 
 * Enables you to install and run Element software via containers.
-* Delivers enterprise storage features and reliability using pre-validated commodity server platforms. You can run production workloads after installing the SolidFire eSDS software on the prescribed x86 server platform and underlying components (CPU, memory, SSD drives, cache, networking, firmware), per the published reference configuration in the https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT[NetApp Interoperability Matrix Tool (IMT)]. 
+* Delivers enterprise storage features and reliability using pre-validated commodity server platforms. You can run production workloads after installing the SolidFire eSDS software on the prescribed x86 server platform and underlying components (CPU, memory, SSD drives, cache, networking, firmware), per the published reference configuration in the https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT[NetApp Interoperability Matrix Tool (IMT)].
 * Provides Software Encryption at Rest. Software Encryption at Rest enables all data written to the SSDs in a storage cluster to be encrypted. This provides a primary layer of encryption in SolidFire eSDS nodes that do not include Self-Encrypting Drives (SEDs).
 * Provides predictable cluster performance using Quality of Service (QoS) policies.
 * Provides support for four to 40-node clusters.
@@ -113,13 +113,21 @@ a|
 For supplemental log collection.
 |===
 
-=== Installation overview
+== Installation overview
 
 You can install SolidFire eSDS using an automation tool, such as Ansible.
 
 Here is the high-level overview of the installation using Ansible:
 
 image::../media/esds_installation_workflow.png[Shows the installation workflow.]
+
+== Dynamic node rating (_NEW in Element 12.3.1!_)
+
+Dynamic node rating is a new feature in Element 12.3.1, which enables you to leverage 24 supported CPUs per eSDS platform as opposed to today’s model of a single CPU per platform.
+
+Dynamic node rating is supported on all platforms that are currently supported on eSDS: DL360, DL380, and R640.
+
+For the first release of dynamic node rating, the maximum IOPS rating for any node is 100K IOPS.
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]

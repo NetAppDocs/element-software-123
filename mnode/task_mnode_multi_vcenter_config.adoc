@@ -28,7 +28,7 @@ You should use this process after your initial installation when you need to add
 . Refresh the inventory service API on the management node:
 +
 ----
-https://[management node IP]/inventory/1/
+https://<ManagementNodeIP>/inventory/1/
 ----
 +
 NOTE: As an alternative, you can wait 2 minutes for the inventory to update in NetApp Hybrid Cloud Control UI.

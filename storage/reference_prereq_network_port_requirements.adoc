@@ -13,16 +13,17 @@ You might need to allow the following TCP ports through your datacenter's edge f
 
 All ports are TCP unless stated otherwise, and should permit bi-directional communications between the NetApp Support Server, management node, and nodes running Element software.
 
-IMPORTANT: NetApp is in the process of rebuilding the online repository that hosts software and firmware bundle downloads that support the NetApp Hybrid Cloud Control automated upgrade workflow. https://kb.netapp.com/Support_Bulletins/Customer_Bulletins/SU474[Learn More]
-
 [NOTE]
 ======================
-The NetApp Hybrid Cloud Control web UI and API download software packages from the NetApp online software repository, which uses JFrog Artifactory Cloud as a distribution hub and CDN technologies for file hosting. Because of this, some URLs or IP addresses might resolve to other URLs or IP addresses based on the content delivery network. If possible, you should work with a network engineer to add these URLs or IP addresses to the firewall rules, using the following general steps:
+The NetApp Hybrid Cloud Control web UI and API download software packages from the NetApp online software repository. Because of this, some URLs or IP addresses might resolve to other URLs or IP addresses based on the content delivery network. If possible, you should work with a network engineer to add these URLs or IP addresses to the firewall rules, using the following general steps:
 
 .Steps
 
-. Use the Wget or cURL utilities to access a URL (repo.netapp.com, for example).
-. Receive a failure to access the URL (different from repo.netapp.com).
+. Use the Wget or cURL utilities to access a URL (support-sg-nawest.netapp.com, for example).
+. Check for connectivity as shown in the following example:
++
+image::network_ports.PNG[Check port connectivity]
+. Receive a failure to access the URL (different from support-sg-nawest.netapp.com).
 . Edit the firewall rules to allow the new URL.
 . Repeat the above steps until the access attempt succeeds.
 ======================
@@ -106,11 +107,15 @@ UI and API access to storage node and Element software upgrades
 a|
 Management node
 a|
-Online software repository:
+New release notification:
 
-* `https://repo.netapp.com/bintray/api/package`
-* `https://repo.netapp.com/downloads`
-* `https://netappdownloads.jfrog.io:443`
+* `https://support.netapp.com/aods/`
+
+Software download:
+
+* `https://support-sg-emea.netapp.com`
+* `https://support-sg-naeast.netapp.com`
+* `https://support-sg-nawest.netapp.com`
 
 a|
 443
@@ -296,22 +301,22 @@ a|
 2181
 a|
 Intercluster communication for remote replication
-a|
-Storage node SIP
-a|
-S3/Swift endpoint
-a|
-80
-a|
-(Optional) HTTP communication to S3/Swift endpoint for backup and recovery
-a|
-Storage node SIP
-a|
-S3/Swift endpoint
-a|
-443
-a|
-(Optional) HTTPS communication to S3/Swift endpoint for backup and recovery
+//a|
+//Storage node SIP
+//a|
+//S3/Swift endpoint
+//a|
+//80
+//a|
+//(Optional) HTTP communication to S3/Swift endpoint for backup and recovery
+//a|
+//Storage node SIP
+//a|
+//S3/Swift endpoint
+//a|
+//443
+//a|
+//(Optional) HTTPS communication to S3/Swift endpoint for backup and recovery
 a|
 Storage node SIP
 a|

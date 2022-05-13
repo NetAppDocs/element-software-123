@@ -14,7 +14,6 @@ A SolidFire all-flash storage system is comprised of discrete hardware component
 Using the Element interface, API, or other management tools, you can monitor SolidFire cluster storage capacity and performance, and manage storage activity across a multi-tenant infrastructure.
 
 == SolidFire features
-
 A Solidfire system provides the following features:
 
 * Offers high performance storage for your large scale, private cloud infrastructure

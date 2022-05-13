@@ -77,6 +77,8 @@ NOTE: Ensure that you always download the latest versions of the roles.
  - nar_solidfire_sds_upgrade, (unknown version)
  - ansible, (unknown version)
  - nar_solidfire_sds_compliance, (unknown version)
+ - nar_solidfire_cluster_config, (unknown version)
+ - nar_solidfire_sds_uninstall, (unknown version)
 ----
 . Create the playbook to use for upgrades. If you already have a playbook and want to use that, ensure that you specify the `nar_solidfire_sds_upgrade` role in this playbook.
 . Run the playbook:

@@ -1,5 +1,5 @@
-# element-software-123
-SolidFire and Element Software 12.3.1 Documentation
+# element-software
+SolidFire and Element Software Documentation
 
 Welcome to the SolidFire and Element Software documentation.
 

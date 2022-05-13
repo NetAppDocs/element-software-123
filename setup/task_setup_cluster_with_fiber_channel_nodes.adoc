@@ -19,7 +19,7 @@ You can set up a cluster with Fibre Channel nodes and manage it using Element so
 . link:../setup/task_setup_create_a_volume_access_group_for_fibre_channel_clients.html[Create a volume access group for Fibre Channel clients]
 . link:../setup/task_setup_determine_which_solidfire_components_to_install.html[Determine which SolidFire components to install]
 . link:../setup/task_setup_gh_redirect_set_up_a_management_node.html[Set up a management node]
-. link:../setup/task_setup_configure_fqdn_web_ui_access.html[Configure Fully Qualified Domain Name web UI access]
+
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

@@ -44,12 +44,11 @@ NOTE: If you need to IPv6 support, you can use the management node 11.1.
 .About this task
 The Element 12.2 management node is an optional upgrade. It is not required for existing deployments.
 
-Prior to following this procedure, you should have an understanding of link:../concepts/concept_solidfire_concepts_volumes.html#persistent-volumes[Persistent volumes] and whether or not you want to use them. Persistent volumes are optional but recommended for management node configuration data recovery in the event of a VM loss.
+Prior to following this procedure, you should have an understanding of link:../concepts/concept_solidfire_concepts_volumes.html#persistent-volumes[Persistent volumes] and whether or not you want to use them. Persistent volumes are optional but recommended for management node configuration data recovery in the event of a virtual machine (VM) loss.
 
 .Steps
-
 . <<Download ISO or OVA and deploy the VM>>
-. <<Create the management node admin and configure the network>>
+. <<create_mnode_admin,Create the management node admin and configure the network>>
 . <<Configure time sync>>
 . <<Set up the management node>>
 . <<Configure controller assets>>
@@ -63,27 +62,42 @@ Prior to following this procedure, you should have an understanding of link:../c
 .. Deploy the OVA.
 .. If your storage cluster is on a separate subnet from your management node (eth0) and you want to use persistent volumes, add a second network interface controller (NIC) to the VM on the storage subnet (for example, eth1) or ensure that the management network can route to the storage network.
 . If you downloaded the ISO, follow these steps:
-.. Create a new 64-bit virtual machine from your hypervisor with the following configuration:
+.. Create a new 64-bit VM from your hypervisor with the following configuration:
 +
 * Six virtual CPUs
 * 24GB RAM
+* Storage adapter type set to LSI Logic Parallel
++
+IMPORTANT: The default for your management node might be LSI Logic SAS. In the *New Virtual Machine* window, verify the storage adapter configuration by selecting *Customize hardware* > *Virtual Hardware*. If required, change LSI Logic SAS to *LSI Logic Parallel*.
+
 * 400GB virtual disk, thin provisioned
 * One virtual network interface with internet access and access to the storage MVIP.
 * (Optional) One virtual network interface with management network access to the storage cluster. If your storage cluster is on a separate subnet from your management node (eth0) and you want to use persistent volumes, add a second network interface controller (NIC) to the VM on the storage subnet (eth1) or ensure that the management network can route to the storage network.
 +
-IMPORTANT: Do not power on the virtual machine prior to the step indicating to do so later in this procedure.
+IMPORTANT: Do not power on the VM prior to the step indicating to do so later in this procedure.
 
-.. Attach the ISO to the virtual machine and boot to the .iso install image.
+.. Attach the ISO to the VM and boot to the .iso install image.
 +
 NOTE: Installing a management node using the image might result in 30-second delay before the splash screen appears.
 
-. Power on the virtual machine for the management node after the installation completes.
+. Power on the VM for the management node after the installation completes.
 
+[[create_mnode_admin]]
 == Create the management node admin and configure the network
 
 . Using the terminal user interface (TUI), create a management node admin user.
 +
 TIP: To move through the menu options, press the Up or Down arrow keys. To move through the buttons, press Tab. To move from the buttons to the fields, press Tab. To navigate between fields, press the Up or Down arrow keys.
+
+. If there is a Dynamic Host Configuration Protocol (DHCP) server on the network that assigns IPs with a maximum transmission unit (MTU) less than 1500 bytes, you must perform the following steps:
+
+.. Temporarily put the management node on a vSphere network without DHCP, such as iSCSI.
+.. Reboot the VM or restart the VM network.
+.. Using the TUI, configure the correct IP on the management network with an MTU greater than or equal to 1500 bytes.
+.. Re-assign the correct VM network to the VM.
+
++
+NOTE: A DHCP that assigns IPs with an MTU less than 1500 bytes can prevent you configuring the management node network or using the management node UI.
 
 . Configure the management node network (eth0).
 +
@@ -92,6 +106,9 @@ NOTE: If you need an additional NIC to isolate storage traffic, see instructions
 == Configure time sync
 
 . Ensure time is synced between the management node and the storage cluster using NTP:
+
+NOTE: Starting with Element 12.3.1, substeps (a) to (e) are performed automatically. For management node 12.3.1, proceed to <<substep_f_install_config_time_sync,substep (f)>> to complete the time sync configuration.
+
 .. Log in to the management node using SSH or the console provided by your hypervisor.
 .. Stop NTPD:
 +
@@ -126,7 +143,7 @@ sudo ntpd -gq
 sudo service ntpd start
 ----
 
-.. Disable time synchronization with host via the hypervisor (the following is a VMware example):
+.. [[substep_f_install_config_time_sync]]Disable time synchronization with host via the hypervisor (the following is a VMware example):
 +
 NOTE: If you deploy the mNode in a hypervisor environment other than VMware, for example, from the .iso image in an Openstack environment, refer to the hypervisor documentation for the equivalent commands.
 
@@ -142,8 +159,10 @@ vmware-toolbox-cmd timesync disable
 vmware-toolbox-cmd timesync status
 ----
 ...	In vSphere, verify that the `Synchronize guest time with host` box is un-checked in the VM options.
-
++
 NOTE: Do not enable this option if you make future changes to the VM.
+
+NOTE: Do not edit the NTP after you complete the time sync configuration because it affects the NTP when you run the link:task_mnode_install.html#set-up-the-management-node[setup command] on the management node.
 
 == Set up the management node
 
@@ -196,7 +215,7 @@ NOTE: Use a unique account name for persistent volumes that is different from an
 .. Open the inventory service REST API UI on the management node:
 +
 ----
-https://[management node IP]/inventory/1/
+https://<ManagementNodeIP>/inventory/1/
 ----
 .. Select *Authorize* and complete the following:
 ... Enter the cluster user name and password.
@@ -213,7 +232,7 @@ Your installation has a base asset configuration that was created during install
 .. Access the mnode service API UI on the management node by entering the management node IP address followed by `/mnode`:
 +
 ----
-https://[management node IP]/mnode
+https://<ManagementNodeIP>/mnode
 ----
 
 .. Select *Authorize* or any lock icon and complete the following:

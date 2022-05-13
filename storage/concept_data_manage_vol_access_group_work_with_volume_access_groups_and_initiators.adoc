@@ -16,7 +16,7 @@ You can create access groups by mapping iSCSI initiator IQNs or Fibre Channel WW
 There are two types of CHAP authentication methods:
 
 * Account-level CHAP authentication: You can assign CHAP authentication for the account.
-* Initiator-level CHAP authentication: You can assign unique CHAP target and secrets for specific initiators without being bound to single CHAP across a single account. This CHAP level authentication supersedes account level credentials.
+* Initiator-level CHAP authentication: You can assign unique CHAP target and secrets for specific initiators without being bound to single CHAP across a single account. This Initiator-level CHAP authentication replaces account level credentials.
 
 Optionally, with per-initiator CHAP, you can enforce initiator authorization and per-initiator CHAP authentication. These options can be defined on a per-initiator basis and an access group can contain a mix of initiators with different options.
 

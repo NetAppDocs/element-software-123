@@ -36,7 +36,6 @@ The Element API is based on the JSON-RPC protocol over HTTPS. JSON-RPC is a simp
 * xref:concept_element_api_volume_access_group_api_methods.adoc[Volume access group API methods]
 * xref:concept_element_api_volume_snapshot_api_methods.adoc[Volume snapshot API methods]
 * xref:concept_element_api_vvols_api_methods.adoc[Virtual volume API methods]
-* xref:reference_element_api_app_a_cluster_fault_codes.adoc[Cluster fault codes]
 * xref:reference_element_api_app_b_access_control.adoc[Access control]
 * xref:concept_element_api_response_examples.adoc[Response examples]
 

@@ -2,14 +2,14 @@
 permalink: concepts/concept_solidfire_concepts_data_protection.html
 sidebar: sidebar
 keywords: what is, element, solidfire, replication, clone, snapshot, protection domain, double helix
-summary: 'Data protection features include remote replication, volume snapshots, volume cloning, protection domains, and high availability with double Helix technology.'
+summary: 'Data protection features include remote replication, volume snapshots, volume cloning, Protection Domains, and high availability with double Helix technology.'
 ---
 = Data protection
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Data protection features include remote replication, volume snapshots, volume cloning, protection domains, and high availability with double Helix technology.
+Data protection features include remote replication, volume snapshots, volume cloning, Protection Domains, and high availability with double Helix technology.
 
 Element storage data protection includes the following concepts:
 
@@ -17,7 +17,8 @@ Element storage data protection includes the following concepts:
 * <<Volume snapshots for data protection>>
 * <<Volume clones>>
 * <<Backup and restore process overview for Element storage>>
-* <<Protection domains>>
+* <<Protection Domains>>
+* <<custom_pd,Custom Protection Domains>>
 * <<Double Helix high availability>>
 
 == Remote replication types
@@ -113,24 +114,42 @@ You can back up a volume to the following:
 
 When you restore volumes from OpenStack Swift or Amazon S3, you need manifest information from the original backup process. If you are restoring a volume that was backed up on a SolidFire storage system, no manifest information is required.
 
-== Protection domains
-A protection domain is a node or a set of nodes grouped together such that any part or even all of it might fail, while maintaining data availability. Protection domains enable a storage cluster to heal automatically from the loss of a chassis (chassis affinity) or an entire domain (group of chassis).
+== Protection Domains
+A Protection Domain is a node or a set of nodes grouped together such that any part or even all of it might fail, while maintaining data availability. Protection Domains enable a storage cluster to heal automatically from the loss of a chassis (chassis affinity) or an entire domain (group of chassis).
 
-A protection domain layout assigns each node to a specific protection domain.
+You can manually enable Protection Domain monitoring using the NetApp Element Configuration extension point in the NetApp Element Plug-in for vCenter Server. You can select a Protection Domain threshold based on node or chassis domains. You can also enable Protection Domain monitoring using the Element API or web UI.
 
-Two different protection domain layouts, called protection domain levels, are supported.
+A Protection Domain layout assigns each node to a specific Protection Domain.
 
-* At the node level, each node is in its own protection domain.
-* At the chassis level, only nodes that share a chassis are in the same protection domain.
+Two different Protection Domain layouts, called Protection Domain levels, are supported.
+
+* At the node level, each node is in its own Protection Domain.
+* At the chassis level, only nodes that share a chassis are in the same Protection Domain.
 ** The chassis level layout is automatically determined from the hardware when the node is added to the cluster.
 ** In a cluster where each node is in a separate chassis, these two levels are functionally identical.
 
-You can manually enable protection domain monitoring using the NetApp Element Configuration extension point in the NetApp Element Plug-in for vCenter Server. You can select a protection domain threshold based on node or chassis domains.
+When creating a new cluster, if you are using storage nodes that reside in a shared chassis, you might want to consider designing for chassis-level failure protection using the Protection Domains feature.
 
-When creating a new cluster, if you are using storage nodes that reside in a shared chassis, you might want to consider designing for chassis-level failure protection using the protection domains feature.
+== [[custom_pd]]Custom Protection Domains
+You can define a custom Protection Domain layout that matches your specific chassis and node layout, and where each node is associated with one and only one custom Protection Domain. By default, each node is assigned to the same default custom Protection Domain.
 
-You can define a custom protection domain layout, where each node is associated with one and only one custom protection domain. By default, each node is assigned to the same default custom protection domain. For details, see link:../storage/concept_intro_custom_protection_domains.html[protection domains documentation].
+If no custom Protection Domains are assigned:
+
+* Cluster operation is unaffected.
+* Custom level is neither tolerant nor resilient.
+
+When you configure custom Protection Domains for a cluster, there are three possible levels of protection, which you can see from the Element web UI dashboard:
+
+* Not protected: The storage cluster is not protected from the failure of one of its custom Protection Domains. To fix this, add additional storage capacity to the cluster or reconfigure the cluster's custom Protection Domains to protect the cluster from possible data loss.
+* Fault tolerant: The storage cluster has enough free capacity to prevent data loss after the failure of one of its custom Protection Domains.
+* Fault resilient: The storage cluster has enough free capacity to self-heal after the failure of one of its custom Protection Domains. After the healing process has completed, the cluster will be protected from data loss if additional domains were to fail.
+
+If more than one custom Protection Domain is assigned, each subsystem will assign duplicates to separate custom Protection Domains. If this is not possible, it reverts to assigning duplicates to separate nodes. Each subsystem (for example, bins, slices, protocol endpoint providers, and ensemble) does this independently.
+
+You can configure custom Protection Domains by using the following API methods:
+
+* link:../api/reference_element_api_getprotectiondomainlayout.html[GetProtectionDomainLayout^] - shows which chassis and which custom Protection Domain each node is in.
+* link:../api/reference_element_api_setprotectiondomainlayout.html[SetProtectionDomainLayout^] - enables a custom Protection Domain to be assigned to each node.
 
 == Double Helix high availability
-
 Double Helix data protection is a replication method that spreads at least two redundant copies of data across all drives within a system. The “RAID-less” approach enables a system to absorb multiple, concurrent failures across all levels of the storage system and repair quickly.

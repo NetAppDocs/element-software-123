@@ -13,9 +13,8 @@ You can monitor the performance of your SolidFire eSDS clusters and view the inv
 
 Here are the links to the information about monitoring your clusters in the NetApp Hybrid Cloud Control UI:
 
-* https://docs.netapp.com/us-en/hci/docs/task_hcc_nodes.html[View your inventory on the Nodes page^]
-* https://docs.netapp.com/us-en/hci/docs/task_hcc_volumes.html[Monitor volumes on your storage cluster^]
-* https://docs.netapp.com/us-en/hci/docs/task_hcc_activeiq.html[Monitor performance, capacity, and cluster health with SolidFire Active IQ^]
+* link:hccstorage/task-hcc-nodes.html[View your inventory on the Nodes page]
+* link:hccstorage/task-hcc-volumes.html[Monitor volumes on your storage cluster]
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]

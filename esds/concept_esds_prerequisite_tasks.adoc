@@ -22,6 +22,8 @@ Ensure that you perform the necessary checks and verify that your environment me
 +
 NOTE: By default, RHEL chooses `xfs` as the default file system for the partitions that you manually create. You should change it to `ext4`, except for the `/boot` and `swap` partitions. Your `/boot` partition should use `ext2`.
 +
+If your SATA disk is 250GB, follow the recommended partition below. If your SATA disk has more space, you can increase the /opt and /var partition sizes.
++
 [%header,cols=2*]
 |===
 | Partition| Size
@@ -46,27 +48,13 @@ a|
 a|
 5GB
 a|
-/ and /usr
-a|
-Split remaining space
-|===
-The minimum required partition layout is as follows:
-+
-[%header,cols=2*]
-|===
-| Partition| Size
-a|
-/opt
-a|
-40GB
-a|
-/var
-a|
-40GB
-a|
 /
 a|
-10GB (RedHat recommendation)
+10GB minimum
+a|
+/usr
+a|
+10GB minimum
 |===
 +
 NOTE: The `/dev/sdb` disk is not used by any process.
@@ -87,7 +75,9 @@ rhel-7-server-extras-rpms
 *** If you want to disable IPv6, follow the steps detailed in this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/SolidFire_Enterprise_SDS/How_to_disable_IPv6_for_SolidFire_eSDS[KB article (login required)^].
 
 .*Install the required software*
-** Install Ansible, Git, and Python 3.0.
+** Install Ansible, Git, Podman, and Python 3.0.
++
+NOTE: For Element 12.3, the supported Podman version is 1.6.4.
 
 .*Verify that your configuration matches NetApp's requirements for installing SolidFire eSDS*
 ** Use the SolidFire eSDS configuration listed in the https://mysupport.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool (IMT)] as a reference.
@@ -114,12 +104,12 @@ NOTE: Ensure that you always download the latest versions of the roles.
 ... Run the `ansible-galaxy role list` command to ensure that Ansible is configured to utilize the new roles.
 +
 ----
- $ ansible-galaxy role list
- # ~/.ansible/roles
  - nar_solidfire_sds_install, (unknown version)
  - nar_solidfire_sds_upgrade, (unknown version)
  - ansible, (unknown version)
  - nar_solidfire_sds_compliance, (unknown version)
+ - nar_solidfire_cluster_config, (unknown version)
+ - nar_solidfire_sds_uninstall, (unknown version)
 ----
 
 ... Create the playbook to use for the compliance check.
@@ -259,7 +249,7 @@ a|
 a|
 Remote replication cluster pairing communication
 a|
-SolidFire eSDSsfapp
+SolidFire eSDS sfapp
 a|
 Per-node UI and API access to create a cluster
 a|
@@ -285,7 +275,7 @@ Client iSCSI communications
 a|
 SOAP server
 a|
-SolidFire eSDSsfapp
+SolidFire eSDS sfapp
 a|
 7627 TCP
 a|
