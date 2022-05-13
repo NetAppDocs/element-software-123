@@ -13,7 +13,7 @@ You can use the `ModifyVolumeAccessGroup` method to update initiators and add or
 
 If a specified initiator or volume is a duplicate of what currently exists, the volume access group is left as-is. If you do not specify a value for volumes or initiators, the current list of initiators and volumes is not changed.
 
-You can also associate a virtual network with a volume access group. This association applies to all volumes in the volume access group.
+//You can also associate a virtual network with a volume access group. This association applies to all volumes in the volume access group.
 
 == Parameters
 

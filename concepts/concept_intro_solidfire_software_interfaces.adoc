@@ -1,7 +1,7 @@
 ---
 permalink: concepts/concept_intro_solidfire_software_interfaces.html
 sidebar: sidebar
-keywords:
+keywords: interfaces, integration, user interface, Plug-in, vCenter, API, node UIs, command line, snapshots, shadow copies, Element software, Element, Element UI, UI, manage storage, utilities, integration utilities
 summary: 'You can manage a SolidFire storage system using NetApp Element software interfaces and integration utilities.'
 ---
 = SolidFire software interfaces
@@ -37,7 +37,7 @@ https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter 
 == NetApp Hybrid Cloud Control
 Enables you to upgrade Element storage and management services and manage storage assets using the NetApp Hybrid Cloud Control interface.
 
-link:../storage/task_intro_manage_storage_hcc.html[Manage storage with the NetApp Hybrid Cloud Control]
+link:../hccstorage/index.html[Manage and monitor storage with NetApp Hybrid Cloud Control overview]
 
 == Management node UIs
 The management node contains two UIs: a UI for managing REST-based services and a per-node UI for managing network and cluster settings and operating system tests and utilities. From the REST API UI, you can access a menu of service-related APIs that control service-based system functionality from the management node.

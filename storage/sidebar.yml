@@ -435,5 +435,3 @@ entries:
         url: "/storage/concept_mnode_work_with_the_management_node.html"
     - title: Understand cluster fullness levels
       url: "/storage/concept_monitor_understand_cluster_fullness_levels.html"
-  - title: Manage storage with NetApp Hybrid Cloud Control
-    url: "/storage/task_intro_manage_storage_hcc.html"

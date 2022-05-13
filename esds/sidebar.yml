@@ -30,6 +30,8 @@ entries:
         url: /esds/task_esds_get_license_key.html
       - title: Use maintenance mode on SolidFire eSDS clusters
         url: /esds/reference_esds_use_maintenance_mode.html
+      - title: Replace drives for HPE DL380
+        url: /esds/task_esds_dl380_drive_repl.html        
       - title: Replace drives for HPE DL360
         url: /esds/task_esds_dl360_drive_repl.html
       - title: Replace drives for Dell R640

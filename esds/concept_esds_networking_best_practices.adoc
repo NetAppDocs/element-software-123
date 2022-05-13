@@ -43,9 +43,10 @@ a|
  ** Includes all management traffic.
  ** Can be routed if you want to access the cluster API or UI from a different layer 3 network.
  ** Should be configured with network interfaces on the same layer 2 broadcast domain.
+ ** Should be configured with a network interface card with an MTU of at least 1500 bytes.
 |===
 
-TIP: For examples and tips to configure the host network, see link:task_esds_configure_the_interface_config_files.adoc[here^].
+TIP: For examples and tips to configure the host network, see link:task_esds_configure_the_interface_config_files.adoc[here].
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]

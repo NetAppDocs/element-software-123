@@ -33,30 +33,28 @@ You can navigate to specific tasks from the overview page.
 
 == Use Element APIs on SolidFire eSDS clusters
 
-* _NEW!_ *Software encryption at rest enhancements*: Element 12.3 introduces enhancements for the software encryption at rest feature, which is enabled by default when you create a SolidFire Enterprise SDS storage cluster. This feature encrypts all data stored on the SSDs in the storage nodes and causes only a very small (~2%) performance impact on client IO.
+* *Software encryption at rest enhancements*: Element 12.3 introduces enhancements for the software encryption at rest feature, which is enabled by default when you create a SolidFire Enterprise SDS storage cluster. This feature encrypts all data stored on the SSDs in the storage nodes and causes only a very small (~2%) performance impact on client IO. The following are Element API methods related to software encryption at rest (see the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details about each method):
 
-The following are Element API methods related to software encryption at rest (see the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details about each method):
+** `CreateCluster`
+** `DisableEncryptionAtRest`
+** `EnableEncryptionAtRest`
+** `GetSoftwareEncryptionAtRestInfo`
+** `RekeySoftwareEncryptionAtRestMasterKey`
 
-* `CreateCluster`
-* `DisableEncryptionAtRest`
-* `EnableEncryptionAtRest`
-* `GetSoftwareEncryptionAtRestInfo`
-* `RekeySoftwareEncryptionAtRestMasterKey`
+* *Ability to define a maximum number of snapshots to retain*: Element 12.3 introduces enhancements to the snapshot retention feature. The following APIs have been modified to support this enhancement (see the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details about each method):
 
-* _NEW!_ *Ability to define a maximum number of snapshots to retain*: Element 12.3 introduces enhancements to the snapshot retention feature. The following APIs have been modified to support this enhancement (see the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details about each method):
+**	`CreateVolume`
+**	`ModifyVolume`
+**	`CreateSnapshot`
+**	`CreateSchedule`
+**	`ModifyGroupSnapshot`
+**	`ModifySchedule`
+**	`ModifySnapshot`
+**	`CreateGroupSnapshot`
 
-*	`CreateVolume`
-*	`ModifyVolume`
-*	`CreateSnapshot`
-*	`CreateSchedule`
-*	`ModifyGroupSnapshot`
-*	`ModifySchedule`
-*	`ModifySnapshot`
-*	`CreateGroupSnapshot`
+* *Get information about Element software patches*: Element 12.3 introduces the `GetPatchInfo` method, which enables you to get information about Element software patches installed on a storage node. See the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details.
 
-* _NEW!_ *Get information about Element software patches*: Element 12.3 introduces the `GetPatchInfo` method, which enables you to get information about Element software patches installed on a storage node. See the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details.
-
-* _NEW!_ *List statistics for each network interface on a node*: Element 12.3 introduces the `ListNetworkInterfaceStats` method, which enables you to list statistics, such as the number of dropped packets and various types of errors for each network interface on a node. This API method is intended for use on individual nodes; user ID and password authentication is required for access to individual nodes. However, you can use this method on the cluster if the parameter force is given the value true in the method call. When the parameter is used on the cluster, network statistics for all interfaces are listed. See the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details.
+* *List statistics for each network interface on a node*: Element 12.3 introduces the `ListNetworkInterfaceStats` method, which enables you to list statistics, such as the number of dropped packets and various types of errors for each network interface on a node. This API method is intended for use on individual nodes; user ID and password authentication is required for access to individual nodes. However, you can use this method on the cluster if the parameter force is given the value true in the method call. When the parameter is used on the cluster, network statistics for all interfaces are listed. See the https://docs.netapp.com/us-en/element-software/api/index.html[Element API documentation^] for details.
 
 * *APIs introduced and updated in Element 12.2 to support SolidFire eSDS*: Several new APIs were introduced in Element 12.2 that you can use on SolidFire eSDS clusters.
 

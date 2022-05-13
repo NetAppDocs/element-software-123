@@ -20,7 +20,7 @@ NOTE: You can use the link:https://github.com/NetApp-Automation/nar_solidfire_sd
 This results in the system migrating data from the node's drives to other drives in the cluster. The time this process takes is dependent on how much data must be migrated.
 
 . Remove the node from the cluster using either the Element UI or the https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_removenodes.html[`RemoveNodes`^] API method.
-. Ping the hosts (nodes) you defined in the inventory file to verify that Ansible can communicate with them.
+. Use SSH to connect to the node that is removed from the cluster. 
 . Remove SolidFire eSDS from the node as follows:
 +
 ----

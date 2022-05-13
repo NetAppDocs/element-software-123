@@ -29,7 +29,7 @@ When creating a new cluster, consider the following:
 ===============================
 
 .Steps
-. In a browser window, enter a node MIP address.
+. In a browser window, enter `\https://MIP:443`, where MIP is the management node IP address.
 . In Create a New Cluster, enter the following information:
  ** Management VIP: Routable virtual IP on the 1GbE or 10GbE network for network management tasks.
 +
@@ -45,9 +45,9 @@ NOTE: You can use uppercase and lowercase letters, special characters, and numbe
 
  ** Password: Password for authenticated access to the cluster. You must save the password for future reference.
 Two-way data protection is enabled by default. You cannot change this setting.
-. Read the End User License Agreement, and click *I Agree*.
+. Read the End User License Agreement, and select *I Agree*.
 . *Optional*: In the Nodes list, ensure that the check boxes for nodes that should not be included in the cluster are not selected.
-. Click *Create Cluster*.
+. Select *Create Cluster*.
 +
 The system might take several minutes to create the cluster depending on the number of nodes in the cluster. On a properly configured network, a small cluster of five nodes should take less than one minute. After the cluster is created, the Create a New Cluster window is redirected to the MVIP URL address for the cluster and displays the Element UI.
 

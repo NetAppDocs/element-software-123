@@ -9,7 +9,7 @@ summary: Element Demo Node is a VMware virtual machine version of Element softwa
 :imagesdir: ../media/
 
 [.lead]
-Element Demo Node is a VMware virtual machine (VM) version of Element software, which provides an easy way to demonstrate many of the key storage features of NetApp HCI and SolidFire products. The demo node enables developers to code against the Element API without the need for physical hardware. It is packaged as an OVA file for easy VMware deployment.
+https://mysupport.netapp.com/site/tools/tool-eula/element-demonode/download[Element Demo Node^] is a VMware virtual machine (VM) version of Element software, which provides an easy way to demonstrate many of the key storage features of NetApp HCI and SolidFire products. The demo node enables developers to code against the Element API without the need for physical hardware. It is packaged as an OVA file for easy VMware deployment.
 
 == Supported functionality:
 Element Demo Node is only intended for use as a demonstration and development tool. Be aware of the following functional limitations before using the demo node:
@@ -27,6 +27,7 @@ Element Demo Node is only intended for use as a demonstration and development to
 * It supports a maximum of 100 volumes per account.
 * It supports a maximum of 200 vVols per account.
 * It supports a maximum volume size of 100 GiB.
+* It supports a sustained cluster limit of 3000 IOPS.
 
 NOTE: All other Element software limitations apply. See the latest Element software Release Notes for details.
 
@@ -96,3 +97,4 @@ Element Demo Node is available on a best-effort volunteer basis. For support, po
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* https://mysupport.netapp.com/site/tools/tool-eula/element-demonode/download[Element Demo Node download page (login required)^]

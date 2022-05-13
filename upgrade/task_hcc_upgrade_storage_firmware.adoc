@@ -29,6 +29,20 @@ IMPORTANT: For H610S storage nodes running Element software version 12.0, you sh
 IMPORTANT: You must upgrade to the latest management services bundle before upgrading the firmware on your storage nodes.  If you are updating your Element software to version 12.2 or later, you need management services 2.14.60 or later to proceed.
 
 * *Cluster health*: You have run health checks. See link:task_hcc_upgrade_element_prechecks.html[Run Element storage health checks prior to upgrading storage].
+
+* *End User License Agreement (EULA)*: Beginning with management services 2.20, you must accept and save the EULA before using the NetApp Hybrid Cloud Control UI or API to upgrade storage firmware:
++
+. Open the IP address of the management node in a web browser:
++
+----
+https://<ManagementNodeIP>
+----
+. Log in to NetApp Hybrid Cloud Control by providing the storage cluster administrator credentials.
+. Select *Upgrade* near the top right of the interface.
+. The EULA pops up. Scroll down, select *I accept for current and all future updates*, and select *Save*.
++
+NOTE: When you accept the EULA, it is recorded for all future updates and the automatic download feature is enabled. You will receive updates on NetApp software updates and upgrades, which you can install at your discretion and convenience. You can disable the automatic download feature by disabling network connectivity to the NetApp online software repository.
+
 * *Updated BMC for H610S nodes*: You have upgraded the BMC version for your H610S nodes. See link:https://docs.netapp.com/us-en/hci/docs/rn_H610S_BMC_3.84.07.html[release notes and upgrade instructions^].
 
 NOTE: For a complete matrix of firmware and driver firmware for your hardware, see https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software[this KB article^] (login required).
@@ -45,9 +59,7 @@ Choose one of the following storage firmware upgrade options:
 You can use the NetApp Hybrid Cloud Control UI to upgrade the firmware of the storage nodes in your cluster.
 
 .What you'll need
-* If your management node is not connected to the internet, you have downloaded the package from the following location:
-+
-https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[Storage firmware package for SolidFire storage clusters running Element software^]
+* If your management node is not connected to the internet, you have https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab/download/62654/Storage_Firmware_Bundle[downloaded the storage firmware bundle^].
 
 CAUTION: For potential issues while upgrading storage clusters using NetApp Hybrid Cloud Control and their workarounds, see the https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Potential_issues_and_workarounds_when_running_storage_upgrades_using_NetApp_Hybrid_Cloud_Control[KB article^].
 
@@ -55,7 +67,7 @@ TIP: The upgrade process takes approximately 30 minutes per storage node. If you
 
 .Steps
 
-. Open a web browser and browse to the IP address of the management node:
+. Open the IP address of the management node in a web browser:
 +
 ----
 https://<ManagementNodeIP>
@@ -145,7 +157,6 @@ CAUTION: Aborting the cluster upgrade while a node is being updated might result
 You can use APIs to upgrade storage nodes in a cluster to the latest Element software version. You can use an automation tool of your choice to run the APIs. The API workflow documented here uses the REST API UI available on the management node as an example.
 
 .Steps
-
 . Do one of the following depending on your connection:
 +
 [%header,cols=2*]
@@ -159,7 +170,7 @@ a|
 .. Open the management node REST API UI on the management node:
 +
 ----
-https://[management node IP]/package-repository/1/
+https://<ManagementNodeIP>/package-repository/1/
 ----
 .. Select *Authorize* and complete the following:
 ... Enter the cluster user name and password.
@@ -178,13 +189,13 @@ https://[management node IP]/package-repository/1/
 
 |Your management node is within a dark site without external connectivity.
 a|
-. Download the storage firmware upgrade package to a device that is accessible to the management node. For SolidFire storage systems, go to the Element software https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[download page^] and download the latest storage firmware image.
+. Download the storage firmware upgrade package to a device that is accessible to the management node; go to the Element software https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[downloads page^] and download the latest storage firmware image.
 
 . Upload the storage firmware upgrade package to the management node:
 .. Open the management node REST API UI on the management node:
 +
 ----
-https://[management node IP]/package-repository/1/
+https://<ManagementNodeIP>/package-repository/1/
 ----
 .. Select *Authorize* and complete the following:
 ... Enter the cluster user name and password.
@@ -208,7 +219,7 @@ The response indicates `state` as `SUCCESS` when complete.
 .. Open the management node REST API UI on the management node:
 +
 ----
-https://[management node IP]/inventory/1/
+https://<ManagementNodeIP>/inventory/1/
 ----
 .. Select *Authorize* and complete the following:
 ... Enter the cluster user name and password.
@@ -253,7 +264,7 @@ https://[management node IP]/inventory/1/
 .. Open the storage REST API UI on the management node:
 +
 ----
-https://[management node IP]/storage/1/
+https://<ManagementNodeIP>/storage/1/
 ----
 .. Select *Authorize* and complete the following:
 ... Enter the cluster user name and password.

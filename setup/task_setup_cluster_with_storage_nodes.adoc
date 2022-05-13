@@ -18,7 +18,6 @@ You can set up a cluster with storage nodes and manage it using Element software
 . link:task_setup_add_drives_to_a_cluster.html[Add drives to the cluster]
 . link:task_setup_determine_which_solidfire_components_to_install.html[Determine which SolidFire components to install]
 . link:task_setup_gh_redirect_set_up_a_management_node.html[Set up a management node]
-. link:task_setup_configure_fqdn_web_ui_access.html[Configure Fully Qualified Domain Name web UI access]
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
