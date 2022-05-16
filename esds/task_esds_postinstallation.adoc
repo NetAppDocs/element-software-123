@@ -1,0 +1,379 @@
+---
+permalink: esds/task_esds_postinstallation.html
+sidebar: sidebar
+keywords: solidfire esds, installation, create cluster, cluster, add drives, esds
+summary: After you install SolidFire eSDS, configure the cluster name on each SolidFire eSDS node. You can then create a SolidFire eSDS cluster.
+---
+= Perform post-installation tasks
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you install SolidFire eSDS, configure the cluster name on each SolidFire eSDS node. You can then create a SolidFire eSDS cluster.
+
+.About this task
+Here is a high-level overview of the tasks that you should complete after you install SolidFire eSDS:
+
+* <<Configure the cluster name>>
+* <<Set the license key>>
+* <<Create a cluster>>
+* <<Add drives to the cluster>>
+
+NOTE: You can use the link:https://github.com/NetApp-Automation/nar_solidfire_cluster_config[`nar_solidfire_cluster_config`^] Ansible role provided by NetApp to perform the post-installation steps. If you want to manually do it, see the steps outlined below.
+
+== Configure the cluster name
+
+You should configure the cluster name on each SolidFire eSDS node before you can add the node to a cluster. You can do this using either the per-node UI or the Element API.
+
+IMPORTANT: You cannot change the cluster name after the cluster is created.
+
+.Steps
+
+. Choose from one of the following options:
+** Use the per-node UI:
+... Open the per-node management node UI: `https://<node_mip>:442`.
+... Select *Cluster Settings* and enter the cluster name.
+... Select *Apply Changes*.
+** Use the link:../api/reference_element_api_setclusterconfig.html[`SetClusterConfig`^] API method.
++
+This method has the following input parameter:
++
+[%header,cols=5*]
+|===
+| Name| Description| Type| Default value| Required
+a|
+`cluster`
+a|
+Configuration attributes that should be changed during this method call. Only the fields you want changed need to be added to this method as members in this parameter.
+a|
+cluster
+a|
+None
+a|
+No
+|===
++
+See the following request example:
++
+----
+{
+   "method": "SetClusterConfig",
+   "params": {
+      "cluster": {
+         "name": "myhost",
+         "mipi": "Bond10G"
+      },
+    "id" : 1
+   }
+}
+----
+
+== Set the license key
+
+When you create a SolidFire eSDS cluster, you need the license key information. NetApp Support will also need the license key information for help with issue resolution. The license key for the SolidFire eSDS cluster consists of the cluster's order number combined with the serial number, and activates the capacity term license model you have purchased.
+
+.About this task
+
+You can use the `SetLicenseKey` method to set the license key for the SolidFire eSDS storage cluster. The `SetLicenseKey` method has the following input parameters:
+
+[%header,cols=5*]
+|===
+| Name| Description| Type| Default value| Required
+a|
+`orderNumber`
+a|
+The new sales order number for this storage cluster.
+a|
+string
+a|
+None
+a|
+Yes
+a|
+`serialNumber`
+a|
+The new serial number for this storage cluster.
+a|
+string
+a|
+None
+a|
+Yes
+|===
+
+This method has the following return values:
+
+[%header,cols=3*]
+|===
+| Name| Description| Type
+a|
+`orderNumber`
+a|
+The new sales order number of the storage cluster.
+a|
+string
+a|
+`serialNumber`
+a|
+The new serial number of the storage cluster.
+a|
+string
+|===
+
+.Step
+
+. Use the `SetLicenseKey` API method as shown in the following example:
++
+Requests for this method are similar to the following example:
++
+----
+{
+  "method": "SetLicenseKey",
+  "params": {
+    "orderNumber": "33601",
+    "serialNumber": "30G56E3WV"   },
+   "id" : 1
+}
+----
++
+This method returns a response similar to the following example:
++
+----
+{
+   "id" : 1,
+   "result" : {
+      "serialNumber": "30G56E3WV",
+      "orderNumber": "33601"
+     }
+   }
+}
+----
+
+== Create a cluster
+
+After you configure the cluster name on each SolidFire eSDS storage node, you can create a cluster using either the per-node UI or the Element API.
+
+IMPORTANT: Software Encryption at Rest is enabled by default for SolidFire eSDS clusters. If you want to change the default, you should do so when you create the cluster by using the `CreateCluster` API method.
+
+.Steps
+. Choose from one of the following options:
+** Use the per-node UI:
+... Open the per-node management node UI: `https://<node_mip>:442*`.
+... From the left-hand navigation, select *Create Cluster*.
+... Select the checkboxes for the nodes. The SolidFire eSDS nodes will be displayed as SFc100.
+... Enter the following information: username, password, management virtual IP (MVIP) address, storage virtual IP (SVIP) address, software order number, and serial number.
++
+NOTE: You cannot change the MVIP and SVIP addresses after the cluster is created. Using the same IP addresses for MVIP and SVIP is not supported.
++
+NOTE: You cannot change the initial cluster administrator user name.
++
+IMPORTANT: If you do not specify the order number and serial number, the create cluster operation will fail.
++
+image::../media/esds_create_cluster.png[Shows the per-node UI screen.]
+
+... Confirm that you have read the NetApp End User License Agreement.
+... Select *Create Cluster*.
+... To verify that cluster was created, log in to the cluster: `http://mvip_ip`.
+... Verify that the clusterName, SVIP, MVIP, Node Count, and Element version are correct.
+** Use the link:../api/reference_element_api_createcluster.html[`CreateCluster`^] API method.
++
+This method has the following input parameters:
++
+[%header,cols=5*]
+|===
+| Name| Description| Type| Default value| Required
+a|
+`acceptEula`
+a|
+Indicate your acceptance of the End User License Agreement when creating this cluster. To accept the EULA, set this parameter to true.
+a|
+boolean
+a|
+None
+a|
+Yes
+a|
+`attributes`
+a|
+List of name-value pairs in JSON object format.
+a|
+JSON object
+a|
+None
+a|
+No
+a|
+`enableSoftwareEncryptionAtRest`
+a|
+Enable this parameter to use software-based encryption at rest. Defaults to true on SolidFire eSDS clusters. Defaults to false on all other clusters.
+a|
+boolean
+a|
+true
+a|
+No
+a|
+`mvip`
+a|
+Floating (virtual) IP address for the cluster on the management network.
+a|
+string
+a|
+None
+a|
+Yes
+a|
+`nodes`
+a|
+CIP/SIP addresses of the initial set of nodes making up the cluster. This node's IP must be in the list.
+a|
+string array
+a|
+None
+a|
+Yes
+a|
+`orderNumber`
+a|
+Alphanumeric sales order number. Required on SolidFire eSDS.
+a|
+string
+a|
+None
+a|
+No (hardware-based platforms)
+Yes (software-based platforms)
+a|
+`password`
+a|
+Initial password for the cluster admin account.
+a|
+string
+a|
+None
+a|
+Yes
+a|
+`serialNumber`
+a|
+Nine-digit alphanumeric Serial Number. Required on SolidFire eSDS.
+a|
+string
+a|
+None
+a|
+No (hardware-based platforms)
+Yes (software-based platforms)
+a|
+`svip`
+a|
+Floating (virtual) IP address for the cluster on the storage (iSCSI) network.
+a|
+string
+a|
+None
+a|
+Yes
+a|
+`username`
+a|
+User name for the cluster admin.
+a|
+string
+a|
+None
+a|
+Yes
+|===
+See the following example request:
++
+----
+{
+  "method": "CreateCluster",
+  "params": {
+    "acceptEula": true,
+    "mvip": "10.0.3.1",
+    "svip": "10.0.4.1",
+    "repCount": 2,
+    "username": "Admin1",
+    "password": "9R7ka4rEPa2uREtE",
+    "attributes": {
+      "clusteraccountnumber": "axdf323456"
+    },
+    "nodes": [
+      "10.0.2.1",
+      "10.0.2.2",
+      "10.0.2.3",
+      "10.0.2.4"
+    ]
+  },
+  "id": 1
+}
+----
+
+For more information about this method, see link:api/reference_element_api_createcluster.html[`CreateCluster`^].
+
+== Add drives to the cluster
+
+You should add drives to your SolidFire eSDS cluster so that they can participate in the cluster. You can do this using either the Element UI or the APIs.
+
+.Steps
+. Choose from one of the following options:
+** Use the Element UI:
+... From the Element UI, select *Cluster* > *Drives*.
+... Select *Available* to view the list of available drives.
+... To add individual drives, select the *Actions* icon for the drive you want to add, and then select *Add*.
+... To add multiple drives, select the check boxes for the drives to add, select *Bulk Actions*, and then select *Add*.
+... Verify that the drives are added, and the cluster capacity is as expected.
+** Use the https://docs.netapp.com/us-en/element-software/docs/api/reference_element_api_adddrives.html[`AddDrives`^] API method.
++
+This method has the following input parameter:
++
+[%header,cols=5*]
+|===
+| Name| Description| Type| Default value| Required
+a|
+`drives`
+a|
+Information about each drive to be added to the cluster. Possible values:
+
+  *** driveID: The ID of the drive to add (integer).
+  *** type: The type of drive to add (string). Valid values are "slice", "block", or "volume". If omitted, the system assigns the correct type.
+
+a|
+JSON object array
+a|
+None
+a|
+Yes (type is optional)
+|===
+Here is a request example:
++
+----
+{
+  "id": 1,
+  "method": "AddDrives",
+  "params": {
+    "drives": [
+      {
+        "driveID": 1,
+        "type": "slice"
+      },
+      {
+        "driveID": 2,
+        "type": "block"
+      },
+      {
+        "driveID": 3,
+        "type": "block"
+      }
+    ]
+  }
+}
+----
+
+For more information about this API method, see link:../api/reference_element_api_adddrives.html[`AddDrives`^].
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

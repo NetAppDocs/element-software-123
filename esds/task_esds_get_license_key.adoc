@@ -1,0 +1,64 @@
+---
+permalink: esds/task_esds_get_license_key.html
+sidebar: sidebar
+keywords: solidfire esds, capacity model, license key, get license key
+summary: You should get the license key information for your SolidFire eSDS cluster before you contact NetApp Support for help with troubleshooting issues. The license key for the SolidFire eSDS cluster consists of the cluster’s order number combined with the serial number.
+---
+= Get the license key
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You should get the license key information for your SolidFire eSDS cluster before you contact NetApp Support for help with troubleshooting issues. The license key for the SolidFire eSDS cluster consists of the cluster's order number combined with the serial number.
+
+You can use the `GetLicenseKey` method to get the license key information for the SolidFire eSDS storage cluster. The `GetLicenseKey` method has no input parameters. This method has the following return values:
+
+[%header,cols=3*]
+|===
+| Name| Description| Type
+a|
+`orderNumber`
+a|
+The new sales order number of the storage cluster.
+a|
+string
+a|
+`serialNumber`
+a|
+The new serial number of the storage cluster.
+a|
+string
+|===
+
+.Step
+. Run the `GetLicenseKey` API method as shown in the following example:
++
+Requests for this method are similar to the following example:
++
+----
+
+{
+   "method": "GetLicenseKey",
+   "params": {
+   },
+   "id": 1
+}
+----
++
+This method returns a response similar to the following example:
++
+----
+
+{
+   "id" : 1,
+   "result" : {
+      "serialNumber": "30G56E3WV",
+      "orderNumber": "33601"
+     }
+   }
+}
+----
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

@@ -1,0 +1,161 @@
+---
+permalink: esds/task_esds_install_using_ansible.html
+sidebar: sidebar
+keywords: solidfire esds, installing solidfire esds, ansible role
+summary: You can install SolidFire eSDS using an automation tool, such as Ansible. If you are very familiar with Ansible, you can create one Ansible playbook that combines several tasks, such as installing SolidFire eSDS and creating a cluster.
+---
+= Install SolidFire eSDS using Ansible
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can install SolidFire eSDS using an automation tool, such as Ansible. If you are very familiar with Ansible, you can create one Ansible playbook that combines several tasks, such as installing SolidFire eSDS and creating a cluster.
+
+.What you'll need
+
+* You have installed Ansible on your local server by following the instructions provided https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installation-guide[here^].
+* You have familiarized yourself with Ansible roles. See https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html[here^].
+* You have performed all the prerequisite tasks listed link:concept_esds_prerequisite_tasks.html[here^].
+* You have run a compliance check for SolidFire eSDS. For instructions on how to run the compliance check, see link:concept_esds_prerequisite_tasks.html[here^].
+
+.About this task
+
+Use Ansible Vault for sensitive information, such as passwords rather than using plain text. For more information, see the following links:
+
+** https://docs.ansible.com/ansible/latest/user_guide/playbooks_vault.html[Using Ansible Vault^]
+** https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html[How to build your inventory^]
+
+IMPORTANT: You should specify all the required variables in your inventory file and not in the playbook.
+
+.Steps
+
+. Run the `ansible-galaxy install` command to install the `nar_solidfire_sds_install` role.
++
+----
+ansible-galaxy install git+https://github.com/NetApp-Automation/nar_solidfire_sds_install.git
+----
++
+You can also manually install the role by copying it from the https://github.com/NetApp-Automation[NetApp GitHub repository^] and placing the role in the `~/.ansible/roles` directory. NetApp provides a README file, which includes information about how to run a role.
++
+NOTE: Ensure that you always download the latest versions of the roles.
+
+. Move the roles that you downloaded up one directory from where they were installed.
++
+----
+ $ mv ~/.ansible/roles/ansible/nar_solidfire_sds_* ~/.ansible/roles/
+----
+. Run the `ansible-galaxy role list` command to ensure that Ansible is configured to utilize the new roles.
++
+----
+ $ ansible-galaxy role list
+ # ~/.ansible/roles
+ - nar_solidfire_sds_install, (unknown version)
+ - nar_solidfire_sds_upgrade, (unknown version)
+ - ansible, (unknown version)
+ - nar_solidfire_sds_compliance, (unknown version)
+ - nar_solidfire_cluster_config, (unknown version)
+ - nar_solidfire_sds_uninstall, (unknown version)
+----
++
+NOTE: The README file associated with roles includes a list of all the required and optional variables that you should define as shown below:
++
+image::../media/esds_sample_playbook.png[Shows a sample playbook.]
++
+You should define these variables in the inventory file, which you will create in the next step.
+
+. Create the inventory file in your Ansible working directory.
++
+TIP: In the inventory file, you should include all the hosts (nodes) on which you want to install SolidFire eSDS. The inventory file enables the playbook (which you will create in the next step) to manage multiple hosts with a single command. You should also define variables, such as username and password for your storage nodes, names of the management interface and storage interface, and so on.
++
+[IMPORTANT]
+====
+Ensure that you follow these guidelines for the inventory file:
+** Use the correct spellings for device names.
+** Use correct formatting in the file.
+** Ensure that there is only one cacheDevice.
+** Use a list to specify storage_devices.
+====
++
+NOTE: The examples provided here have the storage and management interface names for HPE servers. If you have a Dell server, the cache device name is nvme1n1. For Dell servers, mgmt_iface is team1G and storage_iface is team10G.
++
+A sample inventory file is shown below. It includes four storage nodes. In this example, replace *storage node MIP* with the MIP addresses for your storage nodes and replace ***** with the username and password for your storage nodes.
++
+----
+all:
+    hosts:
+        storage node MIP:
+        storage node MIP:
+        storage node MIP:
+        storage node MIP:
+    vars:
+        ansible_connection: ssh
+        ansible_ssh_common_args: -o StrictHostKeyChecking=no
+        ansible_user: *****
+        ansible_ssh_pass: *****
+        solidfire_element_rpm: http://sf-artifactory.solidfire.net/artifactory/crux/solidfire-element-**.*.*.***-*.***.x86_64.rpm
+        mgmt_iface: "team0"
+        storage_iface: "team1"
+        storage_devices:
+          - "/dev/nvme0n1"
+          - "/dev/nvme1n1"
+          - "/dev/nvme2n1"
+          - "/dev/nvme3n1"
+          - "/dev/nvme4n1"
+          - "/dev/nvme5n1"
+          - "/dev/nvme6n1"
+          - "/dev/nvme7n1"
+          - "/dev/nvme8n1"
+        cache_devices:
+          - "/dev/nvme9n1"
+----
+
+. Ping the hosts (nodes) you defined in the inventory file to verify that Ansible can communicate with them.
+. Download the Red Hat Package Manager (RPM) file to the file directory on a local web server accessible from the server running Ansible and the storage nodes.
+. Create the Ansible playbook. If you already have a playbook, you can modify it. You can use the examples in the README file that NetApp provides.
+. Install SolidFire eSDS by running the playbook you created in the previous step:
++
+----
+ $ ansible-playbook -i inventory.yaml sample_playbook.yaml
+----
++
+Replace *sample_playbook.yaml* with the name of your playbook and *inventory.yaml* with the name of your inventory file.
+Running the playbook creates the `sf_sds_config.yaml` file on each node that is listed in your inventory file. It also installs and starts the SolidFire service on each storage node. For more information about `sf_sds_config.yaml`, see link:reference_esds_sf_sds_config_file.html[here^].
+
+. Check the Ansible output in the console to ensure that the SolidFire service was started on each node.
++
+Here is a sample output:
++
+----
+
+TASK [nar_solidfire_sds_install : Ensure the SolidFire eSDS service is started] *********************************************************************************************
+
+changed: [10.61.68.52]
+
+changed: [10.61.68.54]
+
+changed: [10.61.68.51]
+
+changed: [10.61.68.53]
+
+
+
+PLAY RECAP ******************************************************************************************************************************************************************
+
+10.61.68.51                : ok=12   changed=3    unreachable=0
+failed=0    skipped=10   rescued=0    ignored=0
+
+10.61.68.52                : ok=12   changed=3    unreachable=0
+failed=0    skipped=10   rescued=0    ignored=0
+
+10.61.68.53                : ok=12   changed=3    unreachable=0
+failed=0    skipped=10   rescued=0    ignored=0
+
+10.61.68.54                : ok=12   changed=3    unreachable=0
+failed=0    skipped=10   rescued=0    ignored=0
+----
+
+. To verify that the SolidFire service was started correctly, run the `systemctl status solidfire` command, and check for `Active:active (exited)...` in the output.
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

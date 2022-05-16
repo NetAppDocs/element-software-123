@@ -1,0 +1,24 @@
+---
+permalink: concepts/concept_intro_solidfire_active_iq.html
+sidebar: sidebar
+keywords:
+summary: 'Active IQ is a web-based tool that provides continually updated historical views of cluster-wide data. You can set up alerts for specific events, thresholds, or metrics. Active IQ enables you to monitor system performance and capacity, as well as stay informed about cluster health.'
+---
+= SolidFire Active IQ
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+https://activeiq.solidfire.com[SolidFire Active IQ^] is a web-based tool that provides continually updated historical views of cluster-wide data. You can set up alerts for specific events, thresholds, or metrics. SolidFire Active IQ enables you to monitor system performance and capacity, as well as stay informed about cluster health.
+
+You can find the following information about your system in SolidFire Active IQ:
+
+* Number of nodes and status of the nodes: healthy, offline, or fault
+* Graphical representation of CPU and memory usage
+* Details about the node, such as serial number, slot location in the chassis, model, and version of NetApp Element software running on the storage node
+* CPU and storage-related information about the virtual machines
+
+== For more information
+* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
+* https://mysupport.netapp.com/site/tools/tool-eula/5ddb829ebd393e00015179b2[NetApp Support Site > Tools for Active IQ]

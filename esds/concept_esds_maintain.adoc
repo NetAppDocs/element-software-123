@@ -1,0 +1,25 @@
+---
+permalink: esds/concept_esds_maintain.html
+sidebar: sidebar
+keywords: solidfire esds, software-defined storage, maintain, troubleshooting, maintenance mode, replace drives, cache drive
+summary: Find information about using maintenance mode and replacing the drives in your SolidFire eSDS clusters.
+---
+= Maintain SolidFire eSDS
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Find information about using maintenance mode and replacing the drives in your SolidFire eSDS clusters.
+
+* link:task_esds_get_license_key.html[Get the license key^]
+* link:reference_esds_use_maintenance_mode.html[Use maintenance mode on SolidFire eSDS clusters^]
+* link:task_esds_dl380_drive_repl.html[Replace drives for HPE DL380^]
+* link:task_esds_dl360_drive_repl.html[Replace drives for HPE DL360^]
+* link:task_esds_r640_drive_repl.html[Replace drives for Dell R640^]
+* link:reference_esds_containerlogs.html[Collect container logs^]
+* link:reference_esds_troubleshoot_links.html[Links to troubleshooting KB articles^]
+* link:reference_esds_sf_sds_config_file.html[Contents of the sf_sds_config.yaml file^]
+
+== Find more information
+* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]
