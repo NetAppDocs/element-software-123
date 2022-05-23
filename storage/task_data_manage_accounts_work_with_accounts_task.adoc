@@ -9,7 +9,7 @@ summary: 'In SolidFire storage systems, user accounts enable clients to connect 
 :imagesdir: ../media/
 
 [.lead]
-In SolidFire storage systems, tenants can use accounts to enable clients to connect to volumes on a cluster. An account contains the CHAP authentication required to access the volumes assigned to it. When you create a volume, it is assigned to a specific account.
+In SolidFire storage systems, tenants can use accounts to enable clients to connect to volumes on a cluster. An account contains the Challenge-Handshake Authentication Protocol (CHAP) authentication required to access the volumes assigned to it. When you create a volume, it is assigned to a specific account.
 
 An account can have up to two-thousand volumes assigned to it, but a volume can belong to only one account.
 
