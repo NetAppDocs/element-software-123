@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: fibre,channel,method,API,fibre channel
 summary: 'You can use Fibre Channel API methods to add, modify, or remove Fibre Channel node members of a storage cluster.'
 ---
+
 = Fibre Channel API methods
 :icons: font
 :imagesdir: ../media/

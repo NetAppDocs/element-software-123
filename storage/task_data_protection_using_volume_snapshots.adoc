@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: data protection, volume snapshots, roll back volume, replicate snapshots
 summary: 'A volume snapshot is a point-in-time copy of a volume. You can take a snapshot of a volume and use the snapshot later if you need to roll a volume back to the state it was in at the time the snapshot was created.'
 ---
+
 = Use volume snapshots for data protection
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: qos,usage,volume,histogram,generate,listvolumeqoshistograms,histograms
 summary: 'You can use the ListVolumeQoSHistograms method to generate a histogram of volume QoS usage for one volume or multiple volumes. This enables you to better understand how volumes are using QoS.'
 ---
+
 = ListVolumeQoSHistograms
 :icons: font
 :imagesdir: ../media/

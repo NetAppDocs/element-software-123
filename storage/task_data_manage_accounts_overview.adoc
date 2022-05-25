@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: element, solidfire, accounts, manage, cluster, admin, administrator, node
 summary: 'In SolidFire storage systems, user accounts enable clients to connect to volumes on a node. You can also manage cluster administrator accounts for a SolidFire storage system.'
 ---
+
 = Manage accounts
 :icons: font
 :imagesdir: ../media/

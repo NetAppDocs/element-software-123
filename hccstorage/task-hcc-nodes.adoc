@@ -6,7 +6,6 @@ keywords: netapp, element, cluster, inventory, nodes, storage
 ---
 
 = View your inventory on the Nodes page
-
 :hardbreaks:
 :nofooter:
 :icons: font

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: troubleshoot, failed drives, remove
 summary: 'The SolidFire system puts a drive in a failed state if the drive’s self-diagnostics tells the node it has failed or if communication with the drive stops for five and a half minutes or longer. The system displays a list of the failed drives. You must remove a failed drive from the failed drive list in NetApp Element software.'
 ---
+
 = Remove failed drives from the cluster
 :icons: font
 :imagesdir: ../media/

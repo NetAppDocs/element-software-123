@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: transfer, perform, source volume, snapmirror, dr, disaster recovery, one-time migration
 summary: 'Typically, when you use SnapMirror for disaster recovery from a SolidFire storage cluster running NetApp Element software to ONTAP software, Element is the source and ONTAP the destination. However, in some cases the ONTAP storage system can serve as the source and Element as the destination.'
 ---
+
 = Perform a transfer or one-time migration from ONTAP to Element
 :icons: font
 :imagesdir: ../media/

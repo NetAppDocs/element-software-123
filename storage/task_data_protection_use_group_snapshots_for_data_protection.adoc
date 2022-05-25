@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: group snapshots, data protection, set of volumes, backup, rollback
 summary: 'You can create a group snapshot of a related set of volumes to preserve a point-in-time copy of the metadata for each volume. You can use the group snapshot in the future as a backup or rollback to restore the state of the group of volumes to a previous state.'
 ---
+
 = Using group snapshots for data protection task
 :icons: font
 :imagesdir: ../media/

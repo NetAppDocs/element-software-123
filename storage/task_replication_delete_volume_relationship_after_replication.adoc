@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume pair, delete, replication
 summary: 'After replication completes and you no longer need the volume pair relationship, you can delete the volume relationship.'
 ---
+
 = Delete a volume relationship after replication
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volumes,volume,defining,define,modify,modifying,edit,editing,change,changing,modifyvolumeaccessgrouplunassignments,access,group,lun,assignment
 summary: 'You can use the ModifyVolumeAccessGroupLunAssignments method to define custom LUN assignments for specific volumes.'
 ---
+
 = ModifyVolumeAccessGroupLunAssignments
 :icons: font
 :imagesdir: ../media/

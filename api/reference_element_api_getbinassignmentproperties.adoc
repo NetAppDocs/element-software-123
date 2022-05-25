@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: bin assignment,assignment properties,retrieve assignment properties
 summary: 'You can use the GetBinAssignmentProperties method to retrieve the bin assignment properties in the database.'
 ---
+
 = GetBinAssignmentProperties
 :icons: font
 :imagesdir: ../media/

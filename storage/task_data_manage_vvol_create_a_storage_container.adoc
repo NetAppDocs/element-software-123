@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: storage container, create
 summary: 'You can create storage containers in the Element UI and discover them in vCenter. You must create at least one storage container to begin provisioning VVol-backed virtual machines.'
 ---
+
 = Create a storage container
 :icons: font
 :imagesdir: ../media/

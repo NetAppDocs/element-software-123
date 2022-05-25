@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: hardware,sensor,config,configuration,get,getting,getipmiconfig
 summary: 'You can use the GetIpmiConfig method to retrieve hardware sensor information from sensors that are in your node.'
 ---
+
 = GetIpmiConfig
 :icons: font
 :imagesdir: ../media/

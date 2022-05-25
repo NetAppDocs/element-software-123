@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: modify,modifying,edit,editing,change,changing,group,snapshot,modifygroupsnapshot
 summary: 'You can use ModifyGroupSnapshot to change the attributes of a group of snapshots. You can also use this method to enable snapshots created on the read/write \(source\) volume to be remotely replicated to a target storage system.'
 ---
+
 = ModifyGroupSnapshot
 :icons: font
 :imagesdir: ../media/

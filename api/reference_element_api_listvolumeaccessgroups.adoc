@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,access,group,groups,list,listing,listvolumeaccessgroups
 summary: 'You can use the ListVolumeAccessGroups method to get information about the volume access groups that are currently in the system.'
 ---
+
 = ListVolumeAccessGroups
 :icons: font
 :imagesdir: ../media/

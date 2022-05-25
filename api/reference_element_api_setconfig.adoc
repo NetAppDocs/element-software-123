@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: config,configuration,set,setting,node,setconfig,network,cluster
 summary: 'You can use the SetConfig method to set the network and cluster information for the node. This method includes the same settings in a single API method that are available using both SetClusterConfig and SetNetworkConfig methods. Only the fields you want changed need to be included with this method.'
 ---
+
 = SetConfig
 :icons: font
 :imagesdir: ../media/

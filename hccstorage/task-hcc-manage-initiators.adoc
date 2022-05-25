@@ -6,7 +6,6 @@ keywords: netapp, initiator, storage, element, access group
 ---
 
 = Create and manage initiators
-
 :hardbreaks:
 :nofooter:
 :icons: font

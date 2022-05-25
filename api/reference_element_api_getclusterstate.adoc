@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,state,getting,get,getclusterstate
 summary: 'You can use the GetClusterState API method to indicate if a node is part of a cluster or not.'
 ---
+
 = GetClusterState
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,access,group,groups,LUN,mapping,assignment,get,getting,GetVolumeAccessGroupLunAssignments
 summary: 'You can use the GetVolumeAccessGroupLunAssignments method to retrieve details on LUN mappings of a specified volume access group.'
 ---
+
 = GetVolumeAccessGroupLunAssignments
 :icons: font
 :imagesdir: ../media/

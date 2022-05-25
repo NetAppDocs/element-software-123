@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: storage nodes, management nodes, block space, metadata space, data management, storage management, Bond10G, network interface, network, metadata, data storage, storage, drives, network interfaces
 summary: 'A SolidFire storage node is a server containing a collection of drives that communicate with each other through the Bond10G network interface. Drives in the node contain block and metadata space for data storage and data management.'
 ---
+
 = Storage nodes
 :icons: font
 :imagesdir: ../media/

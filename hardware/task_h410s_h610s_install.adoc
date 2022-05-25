@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: h410s, h610s, hardware installation, hardware maintenance
 summary: Before you get started with your all-flash storage system, you should install and set up the storage nodes correctly.
 ---
+
 = Install H-series storage nodes
 :icons: font
 :imagesdir: ../media/

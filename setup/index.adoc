@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: set up storage, storage system, set up, configure node, configuring storage node, add drives, fibre channel, create cluster
 summary: Learn how to set up set up the storage system for your environment.
 ---
+
 = Set up storage
 :icons: font
 :imagesdir: ../media/

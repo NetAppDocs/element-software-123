@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,virtual,container,volumes,get,getting,efficiency,vvol,GetStorageContainerEfficiency
 summary: 'You can use the GetStorageContainerEfficiency method to retrieve efficiency information about a virtual volume storage container.'
 ---
+
 = GetStorageContainerEfficiency
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume snapshot, create, active volume, preserve volume
 summary: 'You can create a snapshot of an active volume to preserve the volume image at any point in time. You can create up to 32 snapshots for a single volume.'
 ---
+
 = Create a volume snapshot
 :icons: font
 :imagesdir: ../media/

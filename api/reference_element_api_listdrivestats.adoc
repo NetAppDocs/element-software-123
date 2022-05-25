@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,list,listing,drive,drives,stats,statistics,listdrivestats
 summary: 'You can use the ListDriveStats method to list high-level activity measurements for multiple drives in the cluster. By default, this method returns statistics for all drives in the cluster, and these measurements are cumulative from the addition of the drive to the cluster. Some values this method returns are specific to block drives, and some are specific to metadata drives.'
 ---
+
 = ListDriveStats
 :icons: font
 :imagesdir: ../media/

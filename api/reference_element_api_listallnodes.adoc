@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,list,listing,node,nodes,all,listallnodes
 summary: 'You can use the ListAllNodes method to list active and pending nodes in the cluster.'
 ---
+
 = ListAllNodes
 :icons: font
 :imagesdir: ../media/

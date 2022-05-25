@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: KMIP,key server,getting information,retrieving
 summary: 'You can use the GetKeyServerKmip method to return information about the specified Key Management Interoperability Protocol \(KMIP\) key server.'
 ---
+
 = GetKeyServerKmip
 :icons: font
 :imagesdir: ../media/

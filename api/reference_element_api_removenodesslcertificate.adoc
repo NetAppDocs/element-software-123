@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: ssl,cert,certificate,remove,removing,node,management,removenodesslcertificate
 summary: 'You can use the RemoveNodeSSLCertificate method to remove the user SSL certificate and private key for the management node. After the certificate and private key are removed, the management node is configured to use the default certificate and private key.'
 ---
+
 = RemoveNodeSSLCertificate
 :icons: font
 :imagesdir: ../media/

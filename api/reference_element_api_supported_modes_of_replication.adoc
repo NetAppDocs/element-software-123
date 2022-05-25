@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: supported,replication,modes,clusters,paired,pair,pairs
 summary: 'The following modes of replication are supported on the paired clusters:'
 ---
+
 = Supported modes of replication for paired clusters
 :icons: font
 :imagesdir: ../media/

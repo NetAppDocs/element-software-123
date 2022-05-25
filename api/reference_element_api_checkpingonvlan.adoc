@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: VLAN,pre-deployment,network,validation,validate,validating,check,checking,CheckPingOnVlan
 summary: 'You can use the CheckPingOnVlan method to test network connectivity on a temporary VLAN when performing pre-deployment network validation. CheckPingOnVlan creates a temporary VLAN interface, sends ICMP packets to all nodes in the storage cluster using the VLAN interface, and then removes the interface.'
 ---
+
 = CheckPingOnVlan
 :icons: font
 :imagesdir: ../media/

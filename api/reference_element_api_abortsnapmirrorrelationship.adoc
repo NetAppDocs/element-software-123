@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'The Element software web UI uses the AbortSnapMirrorRelationship method to stop SnapMirror transfers that have started but are not yet complete.'
 ---
+
 = AbortSnapMirrorRelationship
 :icons: font
 :imagesdir: ../media/

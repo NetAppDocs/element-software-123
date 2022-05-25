@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: netapp, solidfire, element, storage, solidfire enterprise sds
 summary: NetApp periodically updates SolidFire and Element software to bring you new features, enhancements, and bug fixes.
 ---
+
 = What's new
 :icons: font
 :imagesdir: ../media/

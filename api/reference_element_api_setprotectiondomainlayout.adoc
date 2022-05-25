@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: layout,custom,protection domain,protection domains,setting protection domains
 summary: 'You can use the SetProtectionDomainLayout method to assign nodes to custom protection domains.'
 ---
+
 = SetProtectionDomainLayout
 :icons: font
 :imagesdir: ../media/

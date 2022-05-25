@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: SnapMirror,volume,volumes,break,breaking,relationship,ONTAP,source,snapshot
 summary: 'The Element web UI uses the BreakSnapMirrorVolume method to break the SnapMirror relationship between an ONTAP source container and Element target volume. Breaking an Element SnapMirror volume is useful if an ONTAP system becomes unavailable while replicating data to an Element volume. This feature enables a storage administrator to take control of an Element SnapMirror volume, break its relationship with the remote ONTAP system, and revert the volume to a previous snapshot.'
 ---
+
 = BreakSnapMirrorVolume
 :icons: font
 :imagesdir: ../media/

@@ -1,9 +1,10 @@
 ---
 permalink: storage/task_system_manage_virtual_add_a_virtual_network.html
 sidebar: sidebar
-keywords: virtual network, add, cluster configuration, cluster nodes, svip, vlans, vrf, view, network details,  
+keywords: virtual network, add, cluster configuration, cluster nodes, svip, vlans, vrf, view, network details,
 summary: 'You can add a new virtual network to a cluster configuration to enable a multi-tenant environment connection to a cluster running Element software.'
 ---
+
 = Add a virtual network
 :icons: font
 :imagesdir: ../media/

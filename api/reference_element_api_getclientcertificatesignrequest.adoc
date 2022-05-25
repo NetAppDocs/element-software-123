@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: client certificate,certificate signing request,creating certificate signing request,CSR,CA
 summary: 'You can use the GetClientCertificateSignRequest method to generate a certificate signing request that can be signed by a certificate authority to generate a client certificate for the cluster. Signed certificates are needed to establish a trust relationship for interacting with external services.'
 ---
+
 = GetClientCertificateSignRequest
 :icons: font
 :imagesdir: ../media/

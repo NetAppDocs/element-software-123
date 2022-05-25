@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapshot schedule, copy, maintain, schedule attributes
 summary: 'You can copy a schedule and maintain its current attributes.'
 ---
+
 = Copy a snapshot schedule
 :icons: font
 :imagesdir: ../media/

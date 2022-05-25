@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: running tasks, view progress of
 summary: 'You can view the progress and completion status of running tasks in the web UI that are being reported by the ListSyncJobs and ListBulkVolumeJobs API methods. You can access the Running Tasks page from the Reporting tab of the Element UI.'
 ---
+
 = View status of running tasks
 :icons: font
 :imagesdir: ../media/

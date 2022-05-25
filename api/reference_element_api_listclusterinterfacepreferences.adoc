@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'The ListClusterInterfacePreference method enables systems integrated with storage clusters running Element software to list the existing cluster interface preferences stored on the system. This method is for internal use.'
 ---
+
 = ListClusterInterfacePreferences
 :icons: font
 :imagesdir: ../media/

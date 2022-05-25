@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: LDAP,auth,authentication,enable,enabling,EnableLdapAuthentication
 summary: 'You can use the EnableLdapAuthentication method to configure an LDAP directory connection for LDAP authentication to a cluster. Users that are members of the LDAP directory can then log in to the storage system using their LDAP credentials.'
 ---
+
 = EnableLdapAuthentication
 :icons: font
 :imagesdir: ../media/

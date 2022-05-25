@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: IdP,idp,configuration,create,creating
 summary: 'You can use the CreateIpdConfiguration method to create a potential trust relationship for authentication using a third-party Identity Provider \(IdP\) for the cluster. A SAML Service Provider certificate is required for IdP communication. This certificate is generated as required, and returned by this API call.'
 ---
+
 = CreateIdpConfiguration
 :icons: font
 :imagesdir: ../media/

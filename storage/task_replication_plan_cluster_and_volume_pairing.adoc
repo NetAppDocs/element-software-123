@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster, volume pairing, plan for, real-time replication
 summary: 'Real-time remote replication requires that you pair two storage clusters running Element software, pair volumes on each cluster, and validate replication. After replication completes, you should delete the volume relationship.'
 ---
+
 = Plan cluster and volume pairing for real-time replication
 :icons: font
 :imagesdir: ../media/

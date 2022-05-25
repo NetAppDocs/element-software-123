@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: solidfire chassis, chassis replacement, sf-series nodes
 summary: You might need to replace the chassis if the fan, central processing unit (CPU), or dual inline memory module (DIMM) fails, or to fix overheating issues or problems with the boot process. Cluster faults in the NetApp Element software user interface (UI) and the blinking amber light in the front of the chassis are indications of a possible need for chassis replacement. You should contact NetApp Support before you proceed.
 ---
+
 = Replace a chassis
 :icons: font
 :imagesdir: ../media/

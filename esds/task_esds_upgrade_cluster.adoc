@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: solidfire esds, upgrading solidfire esds clusters, ansible role, clusters, upgrade clusters, esds upgrade
 summary: You can use Ansible to perform non-disruptive rolling upgrades on your SolidFire eSDS cluster. Using the `nar_solidfire_sds_upgrade` role provided by NetApp, Ansible performs rolling upgrades one node at a time while maintaining data availability to all the volumes.
 ---
+
 = Upgrade the clusters
 :icons: font
 :imagesdir: ../media/

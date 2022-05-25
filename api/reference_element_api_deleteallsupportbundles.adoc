@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: support,bundle,delete,deleting,DeleteAllSupportBundles
 summary: 'You can use the DeleteAllSupportBundles method to delete all support bundles generated with the CreateSupportBundle API method.'
 ---
+
 = DeleteAllSupportBundles
 :icons: font
 :imagesdir: ../media/

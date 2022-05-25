@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,clear,clearing,fault,faults,support bundles,ClearClusterFaults
 summary: 'You can use the ClearClusterFaults method to clear information about both current and previously detected faults. Both resolved and unresolved faults can be cleared.'
 ---
+
 = ClearClusterFaults
 :icons: font
 :imagesdir: ../media/

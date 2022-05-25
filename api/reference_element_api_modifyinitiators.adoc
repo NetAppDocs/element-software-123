@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: modify,modifying,edit,editing,change,changing,initiators,initiator,attribute,attributes,modifyinitiators
 summary: 'You can use the ModifyInitiators method to change the attributes of one or more existing initiators.'
 ---
+
 = ModifyInitiators
 :icons: font
 :imagesdir: ../media/

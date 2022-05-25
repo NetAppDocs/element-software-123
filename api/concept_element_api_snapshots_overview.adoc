@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapshot,overview
 summary: 'A volume snapshot is a point-in-time copy of a volume. You can use snapshots to roll a volume back to the state it was in at the time the snapshot was created.'
 ---
+
 = Snapshots overview
 :icons: font
 :imagesdir: ../media/

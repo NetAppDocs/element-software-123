@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: modify,modifying,edit,editing,change,changing,snapmirror,relationship,modifysnapmirrorrelationship
 summary: 'You can use ModifySnapMirrorRelationship to change the intervals at which a scheduled snapshot occurs. You can also delete or pause a schedule by using this method.'
 ---
+
 = ModifySnapMirrorRelationship
 :icons: font
 :imagesdir: ../media/

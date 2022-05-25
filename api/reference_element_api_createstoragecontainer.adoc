@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: create,creating,storage,container,virtual,volume,volumes,vvol,vvols,CreateStorageContainer
 summary: 'You can use the CreateStorageContainer method to create a Virtual Volume \(VVol\) storage container. You can use storage containers for reporting and resource allocation. You need to create at least one storage container to use the Virtual Volumes feature.'
 ---
+
 = CreateStorageContainer
 :icons: font
 :imagesdir: ../media/

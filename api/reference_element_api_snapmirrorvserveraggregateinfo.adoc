@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,snapMirrorVserverAggregateInfo
 summary: 'The snapMirrorVserverAggregateInfo object contains information about the available data Storage Virtual Machines \(also called Vservers\) at the destination ONTAP cluster.'
 ---
+
 = snapMirrorVserverAggregateInfo
 :icons: font
 :imagesdir: ../media/

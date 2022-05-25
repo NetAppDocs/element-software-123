@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: drives, details, manage, filter, cluster
 summary: 'The Drives page on the Cluster tab provides a list of the active drives in the cluster. You can filter the page by selecting from the Active, Available, Removing, Erasing, and Failed tabs.'
 ---
+
 = Drives details
 :icons: font
 :imagesdir: ../media/

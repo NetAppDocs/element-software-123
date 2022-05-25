@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: ssl,certificate,cert,remove,removing,cluster,removesslcertificate
 summary: 'You can use the RemoveSSLCertificate method to remove the user SSL certificate and private key for the storage nodes in the cluster. After the certificate and private key are removed, the storage nodes are configured to use the default certificate and private key.'
 ---
+
 = RemoveSSLCertificate
 :icons: font
 :imagesdir: ../media/

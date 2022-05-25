@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'When you create a new cluster with Fibre Channel nodes and SolidFire storage nodes, the worldwide port name \(WWPN\) addresses for the nodes are available in the web UI. You can use the WWPN addresses to zone the Fibre Channel switch.'
 ---
+
 = Set up zones for Fibre Channel nodes
 :icons: font
 :imagesdir: ../media/

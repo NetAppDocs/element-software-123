@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,host
 summary: 'The host object contains information about a virtual volume host. You can use the ListVirtualVolumeHosts method to get this information for all virtual volume hosts.'
 ---
+
 = host (virtual volumes)
 :icons: font
 :imagesdir: ../media/

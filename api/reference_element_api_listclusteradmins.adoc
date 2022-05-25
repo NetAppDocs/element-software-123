@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: admin,admins,cluster,list,listing,listclusteradmins
 summary: 'You can use the ListClusterAdmins method to return the list of all cluster administrators for the cluster.'
 ---
+
 = ListClusterAdmins
 :icons: font
 :imagesdir: ../media/

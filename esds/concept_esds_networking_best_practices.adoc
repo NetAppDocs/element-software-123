@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: solidfire esds, software-defined storage, networks, linux host routing, networking
 summary: Before you install SolidFire eSDS, you should set up the required networks on the storage nodes running RHEL. You are responsible for network routing in your environment. You can use the best practices provided as a framework.
 ---
+
 = Considerations for network configuration
 :icons: font
 :imagesdir: ../media/

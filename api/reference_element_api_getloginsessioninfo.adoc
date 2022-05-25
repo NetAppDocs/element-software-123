@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,get,getting,login,session,info,getloginsessioninfo
 summary: 'You can use the GetLoginSessionInfo method to return the period of time a login authentication session is valid for both login shells and the TUI.'
 ---
+
 = GetLoginSessionInfo
 :icons: font
 :imagesdir: ../media/

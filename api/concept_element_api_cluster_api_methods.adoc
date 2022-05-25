@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,API,methods,method,manage
 summary: 'Element software cluster API methods enable you to manage the configuration and topology of the storage cluster and the nodes that belong to a storage cluster.'
 ---
+
 = Cluster API methods
 :icons: font
 :imagesdir: ../media/

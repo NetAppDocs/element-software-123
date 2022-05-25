@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,admin,get,getting,current,getcurrentclusteradmin
 summary: 'You can use the GetCurrentClusterAdmin method to return information for the current primary Cluster Admin. The primary Cluster Admin was created when the cluster was created.'
 ---
+
 = GetCurrentClusterAdmin
 :icons: font
 :imagesdir: ../media/

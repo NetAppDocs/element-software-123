@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: slice drive error, cluster fault, authentication keys
 summary: 'Occasionally, an error can occur that requires user intervention. In the event of an error, a cluster fault will be generated. The two most likely cases are described here.'
 ---
+
 = Recover inaccessible or invalid authentication keys
 :icons: font
 :imagesdir: ../media/

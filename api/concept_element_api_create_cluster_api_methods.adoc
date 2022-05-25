@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: API,methods,cluster,create,creation
 summary: 'You can use these API methods to create a storage cluster. All of these methods need to be used against the API endpoint on a single node.'
 ---
+
 = Cluster creation API Methods
 :icons: font
 :imagesdir: ../media/

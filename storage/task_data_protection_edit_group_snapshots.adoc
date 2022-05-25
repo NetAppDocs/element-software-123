@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: group snapshots, edit, replication, retention
 summary: 'You can edit the replication and retention settings for existing group snapshots.'
 ---
+
 = Editing group snapshots
 :icons: font
 :imagesdir: ../media/

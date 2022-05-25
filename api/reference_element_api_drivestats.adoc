@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,driveStats
 summary: 'The driveStats object contains high-level activity measurements for a single drive. You can retrieve measurement information with the API method GetDriveStats.'
 ---
+
 = driveStats
 :icons: font
 :imagesdir: ../media/

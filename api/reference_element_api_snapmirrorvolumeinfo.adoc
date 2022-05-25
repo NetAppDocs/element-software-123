@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,snapMirrorVolumeInfo
 summary: 'The snapMirrorVolumeInfo object contains information about a volume location in a SnapMirror relationship, such as its name and type.'
 ---
+
 = snapMirrorVolumeInfo
 :icons: font
 :imagesdir: ../media/

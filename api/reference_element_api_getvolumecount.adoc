@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,volumes,get,getting,count,measurements,getvolumecount
 summary: 'You can use the GetVolumeCount method to get the number of volumes currently in the system.'
 ---
+
 = GetVolumeCount
 :icons: font
 :imagesdir: ../media/

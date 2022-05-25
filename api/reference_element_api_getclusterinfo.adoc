@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,get,info,getting,getclusterinfo
 summary: 'You can use the GetClusterInfo method to return configuration information about the cluster.'
 ---
+
 = GetClusterInfo
 :icons: font
 :imagesdir: ../media/

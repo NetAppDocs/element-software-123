@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,protectionDomainTolerance
 summary: 'The protectionDomainTolerance object contains information about the ability of the storage cluster to continue reading and writing data in the event of one or more failures all within a single protection domain of its associated protection domain type.'
 ---
+
 = protectionDomainTolerance
 :icons: font
 :imagesdir: ../media/

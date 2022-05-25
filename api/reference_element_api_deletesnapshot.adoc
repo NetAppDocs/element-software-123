@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapshot,snapshots,delete,deleting,DeleteSnapshot
 summary: 'You can use the DeleteSnapshot method to delete a snapshot.'
 ---
+
 = DeleteSnapshot
 :icons: font
 :imagesdir: ../media/

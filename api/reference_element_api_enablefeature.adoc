@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: SNMP,enable,enabling,EnableFeature,vvols,virtual volumes,FIPS,140-2,SnapMirror
 summary: 'You can use the EnableFeature method to enable cluster features such as VVols that are disabled by default.'
 ---
+
 = EnableFeature
 :icons: font
 :imagesdir: ../media/

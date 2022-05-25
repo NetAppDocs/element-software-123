@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,pairing,order,operations,volumes,pairing,pair,pairs
 summary: 'You must create a cluster pair between two corresponding clusters before volumes can be paired.'
 ---
+
 = Volume pairing order of operations
 :icons: font
 :imagesdir: ../media/

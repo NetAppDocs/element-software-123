@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: KMIP,key provider,deleting,delete
 summary: 'You can use the DeleteKeyProviderKmip method to delete the specified inactive Key Management Interoperability Protocol \(KMIP\) key provider.'
 ---
+
 = DeleteKeyProviderKmip
 :icons: font
 :imagesdir: ../media/

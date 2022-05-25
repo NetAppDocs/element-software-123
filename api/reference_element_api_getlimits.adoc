@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: system,limits,get,getting,getlimits
 summary: 'You can use the GetLimits method to get the limit values set by the API. These values might change between releases of Element, but do not change without an update to the system. Knowing the limit values set by the API can be useful when writing API scripts for user-facing tools.'
 ---
+
 = GetLimits
 :icons: font
 :imagesdir: ../media/

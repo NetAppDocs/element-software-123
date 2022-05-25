@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: what is, node, management node, storage node, fibre channel, state, pending, active
 summary: 'Nodes are the hardware that is grouped into a cluster to be accessed as block storage or compute resources.'
 ---
+
 = Nodes
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,network
 summary: 'The network \(all interfaces\) object collects information about network interface configuration for a storage node. You can use the GetConfig and GetNetworkConfig methods to obtain this information for a storage node.'
 ---
+
 = network (all interfaces)
 :icons: font
 :imagesdir: ../media/

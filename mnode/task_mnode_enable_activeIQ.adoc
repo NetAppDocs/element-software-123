@@ -6,7 +6,6 @@ keywords: netapp, Element, api, enable, active iq, activeiq
 ---
 
 = Enable Active IQ and NetApp monitoring
-
 :hardbreaks:
 :nofooter:
 :icons: font

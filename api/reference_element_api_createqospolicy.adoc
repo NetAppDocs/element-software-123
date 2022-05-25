@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: QoS,policy,policies,create,creating
 summary: 'You can use the CreateQoSPolicy method to create a QoSPolicy object that you can later apply to a volume upon creation or modification. A QoS policy has a unique ID, a name, and QoS settings.'
 ---
+
 = CreateQoSPolicy
 :icons: font
 :imagesdir: ../media/

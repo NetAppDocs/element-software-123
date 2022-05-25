@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,snapMirrorLunInfo
 summary: 'The snapMirrorLunInfo object contains information about the ONTAP LUN object.'
 ---
+
 = snapMirrorLunInfo
 :icons: font
 :imagesdir: ../media/

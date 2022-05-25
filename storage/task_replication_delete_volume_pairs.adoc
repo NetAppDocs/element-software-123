@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume pairs, delete
 summary: 'You can delete a volume pair if want to remove a pair association between two volumes.'
 ---
+
 = Delete volume pairs
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: nodes,node,network,interface,get,getting,getnetworkinterface
 summary: 'You can use the GetNetworkInterface method to get information about a network interface on a node.'
 ---
+
 = GetNetworkInterface
 :icons: font
 :imagesdir: ../media/

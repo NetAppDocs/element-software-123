@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: KMIP,key server,unassigning,removing,remove,unassign,removekeyserverfromproviderkmip
 summary: 'You can use the RemoveKeyServerFromProviderKmip method to unassign the specified Key Management Interoperability Protocol \(KMIP\) key server from the provider it was assigned to. You can unassign a key server from its provider unless it is the last one and its provider is active \(providing keys which are currently in use\). If the specified key server is not assigned to a provider, no action is taken and no error is returned.'
 ---
+
 = RemoveKeyServerFromProviderKmip
 :icons: font
 :imagesdir: ../media/

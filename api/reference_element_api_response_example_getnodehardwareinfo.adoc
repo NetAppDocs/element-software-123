@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: response,example,getnodehardwareinfo
 summary: 'The GetNodeHardwareInfo method for iSCSI returns a response similar to the following example.'
 ---
+
 = GetNodeHardwareInfo (output for iSCSI)
 :icons: font
 :imagesdir: ../media/

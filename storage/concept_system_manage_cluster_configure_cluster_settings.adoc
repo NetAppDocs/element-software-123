@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: configure, cluster, threshold, support access, encryption at rest, virtual volumes, ntp broadcast, client, snapmirror
 summary: 'You can view and change cluster-wide settings and perform cluster-specific tasks from the Cluster tab of the Element UI.'
 ---
+
 = Configure cluster settings
 :icons: font
 :imagesdir: ../media/

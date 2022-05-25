@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: remote,connectivity,test,testing,testremoteconnectivity
 summary: 'You can use TestRemoteConnectivity method to ping each node of the remote cluster and check the remote ensemble database connection. Clusters must be paired in order to return useful results with this method. If the remote database connection fails, the response from the system lists the exceptions.'
 ---
+
 = TestRemoteConnectivity
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: SnapMirror,relationship,resync,resyncing,ResyncSnapMirrorRelationship
 summary: 'The Element software web UI uses the ResyncSnapMirrorRelationship method to establish or reestablish a mirror relationship between a source and destination endpoint. When you resync a relationship, the system removes snapshots on the destination volume that are newer than the common snapshot copy, and then mounts the destination volume as a data protection volume with the common snapshot copy as the exported snapshot copy.'
 ---
+
 = ResyncSnapMirrorRelationship
 :icons: font
 :imagesdir: ../media/

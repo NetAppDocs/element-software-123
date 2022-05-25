@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: storage,cluster,configuration,info,restore,set,setting,setclusterstructure
 summary: 'You can use the SetClusterStructure method to restore the storage cluster configuration information from a backup. When you call the method, you pass the clusterStructure object containing the configuration information you want to restore as the params parameter.'
 ---
+
 = SetClusterStructure
 :icons: font
 :imagesdir: ../media/

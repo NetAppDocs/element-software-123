@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,list,listing,active,node,nodes,listactivenodes
 summary: 'You can use the ListActiveNodes method to return the list of currently active nodes that are in the cluster.'
 ---
+
 = ListActiveNodes
 :icons: font
 :imagesdir: ../media/

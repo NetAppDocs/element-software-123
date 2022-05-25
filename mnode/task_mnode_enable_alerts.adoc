@@ -6,7 +6,6 @@ keywords: netapp, Element, management node, mnode, ui, alerts, alert monitoring
 ---
 
 = Configure alert monitoring
-
 :hardbreaks:
 :nofooter:
 :icons: font

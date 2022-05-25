@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,snapshot,API,method
 summary: 'Element software volume snapshot API methods enable you to manage volume snapshots. You can create, modify, clone, and delete volume snapshots using the volume snapshot API methods.'
 ---
+
 = Volume snapshot API methods
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: drive,hardware,list,listing,listdrivehardware,drives
 summary: 'You can use the ListDriveHardware method to list all the drives connected to a node. When used on individual nodes, this method returns drive hardware information. When used on the cluster master node MVIP, this method returns information for all drives on all nodes.'
 ---
+
 = ListDriveHardware
 :icons: font
 :imagesdir: ../media/

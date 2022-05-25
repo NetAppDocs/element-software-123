@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: rollbacktosnapshot,snapshot,creating,create,roll,back,rollback,roll back,existing
 summary: 'You can use the RollbackToSnapshot method to make an existing snapshot of the active volume image. This method creates a new snapshot from an existing snapshot.'
 ---
+
 = RollbackToSnapshot
 :icons: font
 :imagesdir: ../media/

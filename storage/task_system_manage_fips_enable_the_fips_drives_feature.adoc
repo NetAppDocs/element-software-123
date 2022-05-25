@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: fips, security, federal information processing standards, 140-2, enable, ear
 summary: 'You can enable the FIPS drives feature by using the NetApp Element software EnableFeature API method.'
 ---
+
 = Enable the FIPS drives feature
 :icons: font
 :imagesdir: ../media/

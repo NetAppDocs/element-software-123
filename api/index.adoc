@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: element, api, storage, manage, cluster, volumes, json, rpc, https
 summary: Learn how to manage NetApp Element storage clusters using the Element API.
 ---
+
 = Manage storage with Element API
 :icons: font
 :imagesdir: ../media/

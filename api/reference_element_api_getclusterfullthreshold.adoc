@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,get,getting,full,threshold,level,fullness,storage,capacity,getclusterfullthreshold
 summary: 'You can use the GetClusterFullThreshold method to view the stages set for cluster fullness levels. This method returns all fullness metrics for the cluster.'
 ---
+
 = GetClusterFullThreshold
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: CreateClusterSupportBundle,create,cluster,support,bundle,creating
 summary: 'You can use the CreateClusterSupportBundle on the management node to gather support bundles from all nodes in a cluster. When a bundle is created, it is stored on the node as a .tar.gz file. You can only run this method on a management node; it does not work when run on a storage node.'
 ---
+
 = CreateClusterSupportBundle
 :icons: font
 :imagesdir: ../media/

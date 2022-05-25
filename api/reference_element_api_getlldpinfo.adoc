@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: lldp,info,get,getting,getlldpinfo,storage
 summary: 'You can use the GetLldpInfo method to get the Link Layer Discovery Protocol \(LLDP\) configuration for each node of a storage cluster, or an individual storage node.'
 ---
+
 = GetLldpInfo
 :icons: font
 :imagesdir: ../media/

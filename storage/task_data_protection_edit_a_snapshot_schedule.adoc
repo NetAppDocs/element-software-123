@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapshot schedule, edit, modify
 summary: 'You can modify existing snapshot schedules. After modification, the next time the schedule runs it uses the updated attributes. Any snapshots created by the original schedule remain on the storage system.'
 ---
+
 = Edit a snapshot schedule
 :icons: font
 :imagesdir: ../media/

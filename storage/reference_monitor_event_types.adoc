@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: event types, monitor, event log
 summary: 'The system reports multiple types of events; each event is an operation that the system has completed. Events can be routine, normal events or events that require administrator attention. The Event Types column on the Event Log page indicates in which part of the system the event occurred.'
 ---
+
 = Event types
 :icons: font
 :imagesdir: ../media/

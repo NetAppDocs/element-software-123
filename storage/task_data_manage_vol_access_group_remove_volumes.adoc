@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: access group, remove volumes from, initiators, chap
 summary: 'When you remove a volume from an access group, the group no longer has access to that volume.'
 ---
+
 = Remove volumes from an access group
 :icons: font
 :imagesdir: ../media/

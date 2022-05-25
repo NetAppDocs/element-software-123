@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume warnings, messages, replication, data protection
 summary: 'The Volume Pairs page on the Data Protection tab provides these messages after you pair volumes. These messages can display on both source and target ends of the pair \(unless otherwise indicated\) in the Replicating Volumes list view.'
 ---
+
 = Volume pairing warnings
 :icons: font
 :imagesdir: ../media/

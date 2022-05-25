@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: IdP,idp,configuration,delete
 summary: 'You can use the DeleteIdpConfiguration method to delete an existing configuration of a third-party IdP for the cluster. Deleting the last IdP configuration removes the SAML Service Provider certificate from the cluster.'
 ---
+
 = DeleteIdpConfiguration
 :icons: font
 :imagesdir: ../media/

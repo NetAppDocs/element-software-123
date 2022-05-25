@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapshot schedule, create, volumes, recurring schedule
 summary: 'You can schedule a snapshot of a volume or volumes to automatically occur at specified intervals.'
 ---
+
 = Create a snapshot schedule
 :icons: font
 :imagesdir: ../media/

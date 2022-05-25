@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,volumes,marked,delete,deleted,deletion,list,listing,listdeletedvolumes
 summary: 'You can use the ListDeletedVolumes method to retrieve the list of volumes that have been marked for deletion and purged from the system.'
 ---
+
 = ListDeletedVolumes
 :icons: font
 :imagesdir: ../media/

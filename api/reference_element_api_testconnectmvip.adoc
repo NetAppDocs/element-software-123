@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: management,connection,test,testing,mvip,testconnectmvip
 summary: 'You can use the TestConnectMvip method to test the management connection to the storage cluster. The test pings the MVIP and executes a simple API method to verify connectivity.'
 ---
+
 = TestConnectMvip
 :icons: font
 :imagesdir: ../media/

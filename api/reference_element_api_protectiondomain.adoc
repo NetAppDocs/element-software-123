@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,protection domains
 summary: 'The protectionDomain object contains the name and type details for a protection domain.'
 ---
+
 = protectionDomain
 :icons: font
 :imagesdir: ../media/

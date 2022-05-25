@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,snapMirrorJobScheduleCronInfo
 summary: 'The snapMirrorJobScheduleCronInfo object contains information about a cron job schedule on the ONTAP system.'
 ---
+
 = snapMirrorJobScheduleCronInfo
 :icons: font
 :imagesdir: ../media/

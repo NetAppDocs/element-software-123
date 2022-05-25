@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: updatebulkvolumestatus,update,updating,bulk,volume,status,job
 summary: 'You can use the UpdateBulkVolumeStatus method to update the status of a bulk volume job that you started with the StartBulkVolumeRead or StartBulkVolumeWrite methods.'
 ---
+
 = UpdateBulkVolumeStatus
 :icons: font
 :imagesdir: ../media/

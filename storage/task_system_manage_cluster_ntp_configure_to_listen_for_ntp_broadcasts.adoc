@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: ntp, broadcasts, server, config, server list, broadcast client
 summary: 'By using the broadcast mode, you can instruct each node in a cluster to listen on the network for Network Time Protocol \(NTP\) broadcast messages from a particular server.'
 ---
+
 = Configure the cluster to listen for NTP broadcasts
 :icons: font
 :imagesdir: ../media/

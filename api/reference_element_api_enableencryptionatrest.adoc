@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: encryption,enable,enabling,EnableEncryptionAtRest
 summary: 'You can use the EnableEncryptionAtRest method to enable the Advanced Encryption Standard \(AES\) 256-bit encryption at rest on the cluster so that the cluster can manage the encryption key used for the drives on each node. This feature is not enabled by default.'
 ---
+
 = EnableEncryptionAtRest
 :icons: font
 :imagesdir: ../media/

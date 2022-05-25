@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snmp, view, management information base files, download, mib, statistics, oids
 summary: 'You can view and download the management information base \(MIB\) files used to define each of the managed objects. The SNMP feature supports read-only access to those objects defined in the SolidFire-StorageCluster-MIB.'
 ---
+
 = View managed object data using management information base files
 :icons: font
 :imagesdir: ../media/

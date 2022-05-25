@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume, size of volume
 summary: 'The Volumes page on the Management tab provides information about the active volumes such as name, account, access groups associated with the volume, and size of the volume.'
 ---
+
 = Volume details
 :icons: font
 :imagesdir: ../media/

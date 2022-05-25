@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: backup,target,targets,info,list,listing,listbackuptargets
 summary: 'You can use the ListBackupTargets method to get information about all backup targets that have been created.'
 ---
+
 = ListBackupTargets
 :icons: font
 :imagesdir: ../media/

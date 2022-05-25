@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: test,testing,connectivity,ensemble,testconnectensemble
 summary: 'You can use the TestConnectEnsemble method to verify connectivity with a specified database ensemble. By default it uses the ensemble for the cluster the node is associated with. Alternatively you can provide a different ensemble to test connectivity.'
 ---
+
 = TestConnectEnsemble
 :icons: font
 :imagesdir: ../media/

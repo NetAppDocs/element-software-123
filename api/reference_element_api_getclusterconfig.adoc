@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,configuration,get,getting,config,getclusterconfig
 summary: 'You can use the GetClusterConfig API method to return information about the cluster configuration the node uses to communicate with its cluster.'
 ---
+
 = GetClusterConfig
 :icons: font
 :imagesdir: ../media/

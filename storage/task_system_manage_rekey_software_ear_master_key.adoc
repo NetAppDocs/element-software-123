@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: element, rekey, encryption at rest, rekey master, replace key
 summary: 'You can use the Element API to rekey an existing key. This process creates a new replacement master key for your external key management server.'
 ---
+
 = Rekey software encryption at rest master key
 :icons: font
 :imagesdir: ../media/

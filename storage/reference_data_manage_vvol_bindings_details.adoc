@@ -1,9 +1,10 @@
 ---
 permalink: storage/reference_data_manage_vvol_bindings_details.html
 sidebar: sidebar
-keywords: bindings details, vvols, for each virtual volume, endpoints, 
+keywords: bindings details, vvols, for each virtual volume, endpoints,
 summary: 'The Bindings page on the VVols tab provides binding information about each virtual volume.'
 ---
+
 = Bindings details
 :icons: font
 :imagesdir: ../media/

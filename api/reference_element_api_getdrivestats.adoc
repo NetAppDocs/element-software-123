@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: drive,drives,stats,get,getting,getdrivestats
 summary: 'You can use the GetDriveStats method to get high-level activity measurements for a single drive. Values are cumulative from the addition of the drive to the cluster. Some values are specific to block drives. Statistical data is returned for either block or metadata drive types when you run this method.'
 ---
+
 = GetDriveStats
 :icons: font
 :imagesdir: ../media/

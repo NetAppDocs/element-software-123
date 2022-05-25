@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,get,getting,license,key
 summary: 'On SolidFire Enterprise SDS storage clusters, you can use the GetLicenseKey method to retrieve the current license key for the storage cluster. The license key for a storage cluster consists of the cluster’s order number combined with the serial number, and activates the capacity model you have purchased for Element software.'
 ---
+
 = GetLicenseKey
 :icons: font
 :imagesdir: ../media/

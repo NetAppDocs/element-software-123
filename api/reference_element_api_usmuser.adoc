@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,usmUser
 summary: 'You can use the SNMP usmUser object with the SetSnmpInfo API method to configure SNMP on the storage cluster.'
 ---
+
 = usmUser
 :icons: font
 :imagesdir: ../media/

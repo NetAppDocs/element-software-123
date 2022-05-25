@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,network
 summary: 'The network \(local interfaces\) object contains configuration information for local network interfaces, such as the loopback interface, on a storage node. You can use the GetConfig and GetNetworkConfig methods to obtain this information for a storage node.'
 ---
+
 = network (local interfaces)
 :icons: font
 :imagesdir: ../media/

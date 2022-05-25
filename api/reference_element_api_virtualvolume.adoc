@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,virtualVolume
 summary: 'The virtualVolume object contains configuration information about a virtual volume as well as information about snapshots of the virtual volume. It does not include runtime or usage information. You can use the ListVirtualVolumes method to retrieve this information for a cluster.'
 ---
+
 = virtualVolume
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,volumes,create,creating,snapshot,snapshots,CreateSnapshot
 summary: 'You can use CreateSnapshot to create a point-in-time copy of a volume. You can create a snapshot from any volume or from an existing snapshot.'
 ---
+
 = CreateSnapshot
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: virtual,volume,storage,container,delete,deleting,vvol,DeleteStorageContainers
 summary: 'You can use the DeleteStorageContainers method to remove up to 2000 Virtual Volume \(VVol\) storage containers from the system at one time. The storage containers you remove must not contain any VVols.'
 ---
+
 = DeleteStorageContainers
 :icons: font
 :imagesdir: ../media/

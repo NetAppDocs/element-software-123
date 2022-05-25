@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,remoteClusterSnapshotStatus
 summary: 'The remoteClusterSnapshotStatus object contains the UUID and status of a snapshot stored on a remote storage cluster. You can get this information with the ListSnapshots or ListGroupSnapshots API methods.'
 ---
+
 = remoteClusterSnapshotStatus
 :icons: font
 :imagesdir: ../media/

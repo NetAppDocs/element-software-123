@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snmp,trap,get,getting,info,getsnmptrapinfo
 summary: 'You can use the GetSnmpTrapInfo method to get current SNMP trap configuration information.'
 ---
+
 = GetSnmpTrapInfo
 :icons: font
 :imagesdir: ../media/

@@ -1,9 +1,10 @@
 ---
 permalink: storage/concept_troubleshoot_basic_mdss_drive_troubleshooting.html
 sidebar: sidebar
-keywords: mdss drives, troubleshoot, multi-drive slice service 
+keywords: mdss drives, troubleshoot, multi-drive slice service
 summary: 'You can recover metadata \(or slice\) drives by adding them back to the cluster in the event that one or both metadata drives fail. You can perform the recovery operation in the NetApp Element UI if the MDSS feature is already enabled on the node.'
 ---
+
 = Basic MDSS drive troubleshooting
 :icons: font
 :imagesdir: ../media/

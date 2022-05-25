@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapmirror,volume,list,listing,volumes,listsnapmirrorvolumes,ontap
 summary: 'The Element software web UI uses the ListSnapMirrorVolumes method to list all SnapMirror volumes available on a remote ONTAP system.'
 ---
+
 = ListSnapMirrorVolumes
 :icons: font
 :imagesdir: ../media/

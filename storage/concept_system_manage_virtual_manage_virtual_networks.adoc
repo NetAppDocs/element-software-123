@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: virtual networks, manage, traffic, clients, vlan tagging
 summary: 'Virtual networking in SolidFire storage enables traffic between multiple clients that are on separate logical networks to be connected to one cluster. Connections to the cluster are segregated in the networking stack through the use of VLAN tagging.'
 ---
+
 = Manage virtual networks
 :icons: font
 :imagesdir: ../media/

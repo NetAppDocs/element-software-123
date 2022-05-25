@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: session auth
 summary: 'You can use session-based authentication to manage user sessions.'
 ---
+
 = Session authentication API methods
 :icons: font
 :imagesdir: ../media/

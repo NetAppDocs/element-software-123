@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: node,api,methods
 summary: 'You can use node API methods to configure individual nodes. These methods operate on single nodes that need to be configured, are configured but not yet participating in a cluster, or are actively participating in a cluster. Node API methods enable you to view and modify settings for individual nodes and the cluster network used to communicate with the node. You must run these methods against individual nodes; you cannot run per-node API methods against the address of the cluster.'
 ---
+
 = Node API methods
 :icons: font
 :imagesdir: ../media/

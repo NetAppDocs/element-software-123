@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,snapMirrorVserver
 summary: 'The snapMirrorVserver object contains information about the Storage Virtual Machines \(or Vservers\) at the destination ONTAP cluster.'
 ---
+
 = snapMirrorVserver
 :icons: font
 :imagesdir: ../media/

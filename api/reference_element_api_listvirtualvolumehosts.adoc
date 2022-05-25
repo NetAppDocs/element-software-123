@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: virtual,volume,vvol,host,hosts,list,listing,known,listvirtualvolumehosts
 summary: 'You can use the ListVirtualVolumeHosts method to get a list of all virtual volume hosts known to the cluster. A virtual volume host is a VMware ESX host that has initiated a session with the VASA API provider.'
 ---
+
 = ListVirtualVolumeHosts
 :icons: font
 :imagesdir: ../media/

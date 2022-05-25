@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: response,example
 summary: 'Complete response examples are provided here.'
 ---
+
 = Response examples
 :icons: font
 :imagesdir: ../media/

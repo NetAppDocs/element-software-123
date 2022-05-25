@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,pair,volumes,remove,removing,removevolumepair
 summary: 'You can use the RemoveVolumePair method to remove the remote pairing between two volumes. Use this method on both the source and target volumes that are paired together. When you remove the volume pairing information, data is no longer replicated to or from the volume.'
 ---
+
 = RemoveVolumePair
 :icons: font
 :imagesdir: ../media/

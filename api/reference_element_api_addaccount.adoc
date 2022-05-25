@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: addaccount,add,adding,account,accounts
 summary: 'You can use AddAccount to add a new account to the system. You can also use this method to create new volumes under the new account as the account is created. The Challenge-Handshake Authentication Protocol \(CHAP\) settings you specify for the account apply to all volumes owned by the account.'
 ---
+
 = AddAccount
 :icons: font
 :imagesdir: ../media/

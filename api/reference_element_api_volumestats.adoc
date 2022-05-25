@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,volumeStats
 summary: 'The volumeStats object contains statistical data for an individual volume.'
 ---
+
 = volumeStats
 :icons: font
 :imagesdir: ../media/

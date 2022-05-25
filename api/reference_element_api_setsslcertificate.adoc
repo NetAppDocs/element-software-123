@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: set,setting,ssl,cert,certificate,cluster,private,key,setsslcertificate
 summary: 'You can use the SetSSLCertificate method to set a user SSL certificate and private key for the storage nodes in the cluster.'
 ---
+
 = SetSSLCertificate
 :icons: font
 :imagesdir: ../media/

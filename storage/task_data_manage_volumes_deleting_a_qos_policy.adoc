@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: qos policy, delete, volumes
 summary: 'You can delete a QoS policy if it is no longer needed. When you delete a QoS policy, all volumes associated with the policy maintain the QoS settings but become unassociated with a policy.'
 ---
+
 = Delete a QoS policy
 :icons: font
 :imagesdir: ../media/

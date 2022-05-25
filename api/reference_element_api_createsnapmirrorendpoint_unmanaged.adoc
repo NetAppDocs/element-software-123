@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: SnapMirror,endpoint,unmanaged,create,creating,CreateSnapMirrorEndpointUnmanaged
 summary: 'The Element software storage system uses the CreateSnapMirrorEndpointUnmanaged method to enable remote, unmanaged SnapMirror endpoints to communicate with a Element storage cluster. Unmanaged endpoints cannot be administered using the Element SnapMirror APIs. They must be managed with ONTAP management software or APIs.'
 ---
+
 = CreateSnapMirrorEndpointUnmanaged
 :icons: font
 :imagesdir: ../media/

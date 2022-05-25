@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: accounts,account,get,getting,GetAccountByID,ID
 summary: 'You can use GetAccountByID to get details about a specific account, given its accountID.'
 ---
+
 = GetAccountByID
 :icons: font
 :imagesdir: ../media/

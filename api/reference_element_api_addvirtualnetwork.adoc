@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: addvirtualnetwork,cluster,add,adding,virtual,network
 summary: 'You can use the AddVirtualNetwork method to add a new virtual network to a cluster configuration.'
 ---
+
 = AddVirtualNetwork
 :icons: font
 :imagesdir: ../media/

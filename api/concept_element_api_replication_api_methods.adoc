@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: replication,api,methods
 summary: 'Replication API methods enable you to connect two clusters for continuous data protection \(CDP\). When you connect two clusters, active volumes within a cluster can be continuously replicated to a second cluster to provide data recovery. By pairing volumes for replication, you can protect your data from events that might render it inaccessible.'
 ---
+
 = Replication API methods
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,volumes,group,snapshot,snapshots,delete,deleting,DeleteGroupSnapshot
 summary: 'You can use DeleteGroupSnapshot to delete a group snapshot.'
 ---
+
 = DeleteGroupSnapshot
 :icons: font
 :imagesdir: ../media/

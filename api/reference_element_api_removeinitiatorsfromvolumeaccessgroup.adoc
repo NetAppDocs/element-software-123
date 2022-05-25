@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: initiators,initiator,volume,access,group,remove,removing,removeinitiatorsfromvolumeaccessgroup
 summary: 'You can use the RemoveInitiatorsFromVolumeAccessGroup method to remove initiators from a specified volume access group.'
 ---
+
 = RemoveInitiatorsFromVolumeAccessGroup
 :icons: font
 :imagesdir: ../media/

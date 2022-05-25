@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,pendingNode
 summary: 'The pendingNode object contains information about a node that can be added to a cluster. Use the ListPendingNodes API method to return a list of this information for all pending nodes. You can add any of the listed nodes to a cluster using the AddNodes API method.'
 ---
+
 = pendingNode
 :icons: font
 :imagesdir: ../media/

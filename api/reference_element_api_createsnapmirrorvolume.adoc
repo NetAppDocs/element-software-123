@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: SnapMirror,endpoints,create,creating,volume,volumes,CreateSnapMirrorVolume
 summary: 'The Element web UI uses the CreateSnapMirrorVolume method to create a volume on the remote ONTAP system.'
 ---
+
 = CreateSnapMirrorVolume
 :icons: font
 :imagesdir: ../media/

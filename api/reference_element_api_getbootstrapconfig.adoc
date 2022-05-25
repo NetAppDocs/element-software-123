@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,getting,bootstrap,information,node,GetBootstrapConfig
 summary: 'You can use the GetBootstrapConfig method to get cluster and node information from the bootstrap configuration file. Use this API method on an individual node before it has been joined with a cluster. The information this method returns is used in the cluster configuration interface when you create a cluster.'
 ---
+
 = GetBootstrapConfig
 :icons: font
 :imagesdir: ../media/

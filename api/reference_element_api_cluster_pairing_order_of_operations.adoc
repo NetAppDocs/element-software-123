@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,pairing,pair,order,operations,clusters
 summary: 'You must establish a connection between a pair of storage clusters running Element software before remote replication can be used.'
 ---
+
 = Cluster pairing order of operations
 :icons: font
 :imagesdir: ../media/

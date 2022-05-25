@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: group snapshot, delete
 summary: 'You can delete a group snapshot from the system. When you delete the group snapshot, you can choose whether all snapshots associated with the group are deleted or retained as individual snapshots.'
 ---
+
 = Deleting a group snapshot
 :icons: font
 :imagesdir: ../media/

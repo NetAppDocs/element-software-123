@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: storage container, storage containers, about storage containers, cluster, vvols, create, view details, chap, edit, delete
 summary: 'A storage container is a vSphere datastore representation created on a cluster running Element software.'
 ---
+
 = Manage storage containers
 :icons: font
 :imagesdir: ../media/

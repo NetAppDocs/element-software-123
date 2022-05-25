@@ -1,9 +1,10 @@
 ---
 permalink: storage/task_system_manage_nodes_view_individual_node_details.html
 sidebar: sidebar
-keywords: nodes, view, details, vlan, mip, cip, sip, virtual id 
+keywords: nodes, view, details, vlan, mip, cip, sip, virtual id
 summary: 'You can view details for individual nodes such as service tags, drive details, and graphics for utilization and drive statistics. The Nodes page of the Cluster tab provides the Version column where you can view the software version of each node.'
 ---
+
 = View node details
 :icons: font
 :imagesdir: ../media/

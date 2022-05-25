@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: remote replication, clusters, Element software, failover, failback
 summary: 'For clusters running Element software, real-time replication enables the quick creation of remote copies of volume data. You can pair a storage cluster with up to four other storage clusters. You can replicate volume data synchronously or asynchronously from either cluster in a cluster pair for failover and failback scenarios.'
 ---
+
 = Perform remote replication between clusters running NetApp Element software
 :icons: font
 :imagesdir: ../media/

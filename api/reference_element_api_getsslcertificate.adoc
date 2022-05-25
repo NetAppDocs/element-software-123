@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: SSL,certificate,cert,get,getting,active,GetSSLCertificate
 summary: 'You can use the GetSSLCertificate method to retrieve the SSL certificate that is currently active on the storage nodes of the cluster.'
 ---
+
 = GetSSLCertificate
 :icons: font
 :imagesdir: ../media/

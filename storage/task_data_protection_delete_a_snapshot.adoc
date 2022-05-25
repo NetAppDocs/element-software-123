@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapshot, delete, volume snapshot, storage cluster, remove snapshot
 summary: 'You can delete a volume snapshot from a storage cluster running Element software. When you delete a snapshot, the system immediately removes it.'
 ---
+
 = Delete a snapshot
 :icons: font
 :imagesdir: ../media/

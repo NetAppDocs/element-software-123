@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: lldp,config,configure,set,setting,setlldpconfig
 summary: 'You can use the SetLldpConfig method to configure the Link Layer Discovery Protocol \(LLDP\) settings for a storage cluster.'
 ---
+
 = SetLldpConfig
 :icons: font
 :imagesdir: ../media/

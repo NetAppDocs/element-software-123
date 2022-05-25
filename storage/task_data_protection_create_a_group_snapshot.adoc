@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: group snapshot, create, volumes, schedule, automate group snapshots
 summary: 'You can create a snapshot of a group of volumes, and you can also create a group snapshot schedule to automate group snapshots. A single group snapshot can consistently snapshot up to 32 volumes at one time.'
 ---
+
 = Creating a group snapshot
 :icons: font
 :imagesdir: ../media/

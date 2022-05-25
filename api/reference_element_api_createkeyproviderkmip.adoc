@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: KMIP,key provider,creating,create
 summary: 'You can use the CreateKeyProviderKmip method to create a Key Management Interoperability Protocol \(KMIP\) key provider with the specified name. A key provider defines a mechanism and location to retrieve authentication keys. When you create a new KMIP key provider, it does not have any KMIP key servers assigned to it. To create a KMIP key server, use the CreateKeyServerKmip method. To assign it to a provider, see AddKeyServerToProviderKmip.'
 ---
+
 = CreateKeyProviderKmip
 :icons: font
 :imagesdir: ../media/

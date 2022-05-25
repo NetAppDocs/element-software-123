@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: KMIP,key server,deleting,delete
 summary: 'You can use the DeleteKeyServerKmip method to delete an existing Key Management Interoperability Protocol \(KMIP\) key server. You can delete a key server unless it is the last one assigned to its provider, and that provider is providing keys which are currently in use.'
 ---
+
 = DeleteKeyServerKmip
 :icons: font
 :imagesdir: ../media/

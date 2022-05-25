@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume backup, openstack swift object store
 summary: 'You can back up volumes to external object stores that are compatible with OpenStack Swift.'
 ---
+
 = Back up a volume to an OpenStack Swift object store
 :icons: font
 :imagesdir: ../media/

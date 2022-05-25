@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: element demo node, virtual machine, element software, element api, vmware deployment
 summary: Element Demo Node is a VMware virtual machine version of Element software, which provides an easy way to demonstrate many of the key storage features of NetApp HCI and SolidFire products.
 ---
+
 = Try storage features using Element Demo Node
 :icons: font
 :imagesdir: ../media/

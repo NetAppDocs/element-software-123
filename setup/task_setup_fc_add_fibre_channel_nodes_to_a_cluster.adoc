@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'You can add Fibre Channel nodes to a cluster when more storage is needed or during cluster creation. Fibre Channel nodes require initial configuration when they are first powered on. After the node is configured, it appears in the list of pending nodes and you can add it to a cluster.'
 ---
+
 = Add Fibre Channel nodes to a cluster
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: system, api, element, security, rekey, software encryption at rest
 summary: 'You can use the RekeySoftwareEncryptionAtRestMasterKey method to rekey the software encryption-at-rest master key used to encrypt DEKs (Data Encryption Keys).'
 ---
+
 = RekeySoftwareEncryptionAtRestMasterKey
 :icons: font
 :imagesdir: ../media/

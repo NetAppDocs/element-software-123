@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'You can use the ResetNode method to reset a node to the factory settings. All data, packages \(software upgrades, etc\), configurations, and log files are deleted from the node when you call this method. However, network settings for the node are preserved during this operation. Nodes that are participating in a cluster cannot be reset to the factory settings.'
 ---
+
 = ResetNode
 :icons: font
 :imagesdir: ../media/

@@ -6,7 +6,6 @@ keywords: netapp, element, storage cluster, hybrid cloud control, hcc, maintenan
 ---
 
 = Add and manage storage clusters using NetApp Hybrid Cloud Control
-
 :hardbreaks:
 :nofooter:
 :icons: font

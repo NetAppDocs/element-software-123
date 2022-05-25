@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: terms,use,banner,get,getting,getloginbanner,login
 summary: 'You can use the GetLoginBanner method to get the currently active Terms of Use banner that users see when they log in to the Element web interface.'
 ---
+
 = GetLoginBanner
 :icons: font
 :imagesdir: ../media/
