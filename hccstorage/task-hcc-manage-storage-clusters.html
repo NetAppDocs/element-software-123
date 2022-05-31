@@ -5917,7 +5917,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-13 16:31:27 +0000">05/13/2022</time>
+    <time datetime="2022-05-25 10:09:40 +0000">05/25/2022</time>
     
   
 
@@ -5985,8 +5985,9 @@
 </div>
 </div>
 </div>
-<div class="sect2">
-<h3 id="add-a-storage-cluster">Add a storage cluster</h3>
+<div class="sect1">
+<h2 id="add-a-storage-cluster">Add a storage cluster</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>You can add a storage cluster to the  management node assets inventory using NetApp Hybrid Cloud Control. This allows you to manage and monitor the cluster using the HCC UI.</p>
 </div>
@@ -6051,8 +6052,10 @@ After you add the storage cluster, the cluster inventory can take up to 2 minute
 </ol>
 </div>
 </div>
-<div class="sect2">
-<h3 id="confirm-storage-cluster-status">Confirm storage cluster status</h3>
+</div>
+<div class="sect1">
+<h2 id="confirm-storage-cluster-status">Confirm storage cluster status</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>You can monitor the connection status of storage clusters assets using the NetApp Hybrid Cloud Control UI.</p>
 </div>
@@ -6074,8 +6077,10 @@ After you add the storage cluster, the cluster inventory can take up to 2 minute
 </ol>
 </div>
 </div>
-<div class="sect2">
-<h3 id="edit-storage-cluster-credentials">Edit storage cluster credentials</h3>
+</div>
+<div class="sect1">
+<h2 id="edit-storage-cluster-credentials">Edit storage cluster credentials</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>You can edit the storage cluster&#8217;s administrator user name and password using the NetApp Hybrid Cloud Control UI.</p>
 </div>
@@ -6103,8 +6108,10 @@ After you add the storage cluster, the cluster inventory can take up to 2 minute
 </ol>
 </div>
 </div>
-<div class="sect2">
-<h3 id="remove-a-storage-cluster">Remove a storage cluster</h3>
+</div>
+<div class="sect1">
+<h2 id="remove-a-storage-cluster">Remove a storage cluster</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>Removing a storage cluster from NetApp Hybrid Cloud Control removes the cluster from the management node inventory. After you remove a storage cluster, the cluster can no longer be managed by HCC and you can access it only by navigating directly to its management IP address.</p>
 </div>
@@ -6153,8 +6160,10 @@ Selecting <strong>Yes</strong> next removes the cluster from the installation.
 </ol>
 </div>
 </div>
-<div class="sect2">
-<h3 id="enable-and-disable-maintenance-mode">Enable and disable maintenance mode</h3>
+</div>
+<div class="sect1">
+<h2 id="enable-and-disable-maintenance-mode">Enable and disable maintenance mode</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>If you need to take a storage node offline for maintenance such as software upgrades or host repairs, you can minimize the I/O impact to the rest of the storage cluster by <a href="#enable_main_mode">enabling</a> maintenance mode for that node. When you <a href="#disable_main_mode">disable</a> maintenance mode, the node is monitored to ensure certain criteria are met before the node can transition out of maintenance mode.</p>
 </div>
@@ -6178,8 +6187,8 @@ Selecting <strong>Yes</strong> next removes the cluster from the installation.
 </li>
 </ul>
 </div>
-<div class="sect3">
-<h4 id="enable-maintenance-mode"><a id="enable_main_mode"></a>Enable maintenance mode</h4>
+<div class="sect2">
+<h3 id="enable-maintenance-mode"><a id="enable_main_mode"></a>Enable maintenance mode</h3>
 <div class="paragraph">
 <p>You can use the following procedure to enable maintenance mode for a storage cluster node.</p>
 </div>
@@ -6266,8 +6275,8 @@ The maintenance mode feature options are disabled at the read-only level.
 </ol>
 </div>
 </div>
-<div class="sect3">
-<h4 id="disable-maintenance-mode"><a id="disable_main_mode"></a>Disable maintenance mode</h4>
+<div class="sect2">
+<h3 id="disable-maintenance-mode"><a id="disable_main_mode"></a>Disable maintenance mode</h3>
 <div class="paragraph">
 <p>After a node is successfully placed in maintenance mode, the <strong>Disable Maintenance Mode</strong> action is available for this node. Actions on the other nodes are unavailable until maintenance mode is disabled successfully on the node undergoing maintenance.</p>
 </div>
@@ -6298,8 +6307,8 @@ When a node is in maintenance mode, it does not accept new data. As a result, it
 </ol>
 </div>
 </div>
-<div class="sect3">
-<h4 id="troubleshoot">Troubleshoot</h4>
+<div class="sect2">
+<h3 id="troubleshoot">Troubleshoot</h3>
 <div class="paragraph">
 <p>If you encounter errors when you are either enabling or disabling maintenance mode, a banner error displays at the top of the nodes table. For more information on the error, you can select the <strong>Show Details</strong> link that is provided on the banner to show what the API returns are.</p>
 </div>
@@ -6313,6 +6322,7 @@ When a node is in maintenance mode, it does not accept new data. As a result, it
 <p><a href="https://www.netapp.com/data-storage/solidfire/documentation" target="_blank" rel="noopener">SolidFire and Element Resources page</a></p>
 </li>
 </ul>
+</div>
 </div>
 </div>
 </div>
