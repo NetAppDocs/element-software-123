@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: volume,volumes,purging,purge,deleted,purgedeletedvolume
 summary: 'You can use the PurgeDeletedVolume method to immediately and permanently purge a volume that has been deleted. You must delete a volume using DeleteVolume before it can be purged.'
 ---
-
 = PurgeDeletedVolume
 :icons: font
 :imagesdir: ../media/
@@ -15,7 +14,6 @@ You can use the `PurgeDeletedVolume` method to immediately and permanently purge
 Volumes are purged automatically after a period of time, so usage of this method is not typically required.
 
 == Parameter
-
 This method has the following input parameter:
 
 [options="header"]
