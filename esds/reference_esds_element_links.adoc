@@ -25,8 +25,8 @@ You can also find information about applying a QoS policy to volumes here.
 * link:../storage/task_system_manage_key_set_up_external_key_management.html[Set up external key management] _NEW!_
 * link:../storage/task_replication_perform_remote_replication_between_element_clusters.html[Perform remote replication between clusters]
 * link:../storage/task_data_protection_back_up_and_restore_volumes.html[Back up and restore volumes]
-* link:../api/index.html[Manage storage using Element APIs^]
-* link:../storage/concept_system_monitoring_and_troubleshooting.html[Troubleshoot your system^]
+* link:../api/index.html[Manage storage using Element APIs]
+* link:../storage/concept_system_monitoring_and_troubleshooting.html[Troubleshoot your system]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server overview^]
 +
 You can navigate to specific tasks from the overview page.
