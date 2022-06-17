@@ -158,6 +158,6 @@ NOTE: Persistent volumes that are associated with management services are assign
 [discrete]
 == Find more information
 * link:../concepts/concept_solidfire_concepts_accounts_and_permissions.html[Learn about accounts]
-* link:../storage/task_data_manage_accounts_work_with_accounts_task.html[Work with user accounts]
+* link:../storage/task_data_manage_accounts_work_with_accounts_task.html[Work with accounts using CHAP]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]

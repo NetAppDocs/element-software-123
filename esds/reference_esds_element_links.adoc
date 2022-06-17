@@ -13,21 +13,21 @@ After you install SolidFire eSDS on your storage clusters, you can use the Eleme
 
 Here are the links to the content for various storage management tasks:
 
-* link:../storage/task_intro_use_basic_options_in_the_element_software_ui.html[Use basic options in the Element software UI^]
-* link:../storage/task_data_manage_accounts_work_with_accounts_task.html[Work with user accounts^]
-* link:../storage/task_data_manage_volumes_work_with_volumes_task.html[Work with volumes^]
+* link:../storage/task_intro_use_basic_options_in_the_element_software_ui.html[Use basic options in the Element software UI]
+* link:../storage/task_data_manage_accounts_work_with_accounts_task.html[Work with accounts using CHAP]
+* link:../storage/task_data_manage_volumes_work_with_volumes_task.html[Work with volumes]
 +
 You can also find information about applying a QoS policy to volumes here.
-* link:../storage/concept_data_manage_vvol_work_virtual_volumes.html[Work with virtual volumes^]
-* link:../storage/concept_data_manage_vol_access_group_work_with_volume_access_groups_and_initiators.html[Work with volume access groups and initiators^]
-* link:../storage/task_data_protection_using_volume_snapshots.html[Work with snapshots^]
-* link:../storage/concept_system_manage_key_get_started_with_external_key_management.html[Get started with external key management^] _NEW!_
-* link:../storage/task_system_manage_key_set_up_external_key_management.html[Set up external key management^] _NEW!_
-* link:../storage/task_replication_perform_remote_replication_between_element_clusters.html[Perform remote replication between clusters^]
-* link:../storage/task_data_protection_back_up_and_restore_volumes.html[Back up and restore volumes^]
+* link:../storage/concept_data_manage_vvol_work_virtual_volumes.html[Work with virtual volumes]
+* link:../storage/concept_data_manage_vol_access_group_work_with_volume_access_groups_and_initiators.html[Work with volume access groups and initiators]
+* link:../storage/task_data_protection_using_volume_snapshots.html[Work with snapshots]
+* link:../storage/concept_system_manage_key_get_started_with_external_key_management.html[Get started with external key management] _NEW!_
+* link:../storage/task_system_manage_key_set_up_external_key_management.html[Set up external key management] _NEW!_
+* link:../storage/task_replication_perform_remote_replication_between_element_clusters.html[Perform remote replication between clusters]
+* link:../storage/task_data_protection_back_up_and_restore_volumes.html[Back up and restore volumes]
 * link:../api/index.html[Manage storage using Element APIs^]
 * link:../storage/concept_system_monitoring_and_troubleshooting.html[Troubleshoot your system^]
-* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server overview]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server overview^]
 +
 You can navigate to specific tasks from the overview page.
 
