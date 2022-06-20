@@ -14,7 +14,6 @@ A SolidFire storage cluster has the ability to provide Quality of Service (QoS) 
 NOTE: SolidFire Active IQ has a QoS recommendations page that provides advice on optimal configuration and set up of QoS settings.
 
 == Quality of Service parameters
-
 IOPS parameters are defined in the following ways:
 
 * *Minimum IOPS* - The minimum number of sustained inputs and outputs per second (IOPS) that the storage cluster provides to a volume. The Min IOPS configured for a volume is the guaranteed level of performance for a volume. Performance does not drop below this level.
