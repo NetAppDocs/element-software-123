@@ -4,7 +4,8 @@ sidebar: sidebar
 keywords: volume snapshot, backup operations, back up volume snapshot, cluster, object store
 summary: 'You can use the integrated backup feature to back up a volume snapshot. You can back up snapshots from a SolidFire cluster to an external object store, or to another SolidFire cluster. When you back up a snapshot to an external object store, you must have a connection to the object store that allows read/write operations.'
 ---
-= Volume snapshot backup operations
+
+= Back up a volume snapshot
 :icons: font
 :imagesdir: ../media/
 
