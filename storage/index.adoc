@@ -19,7 +19,7 @@ The software interface is built upon the Element API.
 * link:task_post_deploy_configure_system_options.html[Configure SolidFire system options after deployment]
 * link:concept_upgrade_storage_components.html[Upgrade storage system components]
 * link:task_intro_use_basic_options_in_the_element_software_ui.html[Use basic options in the Element software UI]
-* link:concept_system_manage_account_management.html[Manage accounts]
+* link:concept_system_manage_accounts_overview.html[Manage accounts]
 * link:concept_system_manage_system_management.html[Manage your system]
 * link:concept_data_manage_data_management.html[Manage volumes and virtual volumes]
 * link:concept_data_protection.html[Protect your data]
