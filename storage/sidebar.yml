@@ -26,7 +26,7 @@ entries:
     - title: Provide feedback
       url: "/storage/task_intro_provide_feedback.html"
   - title: Manage accounts
-    url: "/storage/concept_system_manage_account_management.html"
+    url: "/storage/concept_system_manage_accounts_overview.html"
     entries:
     - title: Work with accounts using CHAP
       url: "/storage/task_data_manage_accounts_work_with_accounts_task.html"
