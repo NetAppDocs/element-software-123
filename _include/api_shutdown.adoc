@@ -1,5 +1,3 @@
-<<<<<<< HEAD:api/reference_element_api_shutdown.adoc
-=======
 You can use the `Shutdown` method to restart or shutdown the nodes in a cluster. You can shut down a single node, multiple nodes, or all of the nodes in the cluster using this method.
 
 == Parameters
@@ -63,4 +61,3 @@ This method returns a response similar to the following example:
 ----
 == New since version
 9.6
->>>>>>> b8bd1cde70fbb86eefde7751dc2c1858e5ca7d65:_include/api_shutdown.adoc
