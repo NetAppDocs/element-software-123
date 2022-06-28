@@ -16,7 +16,7 @@ Choose from the procedures listed here to replace a drive proactively, replace a
 * <<Replace a faulty drive>>
 * <<Replace a cache drive>>
 
-=== Replace a drive proactively
+== Replace a drive proactively
 
 Perform this procedure if you want to proactively replace a metadata drive or a block drive in your SolidFire eSDS cluster. The Element UI *Cluster* > *Drives* page shows the drive wear information.
 
@@ -86,7 +86,7 @@ You see the serial number of the new drive that you installed.
 . Select the icon under *Actions*, and then select *Add*.
 . Refresh the Element UI after the block sync job completes. You see that the alert about the drive available has cleared if you access the *Running Tasks* page from the *Reporting* tab of the Element UI.
 
-=== Replace a faulty drive
+== Replace a faulty drive
 
 If your SolidFire eSDS cluster has a faulty drive, the Element UI displays an alert. Before you remove the drive from the cluster, verify the reason for failure by looking at the information in the IPMI interface for your node/server. These steps are applicable if you are replacing a block drive or a metadata drive.
 
@@ -148,7 +148,7 @@ You see the serial number of the new drive that you installed.
 . Select the icon under *Actions*, and then select *Add*.
 . Refresh the Element UI after the block sync job completes. You see that the alert about the drive available has cleared if you access the *Running Tasks* page from the *Reporting* tab of the Element UI.
 
-=== Replace a cache drive
+== Replace a cache drive
 
 Perform this procedure if you want to replace the cache drive in your SolidFire eSDS cluster. The cache drive is associated with metadata services. The Element UI *Cluster* > *Drives* page shows the drive wear information.
 

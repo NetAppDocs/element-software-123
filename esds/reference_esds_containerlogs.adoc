@@ -34,7 +34,7 @@ IMPORTANT: If one of the containers is not up or running, do not use Podman to d
 All of the logs related to SolidFire eSDS can be found in `/var/log/solidfire/` on the host, which is persisted across container instances. This directory contains the logs from the Element container, and contains the `element_auth/` and `sfnetwd/` subdirectories, which contain the logs from the `element_auth` and `sfnetwd` containers, respectively.
 From inside a container, you can access container-specific logs at `/var/log`.
 
-=== Use the NetApp Hybrid Cloud Control UI to collect logs
+== Use the NetApp Hybrid Cloud Control UI to collect logs
 
 You can collect logs to send to NetApp Support to help with diagnosing issues with your SolidFire eSDS clusters.
 

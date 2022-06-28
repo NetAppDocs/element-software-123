@@ -26,9 +26,9 @@ entries:
     - title: Provide feedback
       url: "/storage/task_intro_provide_feedback.html"
   - title: Manage accounts
-    url: "/storage/task_data_manage_accounts_work_with_accounts_task.html"
+    url: "/storage/concept_system_manage_accounts_overview.html"
     entries:
-    - title: Work with user accounts
+    - title: Work with accounts using CHAP
       url: "/storage/task_data_manage_accounts_work_with_accounts_task.html"
     - title: Manage cluster administrator user accounts
       url: "/storage/concept_system_manage_manage_cluster_administrator_users.html"
@@ -221,7 +221,7 @@ entries:
           url: "/storage/task_data_protection_clone_a_volume_from_a_snapshot.html"
         - title: Roll back a volume to a snapshot
           url: "/storage/task_data_protection_roll_back_a_volume_to_a_snapshot.html"
-        - title: Volume snapshot backup operations
+        - title: Back up a volume snapshot
           url: "/storage/concept_data_protection_volume_snapshot_backup_operations.html"
           entries:
           - title: Back up a volume snapshot to an Amazon S3 object store

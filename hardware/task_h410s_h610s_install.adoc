@@ -22,7 +22,6 @@ TIP: See the link:../media/hseries_isi.pdf[poster^] for a visual representation 
 * <<Create a cluster>>
 
 == Workflow diagrams
-
 The workflow diagrams here provide a high-level overview of the installation steps. The steps vary slightly depending on the H-series model.
 
 === H410S

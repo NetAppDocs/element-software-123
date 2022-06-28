@@ -47,7 +47,7 @@ Some cluster API methods operate on nodes that are part of a cluster, or have be
 * xref:reference_element_api_removenodes.adoc[RemoveNodes]
 * xref:reference_element_api_setlicensekey.adoc[SetLicenseKey]
 * xref:reference_element_api_setloginsessioninfo.adoc[SetLoginSessionInfo]
-* xref:reference_element_api_shutdown.adoc[Shutdown]
+* xref:reference_element_api_cluster_shutdown.adoc[Shutdown]
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
