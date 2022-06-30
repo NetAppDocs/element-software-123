@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,stats,statistics,networkInterfacestats
 summary: 'The networkInterfaceStats object contains network statistics and error information for individual network interfaces on a storage node.'
 ---
+
 = networkInterfaceStats
 :icons: font
 :imagesdir: ../media/

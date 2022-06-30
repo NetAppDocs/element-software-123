@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: ntp, cluster, query, fqdn, dns server
 summary: 'You can instruct each node in a cluster to query a Network Time Protocol \(NTP\) server for updates. The cluster contacts only configured servers and requests NTP information from them.'
 ---
+
 = Configure Network Time Protocol servers for the cluster to query
 :icons: font
 :imagesdir: ../media/

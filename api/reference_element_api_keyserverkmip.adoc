@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: KMIP,key server,keys
 summary: 'The keyServerKmip object describes a Key Management Interoperability Protocol \(KMIP\) key server, which is a location for retrieving authentication keys for use with cluster features such as Encryption at Rest.'
 ---
+
 = keyServerKmip
 :icons: font
 :imagesdir: ../media/

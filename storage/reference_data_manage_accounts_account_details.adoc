@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: account, volumes
 summary: 'The Accounts page on the Management tab provides information about each account in the system, such as ID, user name, and efficiency details for the volumes assigned to each account.'
 ---
+
 = Account details
 :icons: font
 :imagesdir: ../media/

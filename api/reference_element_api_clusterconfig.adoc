@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: objects,object,clusterConfig
 summary: 'The clusterConfig object returns information the node uses to communicate with the cluster.'
 ---
+
 = clusterConfig
 :icons: font
 :imagesdir: ../media/

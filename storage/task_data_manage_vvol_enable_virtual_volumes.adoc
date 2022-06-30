@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: virtual volumes, enable, functionality on the cluster, vvols
 summary: 'You must manually enable vSphere Virtual Volumes \(VVols\) functionality through the NetApp Element software. The Element software system comes with VVols functionality disabled by default, and it is not automatically enabled as part of a new installation or upgrade. Enabling the VVols feature is a one-time configuration task.'
 ---
+
 = Enable virtual volumes
 :icons: font
 :imagesdir: ../media/

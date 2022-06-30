@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: addinitiatorstovolumeaccessgroup,add,adding,initiators,initiator,volume,access,group
 summary: 'You can use the AddInitiatorsToVolumeAccessGroup method to add initiators to a specified volume access group.'
 ---
+
 = AddInitiatorsToVolumeAccessGroup
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'You can use the CancelGroupClone method to stop an ongoing clone process occurring on a group of volumes. When you cancel a group clone operation, the system completes and removes the operation’s associated asyncHandle.'
 ---
+
 = CancelGroupClone
 :icons: font
 :imagesdir: ../media/

@@ -6,7 +6,6 @@ keywords: netapp, mnode, management node, vcenter, hcc, esxi
 ---
 
 = Create a NetApp HCC role in vCenter
-
 :hardbreaks:
 :nofooter:
 :icons: font

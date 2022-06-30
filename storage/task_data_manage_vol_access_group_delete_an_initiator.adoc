@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: initiator delete, deleted multiple initiators
 summary: 'You can delete an initiator after it is no longer needed. When you delete an initiator, the system removes it from any associated volume access group. Any connections using the initiator remain valid until the connection is reset.'
 ---
+
 = Delete an initiator
 :icons: font
 :imagesdir: ../media/

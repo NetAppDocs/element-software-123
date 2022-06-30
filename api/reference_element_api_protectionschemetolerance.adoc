@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,protectionSchemeTolerance
 summary: 'The protectionSchemeTolerance object contains information about whether a storage cluster, for a specific protection scheme, can continue to read and write data after failures.'
 ---
+
 = protectionSchemeTolerance
 :icons: font
 :imagesdir: ../media/

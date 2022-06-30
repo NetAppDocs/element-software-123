@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: data protection, protect your data, snapshots, replication, back up
 summary: 'NetApp Element software enables you to protect your data in a variety of ways with capabilities such as snapshots for individual volumes or groups of volumes, replication between clusters and volumes running on Element, and replication to ONTAP systems.'
 ---
+
 = Protect your data
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,stats,statistics,get,getting,getclusterstats
 summary: 'You can use the GetClusterStats method to retrieve high-level activity measurements for the cluster. Values returned are cumulative from the creation of the cluster.'
 ---
+
 = GetClusterStats
 :icons: font
 :imagesdir: ../media/

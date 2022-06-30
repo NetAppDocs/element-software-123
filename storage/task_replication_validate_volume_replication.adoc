@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume pairings, replication, validate volume replication
 summary: 'After a volume is replicated, you should ensure that the source and target volumes are active. When in an active state, volumes are paired, data is being sent from the source to the target volume, and the data is in sync.'
 ---
+
 = Validate volume replication
 :icons: font
 :imagesdir: ../media/

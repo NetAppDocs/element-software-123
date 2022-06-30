@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: LDAP,cluster,admin,add,adding,addldapclusteradmin
 summary: 'You can use the AddLdapClusterAdmin to add a new LDAP cluster administrator user. An LDAP cluster administrator can manage the cluster using the API and management tools. LDAP cluster admin accounts are completely separate and unrelated to standard tenant accounts.'
 ---
+
 = AddLdapClusterAdmin
 :icons: font
 :imagesdir: ../media/

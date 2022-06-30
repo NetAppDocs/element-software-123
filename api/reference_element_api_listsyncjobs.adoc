@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: sync,synchronization,job,jobs,list,get,listing,getting,listsyncjobs
 summary: 'You can use the ListSyncJobs method to get information about synchronization jobs that are running on an Element storage cluster. This method returns information about slice, clone, block, and remote synchronization jobs.'
 ---
+
 = ListSyncJobs
 :icons: font
 :imagesdir: ../media/

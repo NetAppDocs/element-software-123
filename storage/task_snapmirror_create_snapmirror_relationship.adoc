@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: relationships, create, snapmirror, ui
 summary: 'You must create a SnapMirror relationship in the NetAppElement UI.'
 ---
+
 = Create a SnapMirror relationship
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,capacity,getting,get,measurements,measure,deduplication,GetClusterCapacity
 summary: 'You can use the GetClusterCapacity to return high-level capacity measurements for an entire storage cluster. This method returns fields that you can use to calculate the efficiency rates shown in the Element web UI. You can use the efficiency calculations in scripts to return the efficiency rates for thin provisioning, deduplication, compression, and overall efficiency.'
 ---
+
 = GetClusterCapacity
 :icons: font
 :imagesdir: ../media/

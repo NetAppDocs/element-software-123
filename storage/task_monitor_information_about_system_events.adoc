@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: system events, monitor, view event log
 summary: 'You can view information about various events detected in the system. The system refreshes the event messages every 30 seconds. The event log displays key events for the cluster.'
 ---
+
 = View information about system events
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,QoSPolicy,QoS,policy,policies
 summary: 'The QoSPolicy object contains information about a QoS policy on a storage cluster running Element software.'
 ---
+
 = QoSPolicy
 :icons: font
 :imagesdir: ../media/

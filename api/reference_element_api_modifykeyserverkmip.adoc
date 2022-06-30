@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: KMIP,key server,modifying,modify,change,edit
 summary: 'You can use the ModifyKeyServerKmip method to modify an existing Key Management Interoperability Protocol \(KMIP\) key server to the specified attributes. Although the only required parameter is the keyServerID, a request containing only the keyServerID will take no action and return no error. Any other parameters you specify will replace the existing values for the key server with the specified keyServerID. The key server is contacted during the operation to ensure that it is functional. You can provide multiple hostnames or IP addresses with the kmipKeyServerHostnames parameter, but only if the key servers are in a clustered configuration.'
 ---
+
 = ModifyKeyServerKmip
 :icons: font
 :imagesdir: ../media/

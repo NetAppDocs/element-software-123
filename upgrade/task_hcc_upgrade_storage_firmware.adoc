@@ -6,7 +6,6 @@ keywords: netapp, element, hcc, firmware, storage firmware
 ---
 
 = Upgrade storage firmware
-
 :hardbreaks:
 :nofooter:
 :icons: font

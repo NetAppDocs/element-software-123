@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: storage,cluster,structure,config,configuration,info,get,getting,getclusterstructure
 summary: 'You can use the GetClusterStructure method to back up the current storage cluster configuration information. If the storage cluster configuration is changed while this method is running, the contents of the configuration backup will be unpredictable. You can save this data to a text file and restore it on other clusters, or the same cluster in the case of a disaster.'
 ---
+
 = GetClusterStructure
 :icons: font
 :imagesdir: ../media/

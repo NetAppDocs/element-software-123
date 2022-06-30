@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,snapMirrorPolicy
 summary: 'The snapMirrorPolicy object contains information about a SnapMirror policy that is stored on an ONTAP system.'
 ---
+
 = snapMirrorPolicy
 :icons: font
 :imagesdir: ../media/

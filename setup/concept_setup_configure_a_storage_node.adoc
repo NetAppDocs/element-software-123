@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: configuring node,configure storage node,configuring using TUI,configuring using node UI
 summary: 'You must configure individual nodes before you can add them to a cluster. After you install and cable a node in a rack unit and power it on, you can configure the node network settings using the per-node UI or the node terminal user interface.'
 ---
+
 = Configure a storage node
 :icons: font
 :imagesdir: ../media/

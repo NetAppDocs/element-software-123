@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: drives, physical drives, cluster data, storage node, volume metadata, block drives, clusters
 summary: 'A storage node contains one or more physical drives that are used to store a portion of the data for the cluster. The cluster utilizes the capacity and performance of the drive after the drive has been successfully added to a cluster.'
 ---
+
 = Drives
 :icons: font
 :imagesdir: ../media/

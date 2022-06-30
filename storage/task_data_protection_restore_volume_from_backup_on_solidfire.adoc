@@ -1,9 +1,10 @@
 ---
 permalink: storage/task_data_protection_restore_volume_from_backup_on_solidfire.html
 sidebar: sidebar
-keywords: volume restore, solidfire storage cluster 
+keywords: volume restore, solidfire storage cluster
 summary: 'You can restore a volume from a backup on a SolidFire storage cluster.'
 ---
+
 = Restore a volume from backup on a SolidFire storage cluster
 :icons: font
 :imagesdir: ../media/

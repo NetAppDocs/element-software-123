@@ -6,7 +6,6 @@ keywords: netapp, element, hcc, hybrid cloud control, storage, storage performan
 ---
 
 = Monitor storage resources on the Hybrid Cloud Control Dashboard
-
 :hardbreaks:
 :nofooter:
 :icons: font

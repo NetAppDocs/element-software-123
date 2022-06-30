@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapmirror,policy,policies,list,listing,ontap,listsnapmirrorpolicies
 summary: 'The Element software web UI uses the ListSnapMirrorPolicies method to list all SnapMirror policies on a remote ONTAP system.'
 ---
+
 = ListSnapMirrorPolicies
 :icons: font
 :imagesdir: ../media/

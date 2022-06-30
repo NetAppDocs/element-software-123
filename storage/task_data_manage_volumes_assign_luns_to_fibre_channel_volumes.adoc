@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volumes, fc, luns, access group, assign
 summary: 'You can change the LUN assignment for a Fibre Channel volume in a volume access group. You can also make Fibre Channel volume LUN assignments when you create a volume access group.'
 ---
+
 = Assign LUNs to Fibre Channel volumes
 :icons: font
 :imagesdir: ../media/

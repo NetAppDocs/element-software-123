@@ -6,7 +6,6 @@ keywords: netapp, management node ui, mnode ui, network settings, test network, 
 ---
 
 = Modify and test the management node network, cluster, and system settings
-
 :hardbreaks:
 :nofooter:
 :icons: font

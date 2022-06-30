@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: solidfire, element, cluster admin, storage, account, authoritative cluster
 summary: 'To administer and provide access to storage resources on your system, you will need to set up accounts for system resources.'
 ---
+
 = Accounts and permissions
 :icons: font
 :imagesdir: ../media/

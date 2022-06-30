@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster, power down, mvip
 summary: 'You can power down an entire cluster after you have contacted NetApp Support and completed preliminary steps.'
 ---
+
 = Power down a cluster
 :icons: font
 :imagesdir: ../media/

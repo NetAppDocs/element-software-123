@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: individual volume snapshots, use, volume, snapshot
 summary: 'A volume snapshot is a point-in-time copy of a volume. You can use an individual volume rather than a group of volumes for the snapshot.'
 ---
+
 = Use individual volume snapshots for data protection
 :icons: font
 :imagesdir: ../media/

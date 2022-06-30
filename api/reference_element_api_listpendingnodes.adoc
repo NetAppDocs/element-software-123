@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,list,listing,pending,nodes,node,listpendingnodes
 summary: 'You can use the ListPendingNodes method to list the pending storage nodes in the system. Pending nodes are storage nodes that are running and configured to join the storage cluster but have not yet been added using the AddNodes API method.'
 ---
+
 = ListPendingNodes
 :icons: font
 :imagesdir: ../media/

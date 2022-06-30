@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: management node,mNode
 summary: 'You can use the management node \(mNode\) to upgrade system services, manage cluster assets and settings, run system tests and utilities, configure Active IQ for system monitoring, and enable NetApp Support access for troubleshooting.'
 ---
+
 = Work with the management node
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: drive,config,configuration,get,getting,getdriveconfig
 summary: 'You can use the GetDriveConfig method to get drive information for expected slice and block drive counts as well as the number of slices and block drives that are currently connected to the node.'
 ---
+
 = GetDriveConfig
 :icons: font
 :imagesdir: ../media/

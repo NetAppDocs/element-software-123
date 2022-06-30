@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: what is, element, volume, storage volume, persistent volume
 summary: 'The NetApp SolidFire storage system provisions storage using volumes. Volumes are block devices accessed over the network by iSCSI or Fibre Channel clients.'
 ---
+
 = Volumes
 :icons: font
 :imagesdir: ../media/

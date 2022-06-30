@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: replication, snapmirror, data protection
 summary: 'You can create SnapMirror relationships from the Data Protection tab in the NetAppElement UI. SnapMirror functionality must be enabled to see this in the user interface.'
 ---
+
 = Use SnapMirror replication between Element and ONTAP clusters
 :icons: font
 :imagesdir: ../media/

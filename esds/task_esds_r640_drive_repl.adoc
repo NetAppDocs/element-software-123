@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: solidfire esds, replace drive, proactive drive replacement, cache drive replacement, faulty drive replacement, r640
 summary: Perform this procedure if you want to proactively replace a metadata drive or a block drive in your SolidFire eSDS cluster. The Element UI Cluster > Drives page shows the drive wear information.
 ---
+
 = Replace drives for Dell R640
 :icons: font
 :imagesdir: ../media/

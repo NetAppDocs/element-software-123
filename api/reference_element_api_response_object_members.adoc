@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: response,object,member
 summary: 'Each Element software API response body has the following basic parts:'
 ---
+
 = Response object members
 :icons: font
 :imagesdir: ../media/

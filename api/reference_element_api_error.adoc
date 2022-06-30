@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: objects,object,error
 summary: 'The error object contains an error code and message if an error occurs during a method call. All system-generated errors have an error code of 500.'
 ---
+
 = error
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume snapshot, backup, openstack swift S3 object store
 summary: 'You can back up SolidFire snapshots to secondary object stores that are compatible with OpenStack Swift.'
 ---
+
 = Back up a volume snapshot to an OpenStack Swift object store
 :icons: font
 :imagesdir: ../media/

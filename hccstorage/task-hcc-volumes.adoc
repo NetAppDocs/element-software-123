@@ -6,7 +6,6 @@ keywords: netapp, element, volumes, storage, access groups, initiators, capacity
 ---
 
 = Monitor volumes on your storage cluster
-
 :hardbreaks:
 :nofooter:
 :icons: font

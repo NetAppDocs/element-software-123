@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: accounts,account,efficiency,get,getting,GetAccountEfficiency
 summary: 'You can use GetAccountEfficiency to get efficiency statistics about a volume account. This method returns efficiency information only for the account you give as a parameter.'
 ---
+
 = GetAccountEfficiency
 :icons: font
 :imagesdir: ../media/

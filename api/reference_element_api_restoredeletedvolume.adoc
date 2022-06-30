@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: restore,active,restoring,deleted,volume,volumes,restoredeletedvolume
 summary: 'You can use the RestoreDeletedVolume method to mark a deleted volume as active again. This action makes the volume immediately available for iSCSI connection.'
 ---
+
 = RestoreDeletedVolume
 :icons: font
 :imagesdir: ../media/

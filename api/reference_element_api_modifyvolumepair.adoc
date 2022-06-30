@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,pair,pairs,modify,modifying,edit,editing,changing,change,modifyvolumepair,paired
 summary: 'You can use the ModifyVolumePair method to pause or restart replication between a pair of volumes. This method is set on the source volume \(the volume with read/write access\).'
 ---
+
 = ModifyVolumePair
 :icons: font
 :imagesdir: ../media/

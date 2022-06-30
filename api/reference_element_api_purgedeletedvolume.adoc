@@ -14,7 +14,6 @@ You can use the `PurgeDeletedVolume` method to immediately and permanently purge
 Volumes are purged automatically after a period of time, so usage of this method is not typically required.
 
 == Parameter
-
 This method has the following input parameter:
 
 [options="header"]

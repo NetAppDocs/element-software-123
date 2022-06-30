@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: virtual volume, delete, vvols, use Element UI to delete a vvol
 summary: 'Although virtual volumes should always be deleted from the VMware Management Layer, the functionality for you to delete virtual volumes is enabled from the Element UI. You should only delete a virtual volume from the Element UI when absolutely necessary, such as when vSphere fails to clean up virtual volumes on SolidFire storage.'
 ---
+
 = Delete a virtual volume
 :icons: font
 :imagesdir: ../media/

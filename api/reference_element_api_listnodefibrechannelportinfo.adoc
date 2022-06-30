@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: list,listing,node,fibre,channel,port,info,listnodefibrechannelportinfo
 summary: 'You can use the ListNodeFibreChannelPortInfo method to list information about the Fibre Channel ports on a node.'
 ---
+
 = ListNodeFibreChannelPortInfo
 :icons: font
 :imagesdir: ../media/

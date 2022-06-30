@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume access group, create, initiators
 summary: 'You can create volume access groups by mapping initiators to a collection of volumes for secured access. You can then grant access to the volumes in the group with an account CHAP initiator secret and target secret.'
 ---
+
 = Create a volume access group
 :icons: font
 :imagesdir: ../media/

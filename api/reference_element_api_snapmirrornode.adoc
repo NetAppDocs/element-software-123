@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,snapMirrorNode
 summary: 'The snapMirrorNode object contains information about the nodes of the destination ONTAP cluster in a SnapMirror relationship.'
 ---
+
 = snapMirrorNode
 :icons: font
 :imagesdir: ../media/

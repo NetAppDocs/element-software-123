@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: objects,object,clusterPair
 summary: 'The clusterPair object contains information about clusters paired with the local cluster. You can retrieve a list of clusterPair objects for the local cluster with the ListClusterPairs method.'
 ---
+
 = clusterPair
 :icons: font
 :imagesdir: ../media/
@@ -74,6 +75,6 @@ a|
 string
 |===
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listclusterpairs.adoc[ListClusterPairs]

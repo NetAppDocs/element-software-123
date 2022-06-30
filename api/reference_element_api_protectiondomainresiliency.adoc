@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,protectionDomainResiliency
 summary: 'The protectionDomainResiliency object contains the resiliency status of this storage cluster. Resiliency indicates the storage cluster’s ability to automatically heal itself from one or more failures all within a single protection domain of its associated protection domain type. A storage cluster is considered healed when it can continue reading and writing data through the failure of any single storage node \(a state known as node tolerance\).'
 ---
+
 = protectionDomainResiliency
 :icons: font
 :imagesdir: ../media/

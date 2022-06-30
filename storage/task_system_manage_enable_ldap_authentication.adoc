@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'You can configure storage system integration with an existing LDAP server. This enables LDAP administrators to centrally manage storage system access for users.'
 ---
+
 = Enable LDAP authentication with the Element user interface
 :icons: font
 :imagesdir: ../media/

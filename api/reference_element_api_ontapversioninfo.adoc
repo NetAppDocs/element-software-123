@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,ontapVersionInfo
 summary: 'The ontapVersionInfo object contains information about the API version of the ONTAP cluster in a SnapMirror relationship. The Element web UI uses the GetOntapVersionInfo API method to get this information.'
 ---
+
 = ontapVersionInfo
 :icons: font
 :imagesdir: ../media/

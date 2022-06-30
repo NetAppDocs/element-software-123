@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: delete,deleting,initiator,initiators,DeleteInitiators
 summary: 'You can use DeleteInitiators to delete one or more initiators from the system \(and from any associated volumes or volume access groups\).'
 ---
+
 = DeleteInitiators
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster fault codes, alerts, error codes, view
 summary: 'The system reports an error or a state that might be of interest by generating a fault code, which is listed on the Alerts page. These codes help you determine what component of the system experienced the alert and why the alert was generated.'
 ---
+
 = Cluster fault codes
 :icons: font
 :imagesdir: ../media/

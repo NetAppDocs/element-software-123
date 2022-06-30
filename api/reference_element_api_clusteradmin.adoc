@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: objects,object,clusterAdmin
 summary: 'The clusterAdmin object contains information about the current cluster administrator user. You can retrieve admin user information with the GetCurrentClusterAdmin API method.'
 ---
+
 = clusterAdmin
 :icons: font
 :imagesdir: ../media/
@@ -55,6 +56,6 @@ a|
 string
 |===
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_getcurrentclusteradmin.adoc[GetCurrentClusterAdmin]

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: h410s, replacement, node replacement, maintenance
 summary: You should replace a storage node in the event of CPU failure, Radian card problems, other motherboard issues, or if it does not power on. The instructions apply to H410S storage nodes.
 ---
+
 = Replace a H410S node
 :icons: font
 :imagesdir: ../media/

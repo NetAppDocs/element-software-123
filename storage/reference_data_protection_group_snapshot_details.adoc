@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapshots, group snapshots, volumes, replication
 summary: 'The Group Snapshots page on the Data Protection tab provides information about the group snapshots.'
 ---
+
 = Group snapshot details
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: network settings, per-node UI, storage node, ui
 summary: 'You can change the storage node network settings to give the node a new set of network attributes.'
 ---
+
 = Network settings details from the per-node UI
 :icons: font
 :imagesdir: ../media/

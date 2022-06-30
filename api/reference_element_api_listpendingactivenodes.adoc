@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,list,listing,pending,active,node,nodes,listpendingactivenodes
 summary: 'You can use the ListPendingActiveNodes method to list nodes in the cluster that are in the PendingActive state, between pending and active states. Nodes in this state are being returned to the factory image.'
 ---
+
 = ListPendingActiveNodes
 :icons: font
 :imagesdir: ../media/

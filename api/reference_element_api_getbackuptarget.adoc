@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: backup,target,targets,get,getting,GetBackupTarget
 summary: 'You can use the GetBackupTarget method to return information about a specific backup target that you have created.'
 ---
+
 = GetBackupTarget
 :icons: font
 :imagesdir: ../media/

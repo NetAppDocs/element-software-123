@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: multi-factor,MFA,idp,authentication,methods
 summary: 'You can use multi-factor authentication \(MFA\) to manage user sessions using a third-party Identity Provider \(IdP\) via the Security Assertion Markup Language \(SAML\).'
 ---
+
 = Multi-factor authentication API methods
 :icons: font
 :imagesdir: ../media/

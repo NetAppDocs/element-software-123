@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: account,method,methods,API,managing,manage
 summary: 'Account methods enable you to add, remove, view, and modify account and security information.'
 ---
+
 = Account API methods
 :icons: font
 :imagesdir: ../media/

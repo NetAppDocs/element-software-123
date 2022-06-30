@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: nodes, manage, cluster, capacity rule, pairs, stranded nodes
 summary: 'You can manage SolidFire storage and Fibre Channel nodes from the Nodes page of the Cluster tab.'
 ---
+
 = Manage nodes
 :icons: font
 :imagesdir: ../media/

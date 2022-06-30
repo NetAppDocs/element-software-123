@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: fips,report,get,getting,getfipsreport,feature,support
 summary: 'You can use the GetFipsReport method to check the FIPS 140-2 encryption feature support status of all nodes in the storage cluster.'
 ---
+
 = GetFipsReport
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,creation,check,proposed,checking,nodes,node,before,CheckProposedCluster
 summary: 'You can use the CheckProposedCluster method to test a set of storage nodes before creating a storage cluster with them to identify possible errors or faults that would occur from the attempt, such as unbalanced mixed node capabilities or node types that are not supported for two-node storage clusters.'
 ---
+
 = CheckProposedCluster
 :icons: font
 :imagesdir: ../media/

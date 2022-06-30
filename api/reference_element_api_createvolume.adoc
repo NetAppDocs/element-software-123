@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: create,volume,volumes,creating,CreateVolume
 summary: 'You can use the CreateVolume method to create a new, empty volume on the cluster. As soon as the volume creation is complete, the volume is available for connection via iSCSI.'
 ---
+
 = CreateVolume
 :icons: font
 :imagesdir: ../media/
@@ -235,6 +236,6 @@ This method returns a response similar to the following example:
 
 9.6
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_getdefaultqos.adoc[GetDefaultQoS]

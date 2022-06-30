@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: key provider,KMIP,keys
 summary: 'The keyProviderKmip object describes a Key Management Interoperability Protocol \(KMIP\) key provider. A key provider is both a mechanism and a location for retrieving authentication keys for use with cluster features such as Encryption at Rest.'
 ---
+
 = keyProviderKmip
 :icons: font
 :imagesdir: ../media/

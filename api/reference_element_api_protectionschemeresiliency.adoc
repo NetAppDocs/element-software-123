@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,protectionSchemeResiliency
 summary: 'The protectionSchemeResiliency object contains information about whether a storage cluster, for a specific protection scheme, can automatically heal itself from one or more failures within its associated protectionDomainType. A storage cluster is considered healed when it can continue reading and writing data through the failure of any single storage node \(a state known as node tolerance\).'
 ---
+
 = protectionSchemeResiliency
 :icons: font
 :imagesdir: ../media/

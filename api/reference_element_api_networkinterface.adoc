@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,networkInterface
 summary: 'The networkInterface object contains configuration information for individual network interfaces on a storage node.'
 ---
+
 = networkInterface
 :icons: font
 :imagesdir: ../media/

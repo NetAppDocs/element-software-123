@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: virtual volumes, volumes, manage
 summary: 'You can manage the data in a cluster running Element software from the Management tab in the Element UI. Available cluster management functions include creating and managing data volumes, user accounts, volume access groups, initiators, and Quality of Service \(QoS\) policies.'
 ---
+
 = Manage volumes and virtual volumes
 :icons: font
 :imagesdir: ../media/

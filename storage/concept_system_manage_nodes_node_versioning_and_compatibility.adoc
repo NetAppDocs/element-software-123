@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: compatibility, node version, clusters, software version, compatible versions, major, minor, micro
 summary: 'Node compatibility is based on the Element software version installed on a node. Element software-based storage clusters automatically image a node to the Element software version on the cluster if the node and cluster are not at compatible versions.'
 ---
+
 = Node versioning and compatibility
 :icons: font
 :imagesdir: ../media/

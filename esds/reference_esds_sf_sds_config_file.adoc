@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: element, solidfire esds, hardware components, configuration file
 summary: Every node has a sf_sds_config.yaml file, which includes the list of hardware that you specify to be consumed by the SolidFire eSDS services. After you replace a drive, you must add the replacement drive information in this file for the node you replaced the drive from. This file is stored in /opt/sf/. This file includes all the information about the drives in the node. You must enter the details of the new drive in this file every time you add a new drive.
 ---
+
 = Contents of the `sf_sds_config.yaml` file
 :icons: font
 :imagesdir: ../media/

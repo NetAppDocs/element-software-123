@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapshot,snapshots,list,listing,information,schedule,schedules,listschedules
 summary: 'You can use ListSchedules to get information about all scheduled snapshots that have been created.'
 ---
+
 = ListSchedules
 :icons: font
 :imagesdir: ../media/

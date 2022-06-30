@@ -6,7 +6,6 @@ keywords: netapp, element, cluster, volume, access
 ---
 
 = Create and manage volume access groups
-
 :hardbreaks:
 :nofooter:
 :icons: font

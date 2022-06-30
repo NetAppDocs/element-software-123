@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapmirror,interface,interfaces,list,listing,listsnapmirrornetworkinterfaces,ontap
 summary: 'The Element software web UI uses the ListSnapMirrorNetworkInterfaces method to list all available SnapMirror interfaces on a remote ONTAP system.'
 ---
+
 = ListSnapMirrorNetworkInterfaces
 :icons: font
 :imagesdir: ../media/

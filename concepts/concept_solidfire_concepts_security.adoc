@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: solidfire security, element security, encryption at rest, software encryption at rest, external key management, fips 140-2, mfa
 summary: When you use NetApp Element software, your data is protected by industry-standard security protocols.
 ---
+
 = Security
 :icons: font
 :imagesdir: ../media/
@@ -21,7 +22,7 @@ Another type of encryption-at-rest, software encryption-at-rest enables all data
 
 NOTE: Software encryption at rest is available by default in all SolidFire Enterprise SDS nodes. Software encryption at rest provides a primary software layer of data security encryption in SolidFire Enterprise SDS nodes that do not include Self-Encrypting Drives (SEDs).
 
-WARNING: For SolidFire all-flash storage clusters, software encryption at rest must be enabled during cluster creation and cannot be disabled after the cluster has been created. 
+WARNING: For SolidFire all-flash storage clusters, software encryption at rest must be enabled during cluster creation and cannot be disabled after the cluster has been created.
 
 Both software and hardware-based encryption-at-rest can be used independently or in combination with one another.
 

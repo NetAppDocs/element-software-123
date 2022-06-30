@@ -6,7 +6,6 @@ keywords: netapp, element, cluster, element, account, user, volume, hybrid cloud
 ---
 
 = Manage and monitor storage with NetApp Hybrid Cloud Control
-
 :hardbreaks:
 :nofooter:
 :icons: font

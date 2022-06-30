@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: virtual network delete, remove, object, address blocks, vlan
 summary: 'You can remove a virtual network object. You must add the address blocks to another virtual network before you remove a virtual network.'
 ---
+
 = Delete a virtual network
 :icons: font
 :imagesdir: ../media/

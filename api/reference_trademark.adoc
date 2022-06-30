@@ -1,9 +1,10 @@
 ---
 permalink: api/reference_trademark.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: ''
 ---
+
 = Trademark
 :icons: font
 :imagesdir: ../media/

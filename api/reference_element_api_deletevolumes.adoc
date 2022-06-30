@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volumes,volume,delete,deleting,multiple,DeleteVolumes
 summary: 'You can use the DeleteVolumes method to mark multiple \(up to 500\) active volumes for deletion. When marked, the volume is purged \(permanently deleted\) after the cleanup interval elapses.'
 ---
+
 = DeleteVolumes
 :icons: font
 :imagesdir: ../media/

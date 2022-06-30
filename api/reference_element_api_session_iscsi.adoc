@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,session
 summary: 'The session \(iSCSI\) object contains detailed information about each volume’s iSCSI session. You can retrieve iSCSI session information with the ListISCSISessions API method.'
 ---
+
 = session (iSCSI)
 :icons: font
 :imagesdir: ../media/

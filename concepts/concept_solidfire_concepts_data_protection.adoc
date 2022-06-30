@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: what is, element, solidfire, replication, clone, snapshot, protection domain, double helix
 summary: 'Data protection features include remote replication, volume snapshots, volume cloning, Protection Domains, and high availability with double Helix technology.'
 ---
+
 = Data protection
 :icons: font
 :imagesdir: ../media/

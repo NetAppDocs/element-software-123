@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,syncjob
 summary: 'The syncJob object contains information about clone, remote replication, or slice synchronization jobs that are running on a cluster.'
 ---
+
 = syncJob
 :icons: font
 :imagesdir: ../media/

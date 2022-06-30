@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: fips, security, federal information processing standards, 140-2, nodes, drives, ear
 summary: 'To prepare for enabling the FIPS drives feature, you should avoid mixing nodes where some are FIPS drives capable and some are not.'
 ---
+
 = Avoid mixing nodes for FIPS drives
 :icons: font
 :imagesdir: ../media/

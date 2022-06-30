@@ -1,9 +1,10 @@
 ---
 permalink: storage/task_data_manage_vol_access_group_view_individual_access_group_details.html
 sidebar: sidebar
-keywords: access group details, view, view details, initiators  
+keywords: access group details, view, view details, initiators
 summary: 'You can view details for an individual access group, such as attached volumes and initiators, in a graphical format.'
 ---
+
 = View individual access group details
 :icons: font
 :imagesdir: ../media/

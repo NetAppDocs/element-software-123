@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snmp,trap,information,info,setting,set,setsnmptrapinfo
 summary: 'You can use the SetSnmpTrapInfo method to enable and disable the generation of cluster SNMP notifications \(traps\) and to specify the set of hosts that receive the notifications. The values you pass with each SetSnmpTrapInfo method call replace all values set in any previous call.'
 ---
+
 = SetSnmpTrapInfo
 :icons: font
 :imagesdir: ../media/

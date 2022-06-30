@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapshot,schedule,get,getting,getschedule
 summary: 'You can use GetSchedule to get information about a scheduled snapshot.'
 ---
+
 = GetSchedule
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume pairings, pairing key, replication
 summary: 'If you do not have cluster admin credentials for a remote cluster, you can pair a volume with another volume on a remote cluster using a pairing key.'
 ---
+
 = Pair volumes using a pairing key
 :icons: font
 :imagesdir: ../media/

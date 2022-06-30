@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,session
 summary: 'The session object contains information about each Fibre Channel session that is visible to the cluster and what target ports it is visible on. You can retrieve this information with the ListFibreChannelSessions API method.'
 ---
+
 = session (Fibre Channel)
 :icons: font
 :imagesdir: ../media/

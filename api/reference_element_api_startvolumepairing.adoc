@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,pair,pairing,start,starting,startvolumepairing
 summary: 'You can use the StartVolumePairing method to create an encoded key from a volume that is used to pair with another volume. The key that this method creates is used in the CompleteVolumePairing method to establish a volume pairing.'
 ---
+
 = StartVolumePairing
 :icons: font
 :imagesdir: ../media/

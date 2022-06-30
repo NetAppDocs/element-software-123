@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: backup,target,targets,remove,delete,removing,deleting,removebackuptarget
 summary: 'You can use the RemoveBackupTarget method to remove backup targets.'
 ---
+
 = RemoveBackupTarget
 :icons: font
 :imagesdir: ../media/

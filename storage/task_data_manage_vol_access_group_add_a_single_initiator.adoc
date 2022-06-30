@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: initiator, add to volume access group, access groups, add single initiator, create initiator
 summary: 'You can add an initiator to an existing volume access group.'
 ---
+
 = Add a single initiator to a volume access group
 :icons: font
 :imagesdir: ../media/

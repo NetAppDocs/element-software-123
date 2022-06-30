@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: addnodes,node,add,adding,nodes,cluster
 summary: 'You can use the AddNodes method to add one or more new nodes to a cluster.'
 ---
+
 = AddNodes
 :icons: font
 :imagesdir: ../media/

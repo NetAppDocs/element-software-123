@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,snapMirrorAggregate
 summary: 'The snapMirrorAggregate object contains information about the available ONTAP aggregates, which are collections of disks made available to volumes as storage. You can get this information using the ListSnapMirrorAggregates API method.'
 ---
+
 = snapMirrorAggregate
 :icons: font
 :imagesdir: ../media/

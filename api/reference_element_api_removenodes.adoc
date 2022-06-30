@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: node,nodes,cluster,remove,removing,removenodes
 summary: 'You can use RemoveNodes to remove one or more nodes that should no longer participate in the cluster.'
 ---
+
 = RemoveNodes
 :icons: font
 :imagesdir: ../media/

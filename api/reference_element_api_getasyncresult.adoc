@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: async,asynchronous,results,result,get,getting,GetAsyncResult
 summary: 'You can use GetAsyncResult to retrieve the result of asynchronous method calls. Some method calls require some time to run, and might not be finished when the system sends the initial response. To obtain the status or result of the method call, use GetAsyncResult to poll the asyncHandle value returned by the method.'
 ---
+
 = GetAsyncResult
 :icons: font
 :imagesdir: ../media/

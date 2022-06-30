@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: ontap,version,info,information,get,getting,api,support,getontapversioninfo
 summary: 'The Element web UI uses GetOntapVersionInfo to get information about API version support from the ONTAP cluster in a SnapMirror relationship.'
 ---
+
 = GetOntapVersionInfo
 :icons: font
 :imagesdir: ../media/

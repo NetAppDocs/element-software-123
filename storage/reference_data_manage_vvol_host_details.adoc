@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: host details, vvols, ESXi host details, virtual volumes, bindings, endpoints
 summary: 'The Hosts page on the VVols tab provides information about VMware ESXi hosts that host virtual volumes.'
 ---
+
 = Host details
 :icons: font
 :imagesdir: ../media/

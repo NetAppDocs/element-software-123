@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'NetApp engineering uses the GetCompleteStats API method to test new features. The data returned from GetCompleteStats is not documented, changes frequently, and is not guaranteed to be accurate. You should not use GetCompleteStats for collecting performance data or any other management integration with a storage cluster running Element software.'
 ---
+
 = GetCompleteStats
 :icons: font
 :imagesdir: ../media/

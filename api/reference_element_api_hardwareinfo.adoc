@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,hardwareInfo
 summary: 'The hardwareInfo object contains detailed information about the hardware and status of each node in the cluster. You can retrieve this information with the GetHardwareInfo API method.'
 ---
+
 = hardwareInfo
 :icons: font
 :imagesdir: ../media/

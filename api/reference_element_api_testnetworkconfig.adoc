@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: test,testing,network,config,configuration,testnetworkconfig
 summary: 'You can use the TestNetworkConfig method to test that the configured network settings match the network settings being used on the system.'
 ---
+
 = TestNetworkConfig
 :icons: font
 :imagesdir: ../media/

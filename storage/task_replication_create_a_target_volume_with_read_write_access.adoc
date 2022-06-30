@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: target volume, create, read, write access
 summary: 'The replication process involves two endpoints: the source and the target volume. When you create the target volume, the volume is automatically set to read/write mode to accept the data during the replication.'
 ---
+
 = Create a target volume with read or write access
 :icons: font
 :imagesdir: ../media/

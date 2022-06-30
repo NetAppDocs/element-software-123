@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapmirror,node,nodes,list,listing,listsnapmirrornodes
 summary: 'The Element software web UI uses the ListSnapMirrorNodes method to get a list of nodes in a remote ONTAP cluster.'
 ---
+
 = ListSnapMirrorNodes
 :icons: font
 :imagesdir: ../media/

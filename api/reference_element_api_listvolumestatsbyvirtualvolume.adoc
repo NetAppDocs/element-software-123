@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volumes,volume,virtual,stats,list,listing,listvolumestatsbyvirtualvolume,activity
 summary: 'You can use the ListVolumeStatsByVirtualVolume method to list volume statistics for any volumes in the system that are associated with virtual volume. Statistics are cumulative from the creation of the volume.'
 ---
+
 = ListVolumeStatsByVirtualVolume
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,volumes,virtual,get,getting,count,GetVirtualVolumeCount
 summary: 'You can use the GetVirtualVolumeCount method to retrieve the number of virtual volumes currently in the system.'
 ---
+
 = GetVirtualVolumeCount
 :icons: font
 :imagesdir: ../media/

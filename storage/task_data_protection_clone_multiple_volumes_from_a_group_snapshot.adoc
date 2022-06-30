@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: multiple volumes, group snapshot, clone, create, data protection
 summary: 'You can clone a group of volumes from a point-in-time group snapshot. This operation requires that a group snapshot of the volumes already exist, because the group snapshot is used as the basis to create the volumes. After you create the volumes, you can use them like any other volume in the system.'
 ---
+
 = Cloning multiple volumes from a group snapshot
 :icons: font
 :imagesdir: ../media/

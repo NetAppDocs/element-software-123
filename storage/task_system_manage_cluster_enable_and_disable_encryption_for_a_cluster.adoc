@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: enable, disable, encryption at rest, cluster, sed, hardware-based, encryption settings, software-based
 summary: 'With SolidFire clusters, you can encrypt all data stored on the cluster using software or hardware-based encryption at rest.'
 ---
+
 = Enable and disable encryption at rest for a cluster
 :icons: font
 :imagesdir: ../media/

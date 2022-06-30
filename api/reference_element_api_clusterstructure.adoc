@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: objects,cluster,structure,clusterStructure,object
 summary: 'The clusterStructure object holds cluster configuration backup information created by the GetClusterStructure method. You can use the SetClusterStructure method to restore this information to a storage cluster you are rebuilding.'
 ---
+
 = clusterStructure
 :icons: font
 :imagesdir: ../media/

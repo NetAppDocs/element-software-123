@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: objects,object,idpConfigInfo
 summary: 'The idpConfigInfo object contains configuration and integration details regarding a third-party Identity Provider \(IdP\).'
 ---
+
 = idpConfigInfo
 :icons: font
 :imagesdir: ../media/

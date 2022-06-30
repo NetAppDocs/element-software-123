@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: response,example,getconfig
 summary: 'The GetConfig method returns a response similar to the following example. Due to length, the response contains information for one node of the cluster only.'
 ---
+
 = GetConfig
 :icons: font
 :imagesdir: ../media/

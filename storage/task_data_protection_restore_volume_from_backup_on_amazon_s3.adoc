@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume restore, amazon s3 object store
 summary: 'You can restore a volume from a backup on an Amazon S3 object store.'
 ---
+
 = Restore a volume from backup on an Amazon S3 object store
 :icons: font
 :imagesdir: ../media/

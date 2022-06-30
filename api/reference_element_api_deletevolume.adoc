@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,volumes,delete,deleting,DeleteVolume
 summary: 'You can use the DeleteVolume method to mark an active volume for deletion. When marked, the volume is purged \(permanently deleted\) after the cleanup interval elapses.'
 ---
+
 = DeleteVolume
 :icons: font
 :imagesdir: ../media/

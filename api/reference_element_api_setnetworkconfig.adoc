@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: network,config,configuration,set,setting,node,setnetworkconfig
 summary: 'You can use the SetNetworkConfig method to set the network configuration for a node. To display the current network settings for a node, run the GetNetworkConfig API method.'
 ---
+
 = SetNetworkConfig
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: SnapMirror,endpoints,endpoint,delete,deleting,DeleteSnapMirrorEndpoints
 summary: 'The Element web UI uses DeleteSnapMirrorEndpoints to delete one or more SnapMirror endpoints from the system.'
 ---
+
 = DeleteSnapMirrorEndpoints
 :icons: font
 :imagesdir: ../media/

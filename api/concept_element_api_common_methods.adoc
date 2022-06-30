@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: common,methods
 summary: 'Common methods are methods used to retrieve information about the storage cluster, the API itself, or ongoing API operations.'
 ---
+
 = Common methods
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,list,listing,fault,faults,listclusterfaults,error,errors
 summary: 'You can use the ListClusterFaults method to list information about any faults detected on the cluster. With this method, you can list both current faults as well as faults that have been resolved. The system caches faults every 30 seconds.'
 ---
+
 = ListClusterFaults
 :icons: font
 :imagesdir: ../media/

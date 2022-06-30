@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: common,objects
 summary: 'The Element software API uses JSON objects to represent organized data concepts. Many of these API methods make use of these objects for data input and output. This section documents these commonly used objects; objects that are only used within a single method are documented with that method instead of in this section.'
 ---
+
 = Common objects
 :icons: font
 :imagesdir: ../media/

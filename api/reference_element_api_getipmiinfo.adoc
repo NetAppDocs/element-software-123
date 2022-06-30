@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: hardware,sensor,info,ipmi,report,get,getting,getipmiinfo
 summary: 'You can use the GetIpmiInfo method to display a detailed reporting of sensors \(objects\) for node fans, intake and exhaust temperatures, and power supplies that are monitored by the system.'
 ---
+
 = GetIpmiInfo
 :icons: font
 :imagesdir: ../media/

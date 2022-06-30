@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume pairs, replication, data protection
 summary: 'The Volume Pairs page on the Data Protection tab provides information about volumes that have been paired or are in the process of being paired. The system displays pairing and progress messages in the Volume Status column.'
 ---
+
 = Volume pair details
 :icons: font
 :imagesdir: ../media/

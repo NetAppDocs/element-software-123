@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: initiator, edit, change alias, chap, credentials
 summary: 'You can change the alias of an existing initiator or add an alias if one does not already exist.'
 ---
+
 = Edit an initiator
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: ntp,info,get,getting,getntpinfo
 summary: 'You can use the GetNtpInfo method to get the current network time protocol \(NTP\) configuration information.'
 ---
+
 = GetNtpInfo
 :icons: font
 :imagesdir: ../media/

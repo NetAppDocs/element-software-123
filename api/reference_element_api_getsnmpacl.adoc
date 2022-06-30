@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snmp,acl,get,getting,getsnmpacl
 summary: 'You can use the GetSnmpACL method to get the current SNMP access permissions on the cluster nodes.'
 ---
+
 = GetSnmpACL
 :icons: font
 :imagesdir: ../media/

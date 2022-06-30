@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume snapshot, backup, amazon S3 object store
 summary: 'You can back up SolidFire snapshots to external object stores that are compatible with Amazon S3.'
 ---
+
 = Back up a volume snapshot to an Amazon S3 object store
 :icons: font
 :imagesdir: ../media/

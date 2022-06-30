@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: solidfire esds installation, hcc, hybrid cloud control, esds clusters
 summary: You can monitor the performance of your SolidFire eSDS clusters and view the inventory using the NetApp Hybrid Cloud Control UI. You can also collect logs for troubleshooting using the NetApp Hybrid Cloud Control UI.'
 ---
+
 = Monitor your clusters
 :icons: font
 :imagesdir: ../media/

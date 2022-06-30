@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: drives, manage, cluster, element ui, remove drives
 summary: 'Each node contains one or more physical drives that are used to store a portion of the data for the cluster. The cluster utilizes the capacity and performance of the drive after the drive has been successfully added to a cluster. You can use the Element UI to manage drives.'
 ---
+
 = Manage drives
 :icons: font
 :imagesdir: ../media/

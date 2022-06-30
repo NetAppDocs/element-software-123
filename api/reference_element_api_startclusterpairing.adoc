@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,pair,pairing,start,starting,startclusterpairing
 summary: 'You can use the StartClusterPairing method to create an encoded key from a cluster that is used to pair with another cluster. The key created from this API method is used in the CompleteClusterPairing method to establish a cluster pairing. You can pair a cluster with a maximum of four other clusters.'
 ---
+
 = StartClusterPairing
 :icons: font
 :imagesdir: ../media/

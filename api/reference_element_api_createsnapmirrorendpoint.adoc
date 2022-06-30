@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: SnapMirror,endpoints,endpoint,creating,create,CreateSnapMirrorEndpoint
 summary: 'The Element web UI uses the CreateSnapMirrorEndpoint method to create a relationship with a remote SnapMirror endpoint.'
 ---
+
 = CreateSnapMirrorEndpoint
 :icons: font
 :imagesdir: ../media/

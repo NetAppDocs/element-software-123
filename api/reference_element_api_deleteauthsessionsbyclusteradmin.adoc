@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: auth sessions,cluster,admin,delete,authentication sessions
 summary: 'You can use the DeleteAuthSessionsByClusterAdmin method to delete all authentication sessions associated with the specified ClusterAdminID. If the specified ClusterAdminID maps to a group of users, all authentication sessions for all members of that group will be deleted. To view a list of sessions for possible deletion, use the ListAuthSessionsByClusterAdmin method with the ClusterAdminID parameter.'
 ---
+
 = DeleteAuthSessionsByClusterAdmin
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,interface,preferences,create,creating,CreateClusterInterfacePreference
 summary: 'The CreateClusterInterfacePreference method enables systems integrated with storage clusters running Element software to create and store arbitrary information on the storage cluster. This method is for internal use.'
 ---
+
 = CreateClusterInterfacePreference
 :icons: font
 :imagesdir: ../media/

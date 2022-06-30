@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: security,key management,encryption
 summary: 'You can integrate Element software with external security-related services, such as an external key management server. These security-related methods enable you to configure Element security features such as external key management for Encryption at Rest.'
 ---
+
 = Security API methods
 :icons: font
 :imagesdir: ../media/

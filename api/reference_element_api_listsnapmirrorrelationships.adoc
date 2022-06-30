@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapmirror,endpoints,endpoint,list,listing,listsnapmirrorrelationships
 summary: 'The Element software web UI uses the ListSnapMirrorRelationships method to list one or all SnapMirror relationships on an Element storage cluster.'
 ---
+
 = ListSnapMirrorRelationships
 :icons: font
 :imagesdir: ../media/

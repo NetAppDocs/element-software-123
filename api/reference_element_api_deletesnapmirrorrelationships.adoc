@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: SnapMirror,relationship,relationships,delete,deleting,DeleteSnapMirrorRelationships
 summary: 'The Element web UI uses the DeleteSnapMirrorRelationships method to remove one or more SnapMirror relationships between a source and destination endpoint.'
 ---
+
 = DeleteSnapMirrorRelationships
 :icons: font
 :imagesdir: ../media/

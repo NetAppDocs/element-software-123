@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: account,accounts,list,listing,all,listaccounts
 summary: 'You can use ListAccounts to get the entire list of storage tenant accounts, with optional paging support. Element accounts enable access to volumes.'
 ---
+
 = ListAccounts
 :icons: font
 :imagesdir: ../media/

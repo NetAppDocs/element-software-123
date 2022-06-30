@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: setup, element, solidfire active iq
 summary: 'You might want to check which SolidFire components, such as the management node, Active IQ and the NetApp Monitoring Agent \(NMA\), that you should install, depending on configuration and deployment choices.'
 ---
+
 = Determine which SolidFire components to install
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: initiator, add to volume access group, access groups, add multiple initiators, create initiator
 summary: 'You can add multiple initiators to an existing volume access group to allow access to volumes in the volume access group with or without requiring CHAP authentication..'
 ---
+
 = Add multiple initiators to a volume access group
 :icons: font
 :imagesdir: ../media/

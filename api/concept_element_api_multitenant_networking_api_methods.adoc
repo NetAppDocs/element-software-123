@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: multitenant,network,networking,api,prerequisites,requirements,virtual,tenant
 summary: 'Multitenant networking in Element storage clusters allows traffic between multiple clients that are on separate logical networks to be connected to one Element storage cluster without layer 3 routing.'
 ---
+
 = Multitenant networking API methods
 :icons: font
 :imagesdir: ../media/

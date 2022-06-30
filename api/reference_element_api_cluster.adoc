@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: objects,object,cluster
 summary: 'The cluster object contains information that the node uses to communicate with the cluster. You can retrieve this information with the GetClusterConfig API method.'
 ---
+
 = cluster
 :icons: font
 :imagesdir: ../media/
@@ -208,6 +209,6 @@ a|
 No
 |===
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_getclusterconfig.adoc[GetClusterConfig]

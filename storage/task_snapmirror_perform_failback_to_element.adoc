@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: failback, perform a failbacl, Element, snapmirror
 summary: 'When the issue on the primary side has been mitigated, you must resynchronize the original source volume and fail back to NetApp Element software. The steps you perform vary depending on whether the original source volume still exists or whether you need to failback to a newly created volume.'
 ---
+
 = Perform a failback to Element
 :icons: font
 :imagesdir: ../media/

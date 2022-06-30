@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: KMIP,key provider,retrieving,get,retrieve
 summary: 'You can use the GetKeyProviderKmip method to retrieve information about the specified Key Management Interoperability Protocol \(KMIP\) key provider.'
 ---
+
 = GetKeyProviderKmip
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: request,endpoints
 summary: 'There are three types of request endpoints used in the API \(storage cluster, storage cluster creation, and per-node\). You should always use the latest endpoint supported by your version of Element software.'
 ---
+
 = Request endpoints
 :icons: font
 :imagesdir: ../media/

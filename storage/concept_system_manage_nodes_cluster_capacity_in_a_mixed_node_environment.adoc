@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: nodes, mixed environment, capacity, cluster capacity, mixed nodes, encrypted, non-encrypted, threshold
 summary: 'You can mix different types of nodes in a cluster. The SF-Series 2405, 3010, 4805, 6010, 9605, 9010, 19210, 38410 and the H-Series can coexist in a cluster.'
 ---
+
 = Cluster capacity in a mixed node environment
 :icons: font
 :imagesdir: ../media/

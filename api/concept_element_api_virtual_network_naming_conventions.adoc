@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: storage,system,naming,convention,virtual,network
 summary: 'NetApp Element storage systems use monotonically increasing numbers as unique identifiers for all objects in the system.'
 ---
+
 = Virtual network naming conventions
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,access,group,method,methods,API,managing,manage
 summary: 'Volume access group methods enable you to add, remove, view, and modify volume access groups, which are collections of volumes that users can access using either iSCSI or Fibre Channel initiators.'
 ---
+
 = Volume access group API methods
 :icons: font
 :imagesdir: ../media/

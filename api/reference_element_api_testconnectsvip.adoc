@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: storage,connection,svip,test,testing,testconnectsvip
 summary: 'You can use the TestConnectSvip method to test the storage connection to the storage cluster. The test pings the SVIP using ICMP packets, and when successful, connects as an iSCSI initiator.'
 ---
+
 = TestConnectSvip
 :icons: font
 :imagesdir: ../media/

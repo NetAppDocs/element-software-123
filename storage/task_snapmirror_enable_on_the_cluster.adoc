@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapmirror, enable, cluster, ui, manually enable
 summary: 'You must manually enable SnapMirror functionality at the cluster level through the NetAppElement UI. The system comes with SnapMirror functionality disabled by default, and it is not automatically enabled as part of a new installation or upgrade. Enabling the SnapMirror feature is a one-time configuration task.'
 ---
+
 = Enable SnapMirror on the cluster
 :icons: font
 :imagesdir: ../media/

@@ -6,7 +6,6 @@ keywords: netapp, element, cluster, element, volume
 ---
 
 = Create and manage volumes by using NetApp Hybrid Cloud Control
-
 :hardbreaks:
 :nofooter:
 :icons: font

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: ssl,cert,certificate,get,getting,getnodesslcertificate,active
 summary: 'You can use the GetNodeSSLCertificate method to retrieve the SSL certificate that is currently active on the management node.'
 ---
+
 = GetNodeSSLCertificate
 :icons: font
 :imagesdir: ../media/

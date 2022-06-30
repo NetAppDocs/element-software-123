@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: element, solidfire, install, setup, node, cluster
 summary: 'Before you get started, you might want to understand the sequence of installing and setting up NetApp Element software.'
 ---
+
 = Setup overview
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: qos,values,default,get,getting,getdefaultqos
 summary: 'You can use the GetDefaultQoS method to get the default quality of service \(QoS\) values for a newly created volume.'
 ---
+
 = GetDefaultQoS
 :icons: font
 :imagesdir: ../media/

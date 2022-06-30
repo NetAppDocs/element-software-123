@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: modify,modifying,edit,editing,change,changing,snapshot,attributes,attribute
 summary: 'You can use ModifySnapshot to change the attributes currently assigned to a snapshot. You can also use this method to enable snapshots created on the read/write \(source\) volume to be remotely replicated to a target storage cluster running Element software.'
 ---
+
 = ModifySnapshot
 :icons: font
 :imagesdir: ../media/

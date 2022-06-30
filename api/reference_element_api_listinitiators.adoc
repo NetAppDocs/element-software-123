@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: initiators,initiator,list,listing,listinitiators,iqn,wwpn,iqns,wwpns
 summary: 'You can use the ListInitiators method to get the list of initiator IQNs or World Wide Port Names \(WWPNs\).'
 ---
+
 = ListInitiators
 :icons: font
 :imagesdir: ../media/

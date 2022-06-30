@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'Fibre Channel nodes enable you to connect the cluster to a Fibre Channel network fabric. Fibre Channel nodes are added in pairs, and operate in active-active mode \(all nodes actively process traffic for the cluster\). Clusters running Element software version 9.0 and later support up to four nodes; clusters running previous versions support a maximum of two nodes.'
 ---
+
 = Configure a Fibre Channel node
 :icons: font
 :imagesdir: ../media/

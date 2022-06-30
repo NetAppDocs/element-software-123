@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'A SolidFire all-flash storage system is comprised of discrete hardware components \(drive and nodes\) that are combined into a single pool of storage resources. This unified cluster presents as a single storage system for use by external clients and is managed with NetApp Element software.'
 ---
+
 = Product overview
 :icons: font
 :imagesdir: ../media/

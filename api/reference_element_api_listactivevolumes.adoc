@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: active,volume,volumes,list,listing,listactivevolumes,cluster
 summary: 'You can use the ListActiveVolumes method to get the list of active volumes currently in the system. The list of volumes is sorted in VolumeID order and can be returned in multiple parts \(pages\).'
 ---
+
 = ListActiveVolumes
 :icons: font
 :imagesdir: ../media/

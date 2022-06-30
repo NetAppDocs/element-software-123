@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: node,hardware,config,configuration,get,getting,gethardwareconfig
 summary: 'You can use the GetHardwareConfig method to get the hardware configuration information for a node.'
 ---
+
 = GetHardwareConfig
 :icons: font
 :imagesdir: ../media/

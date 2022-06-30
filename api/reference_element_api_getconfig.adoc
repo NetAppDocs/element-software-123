@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: node,get,getting,info,config,configuration,getconfig
 summary: 'You can use the GetConfig API method to get all configuration information for a node. This API method includes the same information available in both the GetClusterConfig and GetNetworkConfig API methods.'
 ---
+
 = GetConfig
 :icons: font
 :imagesdir: ../media/

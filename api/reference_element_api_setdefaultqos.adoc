@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: qos,value,configure,configuring,default,set,setting,setdefaultqos
 summary: 'You can use the SetDefaultQoS method to configure the default Quality of Service \(QoS\) values \(measured in inputs and outputs per second, or IOPS\) for a volume.'
 ---
+
 = SetDefaultQoS
 :icons: font
 :imagesdir: ../media/

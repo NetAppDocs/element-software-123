@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: icons, element interface, actions, system resources, quick reference
 summary: 'The NetApp Element software interface displays icons to represent actions you can take on system resources.'
 ---
+
 = Icons in the Element interface
 :icons: font
 :imagesdir: ../media/
