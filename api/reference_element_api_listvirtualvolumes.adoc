@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: virtual,volume,volumes,vvol,list,listing,listvirtualvolumes
 summary: 'You can use the ListVirtualVolumes method to list the virtual volumes currently in the system. You can use this method to list all virtual volumes, or only list a subset.'
 ---
+
 = ListVirtualVolumes
 :icons: font
 :imagesdir: ../media/

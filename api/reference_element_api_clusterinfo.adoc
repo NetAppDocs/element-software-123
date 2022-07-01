@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: element, api, object, objects, clusterInfo
 summary: 'The clusterInfo object contains information that the node uses to communicate with the cluster. You can get this information with the GetClusterInfo API method.'
 ---
+
 = clusterInfo
 :icons: font
 :imagesdir: ../media/

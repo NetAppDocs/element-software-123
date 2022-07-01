@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,access,group,modify,modifying,updating,changing,change,update,edit,editing,modifyvolumeaccessgroup
 summary: 'You can use the ModifyVolumeAccessGroup method to update initiators and add or remove volumes from a volume access group.'
 ---
+
 = ModifyVolumeAccessGroup
 :icons: font
 :imagesdir: ../media/

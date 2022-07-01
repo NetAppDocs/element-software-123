@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: fips, security, federal information processing standards, 140-2, drive, enable
 summary: 'You can check whether the FIPS drives feature is enabled on the cluster by using the NetApp Element software GetFeatureStatus API method, which shows whether the FIPS Drives Enabled Status is true or false.'
 ---
+
 = Check the FIPS drive status
 :icons: font
 :imagesdir: ../media/

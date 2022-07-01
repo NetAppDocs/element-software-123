@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,pairing,CompleteVolumePairing,pair,volumes,complete,completing
 summary: 'You can use CompleteVolumePairing to complete the pairing of two volumes.'
 ---
+
 = CompleteVolumePairing
 :icons: font
 :imagesdir: ../media/

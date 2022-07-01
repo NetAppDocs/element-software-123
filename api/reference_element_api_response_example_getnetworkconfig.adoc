@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: response,example,getnetworkconfig
 summary: 'The GetNetworkConfig method returns a response similar to the following example.'
 ---
+
 = GetNetworkConfig
 :icons: font
 :imagesdir: ../media/

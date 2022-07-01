@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: SSDs, drives, replacement, sf-series, nodes
 summary: You can hot-swap a failed solid-state drive with a replacement drive.
 ---
+
 = Replace drives for SF-series storage nodes
 :icons: font
 :imagesdir: ../media/

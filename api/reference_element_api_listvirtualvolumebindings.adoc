@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: virtual,volume,vvol,cluster,bound,protocol,endpoint,binding,bindings,list,listing,listvirtualvolumebindings
 summary: 'You can use the ListVirtualVolumeBindings method to get a list of all virtual volumes in the cluster that are bound to protocol endpoints.'
 ---
+
 = ListVirtualVolumeBindings
 :icons: font
 :imagesdir: ../media/

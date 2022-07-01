@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume restore, openstack swift object store
 summary: 'You can restore a volume from a backup on an OpenStack Swift object store.'
 ---
+
 = Restore a volume from backup on an OpenStack Swift object store
 :icons: font
 :imagesdir: ../media/

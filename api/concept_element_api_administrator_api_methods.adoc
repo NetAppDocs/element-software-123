@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: API,administration,method,administrator
 summary: 'You can use administrator API methods to create, modify, view, and remove storage cluster administrators and assign levels of access and privileges for those with access to a storage cluster.'
 ---
+
 = Administrator API methods
 :icons: font
 :imagesdir: ../media/

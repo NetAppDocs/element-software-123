@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: virtual,network,networks,remove,removing,removevirtualnetwork
 summary: 'You can use the RemoveVirtualNetwork method to remove a previously added virtual network.'
 ---
+
 = RemoveVirtualNetwork
 :icons: font
 :imagesdir: ../media/

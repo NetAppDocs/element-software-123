@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,snapMirrorClusterIdentity
 summary: 'The snapMirrorClusterIdentity object contains identification information about the remote ONTAP cluster in a SnapMirror relationship.'
 ---
+
 = snapMirrorClusterIdentity
 :icons: font
 :imagesdir: ../media/

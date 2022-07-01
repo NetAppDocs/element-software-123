@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: ssh,service,status,get,getting,cluster,info,getclustersshinfo
 summary: 'You can use the GetClusterSshInfo method to query the status of the SSH service for the entire storage cluster.'
 ---
+
 = GetClusterSshInfo
 :icons: font
 :imagesdir: ../media/

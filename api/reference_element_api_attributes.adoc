@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: QoS,object,Quality,Service
 summary: 'Many of the API requests and responses use objects as well as simple types. Objects are a collection of key-value pairs, where the value is a simple type or possibly another object. Attributes are custom name-value pairs that can be set by the user in JSON objects. Some methods enable you to add attributes when creating or modifying objects.'
 ---
+
 = Attributes
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,volumes,snapshot,snapshots,CreateGroupSnapshot,group,create,creating
 summary: 'You can use CreateGroupSnapshot to create a point-in-time copy of a group of volumes.'
 ---
+
 = CreateGroupSnapshot
 :icons: font
 :imagesdir: ../media/

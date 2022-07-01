@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: addclusteradmin,cluster,admin,administrator,adding,add
 summary: 'You can use the AddClusterAdmin method to add a new cluster admin account. A cluster admin can manage the cluster via the API and management tools. Cluster admins are completely separate and unrelated to standard tenant accounts.'
 ---
+
 = AddClusterAdmin
 :icons: font
 :imagesdir: ../media/

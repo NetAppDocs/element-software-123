@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,network
 summary: 'The network \(bonded interfaces\) object contains configuration information for bonded network interfaces on a storage node. You can use the GetConfig and GetNetworkConfig methods to obtain this information for a storage node.'
 ---
+
 = network (bonded interfaces)
 :icons: font
 :imagesdir: ../media/

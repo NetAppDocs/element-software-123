@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: troubleshoot, drives, ssd, swappable, solid-state drives
 summary: 'You can replace a failed solid-state drive \(SSD\) with a replacement drive. SSDs for SolidFire storage nodes are hot-swappable. If you suspect an SSD has failed, contact NetApp Support to verify the failure and walk you through the proper resolution procedure. NetApp Support also works with you to get a replacement drive according to your service-level agreement.'
 ---
+
 = Troubleshoot drives
 :icons: font
 :imagesdir: ../media/

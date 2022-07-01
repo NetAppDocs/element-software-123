@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: element, security, clusters, protection, qos
 summary: Learn basic concepts related to Element software.
 ---
+
 = Concepts
 :icons: font
 :imagesdir: ../media/

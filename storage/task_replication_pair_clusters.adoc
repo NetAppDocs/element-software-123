@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: pair clusters, replication, connect clusters, data protection
 summary: 'You must pair two clusters as a first step to using real-time replication functionality. After you pair and connect two clusters, you can configure active volumes on one cluster to be continuously replicated to a second cluster, providing continuous data protection \(CDP\).'
 ---
+
 = Pair clusters for replication
 :icons: font
 :imagesdir: ../media/

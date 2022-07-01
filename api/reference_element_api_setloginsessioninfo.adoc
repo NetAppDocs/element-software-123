@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: authentication,login,session,info,timeout,setloginsessioninfo
 summary: 'You can use the SetLoginSessionInfo method to set the period of time that a login authentication for a session is valid. After the login period elapses without activity on the system, the authentication expires. New login credentials are required for continued access to the cluster after the login period has elapsed.'
 ---
+
 = SetLoginSessionInfo
 :icons: font
 :imagesdir: ../media/

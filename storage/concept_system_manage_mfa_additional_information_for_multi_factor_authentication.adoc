@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: mfa, idp, certificates, api method
 summary: 'You should be aware of the following caveats in relation to multi-factor authentication.'
 ---
+
 = Additional information for multi-factor authentication
 :icons: font
 :imagesdir: ../media/

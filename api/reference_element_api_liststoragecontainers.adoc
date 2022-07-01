@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: virtual,volume,storage,container,containers,list,listing,liststoragecontainers
 summary: 'You can use the ListStorageContainers method to retrieve information about all virtual volume storage containers known to the system.'
 ---
+
 = ListStorageContainers
 :icons: font
 :imagesdir: ../media/

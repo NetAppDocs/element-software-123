@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: account,object,accounts
 summary: 'The account object contains information about an account. This object includes only "configured" information about the account, not any runtime or usage information.'
 ---
+
 = account
 :icons: font
 :imagesdir: ../media/

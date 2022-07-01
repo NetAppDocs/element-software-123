@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: IdP,idp,cluster,admin,add,adding,addIdpclusteradmin
 summary: 'You can use the AddIpdClusterAdmin method to add a cluster administrator user authenticated by a third-party Identity Provider \(IdP\). IdP cluster admin accounts are configured based on SAML attribute-value information provided within the IdP’s SAML assertion associated with the user. If a user successfully authenticates with the IdP and has SAML attribute statements within the SAML assertion matching multiple IdP cluster admin accounts, the user will have the combined access level of those matching IdP cluster admin accounts.'
 ---
+
 = AddIdpClusterAdmin
 :icons: font
 :imagesdir: ../media/

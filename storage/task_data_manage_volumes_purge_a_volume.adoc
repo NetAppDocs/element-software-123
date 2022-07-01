@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volumes, purge a volume
 summary: 'When a volume is purged, it is permanently removed from the system. All data in the volume is lost.'
 ---
+
 = Purge a volume
 :icons: font
 :imagesdir: ../media/

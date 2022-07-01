@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster admin,sessions,auth sessions,list
 summary: 'You can use the ListAuthSessionsByClusterAdmin method to list all auth sessions associated with the specified ClusterAdminID. If the specified ClusterAdminID maps to a group of users, all auth sessions for all members of that group will be listed.'
 ---
+
 = ListAuthSessionsByClusterAdmin
 :icons: font
 :imagesdir: ../media/

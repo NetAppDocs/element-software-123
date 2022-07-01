@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: network,config,configuration,get,getting,getnetworkconfig
 summary: 'You can use the GetNetworkConfig method to display the network configuration information for a node.'
 ---
+
 = GetNetworkConfig
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: interfaces, integration, user interface, Plug-in, vCenter, API, node UIs, command line, snapshots, shadow copies, Element software, Element, Element UI, UI, manage storage, utilities, integration utilities
 summary: 'You can manage a SolidFire storage system using NetApp Element software interfaces and integration utilities.'
 ---
+
 = SolidFire software interfaces
 :icons: font
 :imagesdir: ../media/
@@ -20,6 +21,7 @@ You can manage a SolidFire storage system using different NetApp Element softwar
 * <<Additional integration utilities and tools>>
 
 == NetApp Element software user interface
+
 Enables you to set up Element storage, monitor cluster capacity and performance, and manage storage activity across a multi-tenant infrastructure. Element is the storage operating system at the heart of a SolidFire cluster. Element software runs independently on all nodes in the cluster and enables the nodes of the cluster to combine resources that are presented as a single storage system to external clients. Element software is responsible for all cluster coordination, scale and management of the system as a whole. The software interface is built upon the Element API.
 
 link:../storage/index.html[Manage storage with Element software]

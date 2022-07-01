@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapmirror,endpoint,endpoints,list,listing,listsnapmirrorendpoints
 summary: 'The Element software web UI uses the ListSnapMirrorEndpoints method to list all SnapMirror endpoints that the Element storage cluster is communicating with.'
 ---
+
 = ListSnapMirrorEndpoints
 :icons: font
 :imagesdir: ../media/

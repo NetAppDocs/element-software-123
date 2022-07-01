@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: nodes, add, config, cluster, pending, pairs, capacity, rule
 summary: 'You can add nodes to a cluster when more storage is needed or after cluster creation. Nodes require initial configuration when they are first powered on. After the node is configured, it appears in the list of pending nodes and you can add it to a cluster.'
 ---
+
 = Add a node to a cluster
 :icons: font
 :imagesdir: ../media/

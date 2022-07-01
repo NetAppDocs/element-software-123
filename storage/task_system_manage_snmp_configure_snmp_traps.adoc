@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snmp, config, traps, notifications, monitor, health, enable, disable
 summary: 'System administrators can use SNMP traps, also referred to as notifications, to monitor the health of the SolidFire cluster.'
 ---
+
 = Configure SNMP traps
 :icons: font
 :imagesdir: ../media/

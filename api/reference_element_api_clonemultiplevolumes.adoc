@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,volumes,clone,cloning,multiple,CloneMultipleVolumes
 summary: 'You can use the CloneMultipleVolumes method to create a clone of a group of specified volumes. You can assign a consistent set of characteristics to a group of multiple volumes when they are cloned together.'
 ---
+
 = CloneMultipleVolumes
 :icons: font
 :imagesdir: ../media/

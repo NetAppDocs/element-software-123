@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: drives,drive,list,listing,listdrives,cluster
 summary: 'You can use the ListDrives method to list the drives that exist in the active nodes of the cluster. This method returns drives that have been added as volume metadata or block drives as well as drives that have not been added and are available.'
 ---
+
 = ListDrives
 :icons: font
 :imagesdir: ../media/

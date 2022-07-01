@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: CompleteClusterPairing,cluster,pair,pairing,complete,completing
 summary: 'The CompleteClusterPairing method is the second step in the cluster pairing process. Use this method with the encoded key received from the StartClusterPairing method to complete the cluster pairing process.'
 ---
+
 = CompleteClusterPairing
 :icons: font
 :imagesdir: ../media/

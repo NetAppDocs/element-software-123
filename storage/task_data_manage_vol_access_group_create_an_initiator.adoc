@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: initiator, create, fc, iscsi, aliases, chap
 summary: 'You can create iSCSI or Fibre Channel initiators and optionally assign them aliases.'
 ---
+
 = Create an initiator
 :icons: font
 :imagesdir: ../media/

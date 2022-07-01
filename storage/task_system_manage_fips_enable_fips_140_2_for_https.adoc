@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: FIPS 140-2, enable fips, federal information processing standards, ncsm
 summary: 'You can use the EnableFeature API method to enable the FIPS 140-2 operating mode for HTTPS communications.'
 ---
+
 = Enable FIPS 140-2 for HTTPS on your cluster
 :icons: font
 :imagesdir: ../media/

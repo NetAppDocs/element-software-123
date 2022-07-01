@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: get,getting,SnapMirror,cluster,identity,GetSnapMirrorClusterIdentity
 summary: 'The Element software web UI uses GetSnapMirrorClusterIdentity to get identity information about the ONTAP cluster.'
 ---
+
 = GetSnapMirrorClusterIdentity
 :icons: font
 :imagesdir: ../media/

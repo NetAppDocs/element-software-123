@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: ResumeSnapMirrorRelationship,resume,SnapMirror,relationship,resuming
 summary: 'The Element software web UI uses the ResumeSnapMirrorRelationship method to enable future transfers for a quiesced SnapMirror relationship.'
 ---
+
 = ResumeSnapMirrorRelationship
 :icons: font
 :imagesdir: ../media/

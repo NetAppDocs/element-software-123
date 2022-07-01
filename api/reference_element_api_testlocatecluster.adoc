@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: test,testing,cluster,locate,configuration,TestLocateCluster
 summary: 'You can use the TestLocateCluster method to validate that the node can locate the cluster specified in the cluster configuration. The output validates that the cluster has been created and lists the nodes in the cluster ensemble.'
 ---
+
 = TestLocateCluster
 :icons: font
 :imagesdir: ../media/

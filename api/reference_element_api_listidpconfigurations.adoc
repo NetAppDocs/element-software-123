@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: configs configurations,idp configs,list
 summary: 'You can use the ListIdpConfigurations method to list configurations for third-party IdPs. Optionally, you can provide either the enabledOnly flag to retrieve the currently enabled IdP configuration or an IdP metadata UUID or IdP name to query information for a specific IdP configuration.'
 ---
+
 = ListIdpConfigurations
 :icons: font
 :imagesdir: ../media/

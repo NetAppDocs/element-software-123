@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,master,node,ID,get,getting,getclustermasternodeID
 summary: 'You can use the GetClusterMasterNodeID method to retrieve the ID of the node that performs cluster-wide administration tasks and holds the storage virtual IP address \(SVIP\) and management virtual IP address \(MVIP\).'
 ---
+
 = GetClusterMasterNodeID
 :icons: font
 :imagesdir: ../media/

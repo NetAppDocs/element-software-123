@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: pair clusters, mvip, connection
 summary: 'You can pair two clusters for real-time replication by using the MVIP of one cluster to establish a connection with the other cluster. Cluster administrator access on both of clusters is required to use this method. The cluster administrator user name and password is used to authenticate cluster access before the clusters can be paired.'
 ---
+
 = Pair clusters using MVIP
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,event
 summary: 'The event object contains details of events that occur during an API method call or while the system is performing an operation.'
 ---
+
 = event
 :icons: font
 :imagesdir: ../media/
@@ -122,6 +123,6 @@ The following list describes the possible event types that the eventInfoType mem
 * unexpectedException: Events related to unexpected errors.
 * vasaProviderEvent: Events related to a VMware VASA provider.
 
-== Find more information 
+== Find more information
 
 xref:reference_element_api_listevents.adoc[ListEvents]

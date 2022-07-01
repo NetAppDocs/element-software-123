@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,node,protection domains
 summary: 'The nodeProtectionDomains object contains information on the identify of a node and the protection domains associated with that node.'
 ---
+
 = nodeProtectionDomains
 :icons: font
 :imagesdir: ../media/

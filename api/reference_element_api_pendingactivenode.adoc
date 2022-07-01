@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,pendingActiveNode
 summary: 'The pendingActiveNode object contains information about a node that is currently in the pendingActive state, between the pending and active states. These are nodes that are currently being returned to the factory software image. Use the ListPendingActiveNodes API method to return a list of this information for all pendingActive nodes.'
 ---
+
 = pendingActiveNode
 :icons: font
 :imagesdir: ../media/

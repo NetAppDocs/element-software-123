@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: protocol endpoints, details, vvols, state, type, id
 summary: 'The Protocol Endpoints page on the VVols tab provides protocol endpoint information.'
 ---
+
 = Protocol endpoints details
 :icons: font
 :imagesdir: ../media/

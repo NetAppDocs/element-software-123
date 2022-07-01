@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: auth sessions,username,delete,authentication sessions
 summary: 'You can use the DeleteAuthSessionsByUsername method to delete all authentication sessions for a given user\(s\). A caller not in AccessGroup ClusterAdmins/Administrator can only delete their own sessions. A caller with ClusterAdmins/Administrator privileges can delete sessions belonging to any user. To see the list of sessions that could be deleted, use ListAuthSessionsByUsername with the same parameters. To view a list of sessions for possible deletion, use the ListAuthSessionsByUsername method with the same parameter.'
 ---
+
 = DeleteAuthSessionsByUsername
 :icons: font
 :imagesdir: ../media/

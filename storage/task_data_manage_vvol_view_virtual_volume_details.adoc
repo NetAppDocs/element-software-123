@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: virtual volumes, view details vvols, vvols performance activity, vSphere
 summary: 'You can review virtual volume information for all active virtual volumes on the cluster in the Element UI. You can also view performance activity for each virtual volume, including input, output, throughput, latency, queue depth, and volume information.'
 ---
+
 = View virtual volume details
 :icons: font
 :imagesdir: ../media/

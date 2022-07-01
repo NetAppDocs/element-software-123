@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snmp, usm user, config, requests
 summary: 'When you enable SNMP version 3, you need to configure a USM user to receive authorized SNMP requests.'
 ---
+
 = Configure an SNMP USM user
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: IdP,idp,authentication,retrieve get,idp state
 summary: 'You can use the GetIdpAuthenticationState method to return information regarding the state of authentication using third-party IdPs.'
 ---
+
 = GetIdpAuthenticationState
 :icons: font
 :imagesdir: ../media/

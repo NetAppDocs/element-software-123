@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: response,example,getlldpinfo
 summary: 'The GetLldpInfo method returns a response similar to the following example.'
 ---
+
 = GetLldpInfo
 :icons: font
 :imagesdir: ../media/

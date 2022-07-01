@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,fault
 summary: 'The fault object contains information about faults that are detected in the cluster. The ListClusterFaults method returns cluster fault information.'
 ---
+
 = fault
 :icons: font
 :imagesdir: ../media/

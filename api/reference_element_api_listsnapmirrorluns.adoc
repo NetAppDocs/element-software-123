@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapmirror,lun,luns,list,listing,listsnapmirrorluns
 summary: 'The Element software web UI uses the ListSnapMirrorLuns method to list the LUN information for the SnapMirror relationship from the remote ONTAP cluster.'
 ---
+
 = ListSnapMirrorLuns
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: solidfire, element, lab on demand, demo node, element demo node
 summary: Learn about resources and tools for helping you get started with Element software.
 ---
+
 = Try it out
 :icons: font
 :imagesdir: ../media/

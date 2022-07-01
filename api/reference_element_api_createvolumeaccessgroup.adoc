@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,access,groups,group,create,creating,CreateVolumeAccessGroup
 summary: 'You can use CreateVolumeAccessGroup to create a new volume access group. When you create the volume access group, you need to give it a name, and you can optionally enter initiators and volumes.'
 ---
+
 = CreateVolumeAccessGroup
 :icons: font
 :imagesdir: ../media/

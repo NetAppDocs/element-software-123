@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: terms of use banner, disable
 summary: 'You can disable the Terms of Use banner. With the banner disabled, the user is no longer requested to accept the terms of use when using the Element UI.'
 ---
+
 = Disable the Terms of Use banner
 :icons: font
 :imagesdir: ../media/

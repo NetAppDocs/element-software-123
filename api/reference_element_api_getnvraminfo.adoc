@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: nvram,info,get,getting,getnvraminfo
 summary: 'You can use the GetNvramInfo method to get information from each node about the NVRAM card.'
 ---
+
 = GetNvramInfo
 :icons: font
 :imagesdir: ../media/

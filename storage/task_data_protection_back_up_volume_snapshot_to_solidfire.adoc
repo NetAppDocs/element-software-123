@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume snapshot, backup, solidfire cluster
 summary: 'You can back up volume snapshots residing on a SolidFire cluster to a remote SolidFire cluster.'
 ---
+
 = Back up a volume snapshot to a SolidFire cluster
 :icons: font
 :imagesdir: ../media/

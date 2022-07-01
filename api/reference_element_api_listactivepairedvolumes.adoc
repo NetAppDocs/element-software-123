@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: active,pairs,paired,pair,volume,volumes,list,listing,listactivepairedvolumes
 summary: 'You can use the ListActivePairedVolumes method to list all of the active volumes paired with a volume. This method returns information about volumes with active and pending pairings.'
 ---
+
 = ListActivePairedVolumes
 :icons: font
 :imagesdir: ../media/

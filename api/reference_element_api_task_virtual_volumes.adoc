@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,task
 summary: 'The task object contains information about a currently running or finished virtual volume task in the system. You can use the ListVirtualVolumeTasks method to retrieve this information for all virtual volume tasks.'
 ---
+
 = task (virtual volumes)
 :icons: font
 :imagesdir: ../media/

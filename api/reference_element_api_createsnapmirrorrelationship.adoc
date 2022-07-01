@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: SnapMirror,relationship,relationships,create,creating,CreateSnapMirrorRelationship
 summary: 'The Element web UI uses the CreateSnapMirrorRelationship method to create a SnapMirror extended data protection relationship between a source and destination endpoint.'
 ---
+
 = CreateSnapMirrorRelationship
 :icons: font
 :imagesdir: ../media/

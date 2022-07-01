@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster pair connection, validate
 summary: 'After the cluster pairing has completed, you might want to verify the cluster pair connection to ensure replication success.'
 ---
+
 = Validate the cluster pair connection
 :icons: font
 :imagesdir: ../media/

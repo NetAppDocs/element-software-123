@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: access group, delete
 summary: 'You can delete an access group when it is no longer needed. You do not need to delete Initiator IDs and Volume IDs from the volume access group before deleting the group. After you delete the access group, group access to the volumes is discontinued.'
 ---
+
 = Delete an access group
 :icons: font
 :imagesdir: ../media/

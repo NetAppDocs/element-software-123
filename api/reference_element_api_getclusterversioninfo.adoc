@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,version,info,get,getting,getclusterversioninfo
 summary: 'You can use the GetClusterVersionInfo method to retrieve information about the Element software version running on each node in the cluster. This method also returns information about nodes that are currently in the process of upgrading software.'
 ---
+
 = GetClusterVersionInfo
 :icons: font
 :imagesdir: ../media/

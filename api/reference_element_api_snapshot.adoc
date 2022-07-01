@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,snapshot
 summary: 'The snapshot object contains information about a snapshot made for a volume. You can use the ListSnapshots API method to retrieve a list of snapshot information for a volume or for all volumes. The object includes information about the active snapshot as well as each snapshot created for a volume.'
 ---
+
 = snapshot
 :icons: font
 :imagesdir: ../media/

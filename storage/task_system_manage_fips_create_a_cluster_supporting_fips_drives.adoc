@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: fips, security, federal information processing standards, 140-2, cluster, create
 summary: 'Security is becoming increasingly critical for the deployment of solutions in many customer environments. Federal Information Processing Standards \(FIPS\) are standards for computer security and interoperability. FIPS 140-2 certified encryption for data at rest is a component of the overall security solution.'
 ---
+
 = Create a cluster supporting FIPS drives
 :icons: font
 :imagesdir: ../media/

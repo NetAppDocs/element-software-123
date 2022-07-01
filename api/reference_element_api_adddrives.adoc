@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: drives,adding,cluster,drive,add,adddrives
 summary: 'You can use the AddDrives method to add one or more available drives to the cluster, enabling the drives to host a portion of the data for the cluster.'
 ---
+
 = AddDrives
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: remove,removing,volume,volumes,access,group,removevolumesfromvolumeaccessgroup
 summary: 'You can use the RemoveVolumesFromVolumeAccessGroup method to remove volumes from a specified volume access group.'
 ---
+
 = RemoveVolumesFromVolumeAccessGroup
 :icons: font
 :imagesdir: ../media/

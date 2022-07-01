@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: element, solidfire, fibre channel, setup, node, cluster
 summary: 'Understand the sequence of setting up a cluster with storage nodes.'
 ---
+
 = Setting up a cluster with Fibre Channel nodes
 :icons: font
 :imagesdir: ../media/

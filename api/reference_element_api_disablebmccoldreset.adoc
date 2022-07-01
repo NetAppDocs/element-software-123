@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: BMC cold reset,BMC reset,disable BMC
 summary: 'You can use the DisableBmcColdReset method to disable the background task that periodically resets the Baseboard Management Controller \(BMC\) for all nodes in the cluster.'
 ---
+
 = DisableBmcColdReset
 :icons: font
 :imagesdir: ../media/

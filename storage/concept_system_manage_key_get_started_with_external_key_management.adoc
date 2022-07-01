@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: kmip, master key, key management, encryption at rest, software encryption at rest, ekm, ak, eks, seds
 summary: 'External key management \(EKM\) provides secure Authentication Key \(AK\) management in conjunction with an off-cluster external key server \(EKS\). The AKs are used to lock and unlock Self Encrypting Drives (SEDs) when encryption at rest is enabled on the cluster.'
 ---
+
 = Get started with external key management
 :icons: font
 :imagesdir: ../media/

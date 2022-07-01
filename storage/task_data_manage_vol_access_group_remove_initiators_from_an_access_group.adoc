@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: initiator, remove from volume access group, access groups, remove initiator
 summary: 'When you remove an initiator from an access group, it can no longer access the volumes in that volume access group. Normal account access to the volume is not disrupted.'
 ---
+
 = Remove initiators from an access group
 :icons: font
 :imagesdir: ../media/

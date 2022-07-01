@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: element, solidfire, workflow
 summary: 'Before you get started, you might want to understand the sequence of installing and setting up NetApp Element software.'
 ---
+
 = What's next
 :icons: font
 :imagesdir: ../media/

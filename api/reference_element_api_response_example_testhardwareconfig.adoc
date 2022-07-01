@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: response,example,testhardwareconfig
 summary: 'The TestHardwareConfig method returns a response similar to the following example.'
 ---
+
 = TestHardwareConfig
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapmirror,aggregate,aggregates,list,listing,listsnapmirroraggregates
 summary: 'The Element software web UI uses the ListSnapMirrorAggregates method to list all SnapMirror aggregates that are available on the remote ONTAP system. An aggregate describes a set of physical storage resources.'
 ---
+
 = ListSnapMirrorAggregates
 :icons: font
 :imagesdir: ../media/

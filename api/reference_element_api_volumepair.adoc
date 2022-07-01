@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,volumePair
 summary: 'The volumePair object contains information about a volume that is paired with another volume on a different cluster. If the volume is not paired, this object is empty. You can use the ListActivePairedVolumes and ListActiveVolumes API methods to return information about paired volumes.'
 ---
+
 = volumePair
 :icons: font
 :imagesdir: ../media/

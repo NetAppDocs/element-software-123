@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,pair,pairs,paired,list,listing,listclusterpairs
 summary: 'You can use the ListClusterPairs method to list all clusters that are paired with the current cluster. This method returns information about active and pending cluster pairings, such as statistics about the current pairing as well as the connectivity and latency \(in milliseconds\) of the cluster pairing.'
 ---
+
 = ListClusterPairs
 :icons: font
 :imagesdir: ../media/

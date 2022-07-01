@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: element, solidfire esds, get container logs, sds containers
 summary: Learn more about the SolidFire eSDS containers and where to get the logs associated with them. The information provided here is to help you get started with collecting logs for troubleshooting. It is best to engage NetApp Support, where trained engineers well versed with log analysis can help resolve issues.
 ---
+
 = Collect container logs
 :icons: font
 :imagesdir: ../media/

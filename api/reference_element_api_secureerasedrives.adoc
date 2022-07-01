@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: drive,drives,secure,erase,reset,resetting,encryption,key,secureerasedrives
 summary: 'You can use the SecureEraseDrives method to remove any residual data from drives that have a status of "available". You might use this method when replacing a drive nearing the end of its service life that contained sensitive data. This method uses a Security Erase Unit command to write a predetermined pattern to the drive and resets the encryption key on the drive. This asynchronous method might take several minutes to complete.'
 ---
+
 = SecureEraseDrives
 :icons: font
 :imagesdir: ../media/

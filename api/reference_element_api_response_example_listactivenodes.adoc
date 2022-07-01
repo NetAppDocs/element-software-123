@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: response,example,listactivenodes
 summary: 'The ListActiveNodes method returns a response similar to the following example.'
 ---
+
 = ListActiveNodes
 :icons: font
 :imagesdir: ../media/

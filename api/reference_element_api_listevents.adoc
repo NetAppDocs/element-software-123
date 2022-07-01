@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,list,listing,event,events,listevents
 summary: 'You can use the ListEvents method to list events detected on the cluster, sorted from oldest to newest.'
 ---
+
 = ListEvents
 :icons: font
 :imagesdir: ../media/

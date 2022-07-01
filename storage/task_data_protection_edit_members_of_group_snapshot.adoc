@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: group snapshot members, edit
 summary: 'You can edit the retention settings for members of an existing group snapshot.'
 ---
+
 = Editing members of group snapshot
 :icons: font
 :imagesdir: ../media/

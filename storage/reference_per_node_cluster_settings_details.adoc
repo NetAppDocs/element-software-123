@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: nodes, changing cluster settings, per-node UI
 summary: 'You can verify cluster settings for a storage node after cluster configuration and modify the node hostname.'
 ---
+
 = Cluster settings details from the per-node UI
 :icons: font
 :imagesdir: ../media/

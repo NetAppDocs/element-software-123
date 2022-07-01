@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: relationships, snapmirror, actions, configure relationships
 summary: 'You can configure a relationship from the SnapMirror Relationships page of the Data Protection tab. The options from the Actions icon are described here.'
 ---
+
 = SnapMirror relationship actions
 :icons: font
 :imagesdir: ../media/

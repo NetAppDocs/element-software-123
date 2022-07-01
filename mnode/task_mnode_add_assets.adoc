@@ -6,7 +6,6 @@ keywords: netapp, mnode, management node, rest api, Element
 ---
 
 = Add a controller asset to the management node
-
 :hardbreaks:
 :nofooter:
 :icons: font

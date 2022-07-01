@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: binding,object,objects,volume,volumes,virtual
 summary: 'The binding object contains information about the binding for a virtual volume. You can retrieve a list of this information for all virtual volumes using the ListVirtualVolumeBindings API method.'
 ---
+
 = binding (virtual volumes)
 :icons: font
 :imagesdir: ../media/

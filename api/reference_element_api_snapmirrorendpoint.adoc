@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,snapMirrorEndpoint
 summary: 'The snapMirrorEndpoint object contains information about the remote SnapMirror storage systems communicating with the Element storage cluster. You can retrieve this information with the ListSnapMirrorEndpoints API method.'
 ---
+
 = snapMirrorEndpoint
 :icons: font
 :imagesdir: ../media/

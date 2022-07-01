@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: objects,clusterStats
 summary: 'The clusterStats object contains statistical data for a cluster. Many of the volume-related statistics contained in the object are averaged for all volumes in the cluster. You can use the GetClusterStats method to retrieve this information for a cluster.'
 ---
+
 = clusterStats
 :icons: font
 :imagesdir: ../media/

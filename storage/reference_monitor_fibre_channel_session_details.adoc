@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: fibre channel sessions, fc, FC, sessions
 summary: 'You can find information about the active Fibre Channel \(FC\) sessions that are connected to the cluster.'
 ---
+
 = Fibre Channel session details
 :icons: font
 :imagesdir: ../media/

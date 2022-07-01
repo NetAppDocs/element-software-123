@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapmirror labels, add labels to snapshots, specify retention policies, group snapshots
 summary: 'SnapMirror labels specify the snapshot retention policy on the SnapMirror endpoint. You can add labels to snapshots and group snapshots.'
 ---
+
 = Add SnapMirror labels to snapshots
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: security,certificate,SSL,get,getting,certificateDetails,object,objects
 summary: 'The certificateDetails object contains the decoded information about a security certificate.'
 ---
+
 = certificateDetails
 :icons: font
 :imagesdir: ../media/

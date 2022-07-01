@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: response,example,listactivevolumes
 summary: 'The ListActiveVolumes method returns a response similar to the following example.'
 ---
+
 = ListActiveVolumes
 :icons: font
 :imagesdir: ../media/

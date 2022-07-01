@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: IdP,idp,authentication,enable
 summary: 'You can use the EnableIdpAuthentication method to enable support for authentication using third-party IdPs for the cluster. Once IdP authentication is enabled, LDAP and cluster admins are no longer able to access the cluster via supported UIs and any active authenticated sessions are invalidated/disconnected. Only users authenticated by third party IdPs are able to access the cluster via supported UIs.'
 ---
+
 = EnableIdpAuthentication
 :icons: font
 :imagesdir: ../media/

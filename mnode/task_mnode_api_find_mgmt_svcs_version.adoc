@@ -6,7 +6,6 @@ keywords: netapp, Element, management node, management services, version, bundle
 ---
 
 = Verify management node OS and services versions
-
 :hardbreaks:
 :nofooter:
 :icons: font

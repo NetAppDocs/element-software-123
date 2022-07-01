@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: element, terms of use, banner, config, edit, terms of use, disable, enable
 summary: 'You can enable, edit, or configure a banner that contains a message for the user.'
 ---
+
 = Manage the Terms of Use banner
 :icons: font
 :imagesdir: ../media/

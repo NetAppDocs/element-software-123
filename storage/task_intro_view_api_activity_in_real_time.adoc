@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: solidfire api, element api, element os, element, viewing the API log, viewing API calls
 summary: 'The Element system uses the NetAppElement API as the foundation for its features and functionality. The Element UI enables you to view various types of real-time API activity on the system as you use the interface. With the API log, you can view user-initiated and background system API activity, as well as API calls made on the page you are currently viewing.'
 ---
+
 = View API activity
 :icons: font
 :imagesdir: ../media/

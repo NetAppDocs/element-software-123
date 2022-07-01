@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: accounts,account,name,username,GetAccountByName
 summary: 'You can use GetAccountByName to get details about a specific account, given its username.'
 ---
+
 = GetAccountByName
 :icons: font
 :imagesdir: ../media/

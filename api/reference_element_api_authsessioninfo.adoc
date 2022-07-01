@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: objects,object,authSessionInfo
 summary: 'The authSessionInfo object contains information about an auth session.'
 ---
+
 = authSessionInfo
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: KMIP,key server,creating,create
 summary: 'You can use the CreateKeyServerKmip method to create a Key Management Interoperability Protocol \(KMIP\) key server with the specified attributes. During creation, the server is not contacted; it does not need to exist before you use this method. For clustered key server configurations, you must provide the hostnames or IP addresses of all server nodes in the kmipKeyServerHostnames parameter. You can use the TestKeyServerKmip method to test a key server.'
 ---
+
 = CreateKeyServerKmip
 :icons: font
 :imagesdir: ../media/

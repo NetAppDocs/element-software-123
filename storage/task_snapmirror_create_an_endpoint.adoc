@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: endpoints, create, snapmirror, ui
 summary: 'You must create a SnapMirror endpoint in the NetAppElement UI before you can create a relationship.'
 ---
+
 = Create a SnapMirror endpoint
 :icons: font
 :imagesdir: ../media/

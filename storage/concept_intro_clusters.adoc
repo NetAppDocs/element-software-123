@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: clusters, about clusters, collection of nodes, nodes in a cluster, block storage, logical group, add nodes, access cluster
 summary: 'A cluster is the hub of a SolidFire storage system and is made up of a collection of nodes. You must have at least four nodes in a cluster for SolidFire storage efficiencies to be realized. A cluster appears on the network as a single logical group and can then be accessed as block storage.'
 ---
+
 = Clusters
 :icons: font
 :imagesdir: ../media/

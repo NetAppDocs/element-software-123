@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: layout,custom,protection domain,protection domains,retrieve protection domains
 summary: 'You can use the GetProtectionDomainLayout method to return all protection domain information for a cluster, including which chassis and which custom protection domain each node is in.'
 ---
+
 = GetProtectionDomainLayout
 :icons: font
 :imagesdir: ../media/

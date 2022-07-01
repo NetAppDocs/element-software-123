@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords:
 summary: ''
 ---
+
 = Machine translation
 :icons: font
 :imagesdir: ../media/

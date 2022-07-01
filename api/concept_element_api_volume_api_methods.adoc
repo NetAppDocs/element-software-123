@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,API,method,methods
 summary: 'Element software volume API methods enable you to manage volumes that reside on a storage node. You can create, modify, clone, and delete volumes with these methods. You can also use volume API methods to gather and display data measurements for a volume.'
 ---
+
 = Volume API methods
 :icons: font
 :imagesdir: ../media/

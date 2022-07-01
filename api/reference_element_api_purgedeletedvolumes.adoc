@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,volumes,purge,purging,multiple,deleted,purgedeletedvolumes
 summary: 'You can use the PurgeDeletedVolumes method to immediately and permanently purge volumes that have been deleted; you can use this method to purge up to 500 volumes at one time.'
 ---
+
 = PurgeDeletedVolumes
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: system, api, security, get, getting, software encryption at rest
 summary: 'You can use the GetSoftwareEncryptionAtRestInfo method to get information the cluster uses to encrypt data at rest.'
 ---
+
 = GetSoftwareEncryptionAtRestInfo
 :icons: font
 :imagesdir: ../media/

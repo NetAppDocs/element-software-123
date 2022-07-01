@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: element, solidfire, cluster admin, account, create, change, configure, administrator access, edit permissions, change passwords
 summary: 'You can manage cluster administrator accounts for a SolidFire storage system. Available cluster administrator management functions include creating, deleting, and editing cluster administrator accounts, changing the cluster administrator password, and configuring LDAP settings to manage system access for users.'
 ---
+
 = Manage cluster administrator user accounts
 :icons: font
 :imagesdir: ../media/

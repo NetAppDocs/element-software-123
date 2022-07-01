@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster switch configuration, best practices for switch configuration, optimal storage performance, node hardware, traffic, cluster, Element software, best practices, switches, switch requirements, storage, performance, storage performance
 summary: 'The NetApp Element software system has certain switch requirements and best practices for optimal storage performance.'
 ---
+
 = Switch configuration for clusters running Element software
 :icons: font
 :imagesdir: ../media/

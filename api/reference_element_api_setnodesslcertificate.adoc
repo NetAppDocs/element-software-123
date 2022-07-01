@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: ssl,certificate,set,setting,private,key,setnodesslcertificate
 summary: 'You can use the SetNodeSSLCertificate method to set a user SSL certificate and private key for the management node.'
 ---
+
 = SetNodeSSLCertificate
 :icons: font
 :imagesdir: ../media/

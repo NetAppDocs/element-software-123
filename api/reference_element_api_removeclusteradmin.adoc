@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: cluster,admin,remove,removing,removeclusteradmin
 summary: 'You can use the RemoveClusterAdmin method to remove a cluster admin, an LDAP cluster admin, or a third-party Identity Provider \(IdP\) cluster admin. You cannot remove the "admin" Cluster Admin account.'
 ---
+
 = RemoveClusterAdmin
 :icons: font
 :imagesdir: ../media/

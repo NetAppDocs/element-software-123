@@ -6,7 +6,6 @@ keywords: netapp, solidfire, HealthTools, cluster, element, H610S upgrade, hcc, 
 ---
 
 = Upgrade Element software
-
 :hardbreaks:
 :nofooter:
 :icons: font

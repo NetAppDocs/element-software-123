@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'Volume access groups enable communication between Fibre Channel clients and volumes on a SolidFire storage system. Mapping Fibre Channel client initiators \(WWPN\) to the volumes in a volume access group enables secure data I/O between a Fibre Channel network and a SolidFire volume.'
 ---
+
 = Create a volume access group for Fibre Channel clients
 :icons: font
 :imagesdir: ../media/

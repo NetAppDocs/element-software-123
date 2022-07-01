@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: sf-series nodes, hardware installation, hardware maintenance
 summary: You can find information about installing and maintaining SF-series storage nodes.
 ---
+
 = SF-series hardware information
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume access groups, initiators, working with, chap, fc, iscsi
 summary: 'You can use iSCSI initiators or Fibre Channel initiators to access the volumes defined within volume access groups.'
 ---
+
 = Work with volume access groups and initiators
 :icons: font
 :imagesdir: ../media/

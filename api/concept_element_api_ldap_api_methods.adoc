@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: ldap,api,methods
 summary: 'You can use the Lightweight Directory Access Protocol \(LDAP\) to authenticate access to Element storage. The LDAP API methods described in this section enable you to configure LDAP access to the storage cluster.'
 ---
+
 = LDAP API methods
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: terms,use,banner,configure,set,setting,setloginbanner,login
 summary: 'You can use the SetLoginBanner method to configure the Terms of Use banner that users see when they log in to the Element web interface.'
 ---
+
 = SetLoginBanner
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: response,example,getnvraminfo
 summary: 'The GetNvramInfo method returns a response similar to the following example.'
 ---
+
 = GetNvramInfo
 :icons: font
 :imagesdir: ../media/

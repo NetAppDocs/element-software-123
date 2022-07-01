@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: get,patch,info,patches,getpatchinfo
 summary: 'You can use the GetPatchInfo method to get information about patches installed on a node.'
 ---
+
 = GetPatchInfo
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,initiator
 summary: 'The initiator object contains information about an iSCSI or Fibre Channel initiator. An initiator object can contain IQN or WWPN identifiers. You can use the ListInitiators method to get a list of all initiators known on the system. You use initiator objects to configure SCSI initiator access to a set of volumes through volume access groups. An initiator can only be a member of one volume access group at a time. You can restrict initiator access to one or more VLANs by specifying one or more virtualNetworkIDs using the CreateInitiators and ModifyInitiators methods. If you don’t specify any virtual networks, the initiator can access all networks.'
 ---
+
 = initiator
 :icons: font
 :imagesdir: ../media/

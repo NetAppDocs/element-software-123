@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,groupSnapshot
 summary: 'The groupSnapshot object contains information about a snapshot for a group of volumes. You can use the ListGroupSnapshots API method to retrieve group snapshot information.'
 ---
+
 = groupSnapshot
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: request,object,members
 summary: 'Each Element software API request has the following basic parts:'
 ---
+
 = Request object members
 :icons: font
 :imagesdir: ../media/

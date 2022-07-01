@@ -1,9 +1,10 @@
 ---
 permalink: concepts/reference_data_manage_volumes_qos_limits.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can find information about the possible minimum and maximum values for Quality of Service \(QoS\).'
 ---
+
 = QoS value limits
 :icons: font
 :imagesdir: ../media/

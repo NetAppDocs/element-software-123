@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volumes,volume,stats,list,listing,access,group,listvolumestatsbyvolumeaccessgroup,activity
 summary: 'You can use the ListVolumeStatsByVolumeAccessGroup method to list total activity measurements for all of the volumes that are members of the specified volume access groups.'
 ---
+
 = ListVolumeStatsByVolumeAccessGroup
 :icons: font
 :imagesdir: ../media/

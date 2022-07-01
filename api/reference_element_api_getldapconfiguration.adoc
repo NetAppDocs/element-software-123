@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: ldap,config,configuration,get,getting,getldapconfiguration
 summary: 'You can use the GetLdapConfiguration method to get the currently active LDAP configuration on the cluster.'
 ---
+
 = GetLdapConfiguration
 :icons: font
 :imagesdir: ../media/

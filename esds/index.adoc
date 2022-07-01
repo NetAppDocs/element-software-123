@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: sds, install sds, use sds, solidfire enterprise sds, upgrade sds, monitor sds, maintenance mode
 summary: Learn how to install and use SolidFire Enterprise SDS.
 ---
+
 = Install and use SolidFire Enterprise SDS
 :icons: font
 :imagesdir: ../media/

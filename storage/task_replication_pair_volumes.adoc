@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume pairings, replication, cluster, cluster pair
 summary: 'After you have established a connection between clusters in a cluster pair, you can pair a volume on one cluster with a volume on the other cluster in the pair. When a volume pairing relationship is established, you must identify which volume is the replication target.'
 ---
+
 = Pair volumes
 :icons: font
 :imagesdir: ../media/

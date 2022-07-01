@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: failback scenarios, snapmirror, dr, disaster recovery
 summary: 'The SnapMirror disaster recovery functionality is illustrated in two failback scenarios. These assume the original relationship has been failed over \(broken\).'
 ---
+
 = SnapMirror failback scenarios
 :icons: font
 :imagesdir: ../media/

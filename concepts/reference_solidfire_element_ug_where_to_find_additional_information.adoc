@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords:
 summary: 'You can learn more about tasks related to the SolidFire storage system in NetApp SolidFire Documentation Center and from the resources available on the NetApp SolidFire Resources page.'
 ---
+
 = Where to find additional information
 :icons: font
 :imagesdir: ../media/

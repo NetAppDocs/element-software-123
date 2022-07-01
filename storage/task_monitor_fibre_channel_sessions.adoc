@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: fibre channel sessions, fc, FC, sessions
 summary: 'You can view the Fibre Channel \(FC\) sessions that are connected to the cluster. You can filter information to include only those connections you want displayed in the window.'
 ---
+
 = View Fibre Channel sessions
 :icons: font
 :imagesdir: ../media/

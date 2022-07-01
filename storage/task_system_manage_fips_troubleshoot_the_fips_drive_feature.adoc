@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: fips, security, federal information processing standards, 140-2
 summary: 'Using the NetApp Element software UI, you can view alerts for information about cluster faults or errors in the system related to the FIPS drives feature.'
 ---
+
 = Troubleshoot the FIPS drive feature
 :icons: font
 :imagesdir: ../media/

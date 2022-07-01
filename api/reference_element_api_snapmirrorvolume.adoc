@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,snapMirrorVolume
 summary: 'The snapMirrorVolume object contains information about an ONTAP volume.'
 ---
+
 = snapMirrorVolume
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,protectionDomainLevel
 summary: 'The protectionDomainLevel object contains information about the storage cluster’s current tolerance and resiliency levels. Tolerance levels indicate the cluster’s ability to continue reading and writing data in the event of a failure, and resiliency levels indicate the cluster’s ability to automatically heal itself from one or more failures within its associated type of protection domain.'
 ---
+
 = protectionDomainLevel
 :icons: font
 :imagesdir: ../media/

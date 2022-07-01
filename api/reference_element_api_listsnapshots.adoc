@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapshot,snapshots,list,listing,attributes,listsnapshots
 summary: 'You can use ListSnapshots to return the attributes of each snapshot taken on the volume.'
 ---
+
 = ListSnapshots
 :icons: font
 :imagesdir: ../media/

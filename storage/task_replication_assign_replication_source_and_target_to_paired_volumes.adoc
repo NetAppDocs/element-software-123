@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume pairings, paired volumes, replication source, assign
 summary: 'After volumes are paired, you must assign a source volume and its replication target volume. A replication source or target can be either volume in a volume pair. You can also use this procedure to redirect data sent to a source volume to a remote target volume should the source volume become unavailable.'
 ---
+
 = Assign a replication source and target to paired volumes
 :icons: font
 :imagesdir: ../media/

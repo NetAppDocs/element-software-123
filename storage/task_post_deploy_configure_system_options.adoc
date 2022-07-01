@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: deployment, post deployment options, credentials, components, FIPS security, passwords, MFA, multifactor authentication, mutli-factor authentication, security, EKM, key management, external key management, FIPS
 summary: 'After you set up your SolidFire system, you might want to perform some optional tasks. Additionally, you can configure settings for multi-factor authentication, external key management, and Federal Information Processing Standards \(FIPS\) security.'
 ---
+
 = Configure SolidFire system options after deployment
 :icons: font
 :imagesdir: ../media/

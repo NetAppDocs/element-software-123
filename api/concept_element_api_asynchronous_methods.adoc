@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: async,asynchronous,methods,API
 summary: 'Some API methods are asynchronous, which means that the operation they perform might not be complete when the method returns. Asynchronous methods return a handle that you can query to see the status of the operation; status information for some operations might include a percentage of completion.'
 ---
+
 = Asynchronous methods
 :icons: font
 :imagesdir: ../media/

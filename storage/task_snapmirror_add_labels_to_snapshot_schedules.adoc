@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapmirror labels, add labels to snapshot schedules, snapmirror policies
 summary: 'You can add SnapMirror labels to snapshot schedules to ensure that a SnapMirror policy is applied. You can view available labels from an existing SnapMirror relationship dialog box or the NetAppONTAP System Manager.'
 ---
+
 = Add SnapMirror labels to snapshot schedules
 :icons: font
 :imagesdir: ../media/

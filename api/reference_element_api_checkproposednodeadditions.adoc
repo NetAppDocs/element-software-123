@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: proposed,node,additions,CheckProposedNodeAdditions,storage,checking
 summary: 'You can use the CheckProposedNodeAdditions method to test a set of storage nodes to see if you can add them to a storage cluster without errors or best practice violations.'
 ---
+
 = CheckProposedNodeAdditions
 :icons: font
 :imagesdir: ../media/

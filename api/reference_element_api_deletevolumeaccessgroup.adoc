@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volume,access,group,groups,delete,deleting,DeleteVolumeAccessGroup
 summary: 'You can use DeleteVolumeAccessGroup to delete a volume access group.'
 ---
+
 = DeleteVolumeAccessGroup
 :icons: font
 :imagesdir: ../media/

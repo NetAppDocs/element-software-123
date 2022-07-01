@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snmp,state,get,getting,getsnmpstate
 summary: 'You can use the GetSnmpState method to get the current state of the SNMP feature.'
 ---
+
 = GetSnmpState
 :icons: font
 :imagesdir: ../media/

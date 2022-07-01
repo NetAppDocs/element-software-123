@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: virtual,volume,vvol,API,method
 summary: 'Element software virtual volume API methods enable you to manage virtual volumes \(VVols\). You can view existing VVols with these API methods as well as create, modify, and delete virtual volume storage containers. Although you cannot use these methods to operate on normal volumes, you can use the normal volume API methods to list information about VVols.'
 ---
+
 = Virtual volume API methods
 :icons: font
 :imagesdir: ../media/

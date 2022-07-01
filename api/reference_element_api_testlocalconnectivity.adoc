@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: test,testing,local,connectivity,TestLocalConnectivity
 summary: 'You can use the TestLocalConnectivity method to ping the Cluster IP \(CIP\) of each node in an active cluster.'
 ---
+
 = TestLocalConnectivity
 :icons: font
 :imagesdir: ../media/

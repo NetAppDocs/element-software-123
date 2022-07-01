@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: authentication sessions,delete
 summary: 'You can use the DeleteAuthSession method to delete an individual auth session. If the calling user is not in the ClusterAdmins / Administrator AccessGroup, only auth session belonging to the calling user can be deleted.'
 ---
+
 = DeleteAuthSession
 :icons: font
 :imagesdir: ../media/

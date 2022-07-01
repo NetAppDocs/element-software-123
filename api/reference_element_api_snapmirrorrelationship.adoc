@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,snapMirrorRelationship
 summary: 'The snapMirrorRelationship object contains information about a SnapMirror relationship between a Element volume and an ONTAP volume.'
 ---
+
 = snapMirrorRelationship
 :icons: font
 :imagesdir: ../media/

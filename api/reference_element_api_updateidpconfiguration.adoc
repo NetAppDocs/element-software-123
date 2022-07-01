@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: IdP,idp,configuration,update
 summary: 'You can use the UpdateIdpConfiguration method to update an existing configuration with a third-party IdP for the cluster.'
 ---
+
 = UpdateIdpConfiguration
 :icons: font
 :imagesdir: ../media/

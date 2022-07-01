@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: qos, performance curve, block size, iops
 summary: 'The Quality of Service \(QoS\) performance curve shows the relationship between block size and the percentage of IOPS.'
 ---
+
 = QoS performance curve
 :icons: font
 :imagesdir: ../media/

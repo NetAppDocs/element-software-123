@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: trouble, troubleshoot, monitor, element, alert, event
 summary: 'You must monitor the system for diagnostic purposes and to get information about performance trends and statuses of various system operations. You might need to replace nodes or SSDs for maintenance purposes.'
 ---
+
 = Troubleshoot your system
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,volumeAccessGroup
 summary: 'The volumeAccessGroup object contains information about a specific volume access group. You can retrieve a list of this information for all access groups with the API method ListVolumeAccessGroups.'
 ---
+
 = volumeAccessGroup
 :icons: font
 :imagesdir: ../media/

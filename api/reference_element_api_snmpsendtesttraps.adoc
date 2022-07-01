@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snmp,test,send,trap,testing,sending,snmpsendtesttraps
 summary: 'SnmpSendTestTraps enables you to test SNMP functionality for a cluster. This method instructs the cluster to send test SNMP traps to the currently configured SNMP manager.'
 ---
+
 = SnmpSendTestTraps
 :icons: font
 :imagesdir: ../media/

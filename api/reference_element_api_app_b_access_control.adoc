@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: access,control,type
 summary: 'The Element API methods available vary based on the type of access you set.'
 ---
+
 = Access control
 :icons: font
 :imagesdir: ../media/

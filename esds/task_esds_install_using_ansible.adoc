@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: solidfire esds, installing solidfire esds, ansible role
 summary: You can install SolidFire eSDS using an automation tool, such as Ansible. If you are very familiar with Ansible, you can create one Ansible playbook that combines several tasks, such as installing SolidFire eSDS and creating a cluster.
 ---
+
 = Install SolidFire eSDS using Ansible
 :icons: font
 :imagesdir: ../media/

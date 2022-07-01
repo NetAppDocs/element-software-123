@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: qos,policy,policies,get,getting,getqospolicy
 summary: 'You can use the GetQoSPolicy method to get details about a specific QoS policy from the system.'
 ---
+
 = GetQoSPolicy
 :icons: font
 :imagesdir: ../media/

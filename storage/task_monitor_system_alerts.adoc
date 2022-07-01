@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: system alerts, view, cluster faults, system errors
 summary: 'You can view alerts for information about cluster faults or errors in the system. Alerts can be information, warnings, or errors and are a good indicator of how well the cluster is running. Most errors resolve themselves automatically.'
 ---
+
 = View system alerts
 :icons: font
 :imagesdir: ../media/

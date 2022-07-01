@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: node,hardware,info,get,getting,gethardwareinfo
 summary: 'You can use the GetHardwareInfo method to get hardware information and status for a single node. Hardware information generally includes manufacturers, vendors, versions, drives, and other associated identification information.'
 ---
+
 = GetHardwareInfo
 :icons: font
 :imagesdir: ../media/

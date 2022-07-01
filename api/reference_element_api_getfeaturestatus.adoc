@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: feature,status,cluster,get,getting,getfeaturestatus
 summary: 'You can use the GetFeatureStatus method to retrieve the status of a cluster feature.'
 ---
+
 = GetFeatureStatus
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ permalink: legal-notices.html
 keywords:
 summary:
 ---
+
 = Legal notices
 :icons: font
 :imagesdir: ./media/

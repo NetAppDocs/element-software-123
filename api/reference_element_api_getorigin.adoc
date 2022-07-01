@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: origin,get,getting,getorigin,certificate
 summary: 'You can use the GetOrigin method to get the origination certificate for where the node was built.'
 ---
+
 = GetOrigin
 :icons: font
 :imagesdir: ../media/

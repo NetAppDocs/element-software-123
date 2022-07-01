@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: volumes, rollback, group snapshot, purge
 summary: 'You can roll back a group of volumes at any time to a group snapshot.'
 ---
+
 = Roll back volumes to a group snapshot
 :icons: font
 :imagesdir: ../media/

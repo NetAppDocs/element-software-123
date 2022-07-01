@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,network
 summary: 'The network \(Ethernet interfaces\) object contains configuration information for individual Ethernet interfaces. You can use the GetConfig and GetNetworkConfig methods to obtain this information for a storage node.'
 ---
+
 = network (Ethernet interfaces)
 :icons: font
 :imagesdir: ../media/

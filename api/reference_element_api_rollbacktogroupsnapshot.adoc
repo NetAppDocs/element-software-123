@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: rollbacktogroupsnapshot,snapshot,group,individual,creating,create,roll,back,rollback,roll back,existing
 summary: 'You can use RollbackToGroupSnapshot to roll back all individual volumes in a snapshot group to each volume’s individual snapshot.'
 ---
+
 = RollbackToGroupSnapshot
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: create,creating,initiator,CreateInitiators,WWPN,IQN,initiators
 summary: 'You can use CreateInitiators to create multiple new initiator IQNs or World Wide Port Names \(WWPNs\) and optionally assign them aliases and attributes. When you use CreateInitiators to create new initiators, you can also add them to volume access groups.'
 ---
+
 = CreateInitiators
 :icons: font
 :imagesdir: ../media/

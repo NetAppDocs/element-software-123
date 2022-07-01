@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: node,test,testing,hardware,config,configuration,testhardwareconfig
 summary: 'You can use the TestHardwareConfig method to perform hardware tests on a node. Test options include verifying hardware configurations, firmware versions, and that all drives are present.'
 ---
+
 = TestHardwareConfig
 :icons: font
 :imagesdir: ../media/

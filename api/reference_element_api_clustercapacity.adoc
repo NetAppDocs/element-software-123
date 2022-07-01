@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: objects,object,clusterCapacity
 summary: 'The clusterCapacity object contains high-level capacity measurements for the cluster. You can get cluster capacity information with the GetClusterCapacity API method. Space measurements in the object members are calculated in bytes.'
 ---
+
 = clusterCapacity
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: multiple volumes, clone, create
 summary: 'You can create multiple volume clones in a single operation to create a point-in-time copy of the data on a group of volumes.'
 ---
+
 = Clone multiple volumes
 :icons: font
 :imagesdir: ../media/

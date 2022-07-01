@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: create,creating,support,bundle,CreateSupportBundle
 summary: 'You can use the CreateSupportBundle to create a support bundle file under the node’s directory. After creation, the bundle is stored on the node as a tar.gz file.'
 ---
+
 = CreateSupportBundle
 :icons: font
 :imagesdir: ../media/

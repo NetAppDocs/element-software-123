@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snmp, overview, reference, mib, settings, trap
 summary: 'On the SNMP page of the Cluster tab, you can view the following information.'
 ---
+
 = SNMP details
 :icons: font
 :imagesdir: ../media/

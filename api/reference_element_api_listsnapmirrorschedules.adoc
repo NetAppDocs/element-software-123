@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapmirror,schedule,schedules,list,listing,listsnapmirrorschedules,ontap
 summary: 'The Element software web UI uses the ListSnapMirrorSchedules method to get a list of schedules that are available on a remote ONTAP cluster.'
 ---
+
 = ListSnapMirrorSchedules
 :icons: font
 :imagesdir: ../media/

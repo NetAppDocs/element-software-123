@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: element, api, encryption, disable, disabling, at rest, rest, DisableEncryptionAtRest
 summary: 'You can use the DisableEncryptionAtRest method to remove the encryption that was previously applied to the cluster using the EnableEncryptionAtRest method. This disable method is asynchronous and returns a response before encryption is disabled. You can use the GetClusterInfo method to poll the system to see when the process has completed.'
 ---
+
 = DisableEncryptionAtRest
 :icons: font
 :imagesdir: ../media/

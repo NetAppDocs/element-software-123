@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: failback, perform, source volume, snapmirror, ui
 summary: 'You can resynchronize the original source volume and fail back using the NetAppElement UI. This procedure applies to scenarios where the original source volume still exists.'
 ---
+
 = Perform a failback when source volume still exists
 :icons: font
 :imagesdir: ../media/

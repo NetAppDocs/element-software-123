@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: snapshot,snapshots,group,list,listing,listgroupsnapshots
 summary: 'You can use ListGroupSnapshots method to return information about all group snapshots that have been created.'
 ---
+
 = ListGroupSnapshots
 :icons: font
 :imagesdir: ../media/

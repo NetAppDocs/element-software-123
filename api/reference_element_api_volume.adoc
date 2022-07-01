@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: object,objects,volume
 summary: 'The volume object contains configuration information about unpaired or paired volumes. It does not include runtime or usage information, and does not contain information about virtual volumes.'
 ---
+
 = volume
 :icons: font
 :imagesdir: ../media/

@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: BMC cold reset,BMC reset,enable BMC
 summary: 'You can use the EnableBmcColdReset method to enable a background task that periodically resets the Baseboard Management Controller \(BMC\) for all nodes in the cluster.'
 ---
+
 = EnableBmcColdReset
 :icons: font
 :imagesdir: ../media/
