@@ -2,7 +2,7 @@
 permalink: storage/task_snapmirror_use_replication_between_element_and_ontap_clusters.html
 sidebar: sidebar
 keywords: replication, snapmirror, data protection
-summary: 'You can create SnapMirror relationships from the Data Protection tab in the NetAppElement UI. SnapMirror functionality must be enabled to see this in the user interface.'
+summary: 'You can create SnapMirror relationships from the Data Protection tab in the Netapp Element UI. SnapMirror functionality must be enabled to see this in the user interface.'
 ---
 
 = Use SnapMirror replication between Element and ONTAP clusters
@@ -10,7 +10,7 @@ summary: 'You can create SnapMirror relationships from the Data Protection tab i
 :imagesdir: ../media/
 
 [.lead]
-You can create SnapMirror relationships from the Data Protection tab in the NetAppElement UI. SnapMirror functionality must be enabled to see this in the user interface.
+You can create SnapMirror relationships from the Data Protection tab in the Netapp Element UI. SnapMirror functionality must be enabled to see this in the user interface.
 
 IPv6 is not supported for SnapMirror replication between NetApp Element software and ONTAP clusters.
 

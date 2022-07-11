@@ -2,7 +2,7 @@
 permalink: storage/task_snapmirror_performing_failback_when_source_volume_no_longer_exists.html
 sidebar: sidebar
 keywords: failback, perform, source volume, snapmirror, dr, disaster recovery
-summary: 'You can resynchronize the original source volume and fail back using the NetAppElement UI. This section applies to scenarios in which the original source volume has been lost but the original cluster is still intact. For instructions about how to restore to a new cluster, see the documentation on the NetApp Support Site.'
+summary: 'You can resynchronize the original source volume and fail back using the Netapp Element UI. This section applies to scenarios in which the original source volume has been lost but the original cluster is still intact. For instructions about how to restore to a new cluster, see the documentation on the NetApp Support Site.'
 ---
 
 = Perform a failback when source volume no longer exists
@@ -10,7 +10,7 @@ summary: 'You can resynchronize the original source volume and fail back using t
 :imagesdir: ../media/
 
 [.lead]
-You can resynchronize the original source volume and fail back using the NetAppElement UI. This section applies to scenarios in which the original source volume has been lost but the original cluster is still intact. For instructions about how to restore to a new cluster, see the documentation on the NetApp Support Site.
+You can resynchronize the original source volume and fail back using the Netapp Element UI. This section applies to scenarios in which the original source volume has been lost but the original cluster is still intact. For instructions about how to restore to a new cluster, see the documentation on the NetApp Support Site.
 
 .What you'll need
 
