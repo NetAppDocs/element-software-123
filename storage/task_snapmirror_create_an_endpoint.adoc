@@ -2,7 +2,7 @@
 permalink: storage/task_snapmirror_create_an_endpoint.html
 sidebar: sidebar
 keywords: endpoints, create, snapmirror, ui
-summary: 'You must create a SnapMirror endpoint in the NetAppElement UI before you can create a relationship.'
+summary: 'You must create a SnapMirror endpoint in the Netapp Element UI before you can create a relationship.'
 ---
 
 = Create a SnapMirror endpoint
@@ -10,7 +10,7 @@ summary: 'You must create a SnapMirror endpoint in the NetAppElement UI before y
 :imagesdir: ../media/
 
 [.lead]
-You must create a SnapMirror endpoint in the NetAppElement UI before you can create a relationship.
+You must create a SnapMirror endpoint in the Netapp Element UI before you can create a relationship.
 
 
 A SnapMirror endpoint is an ONTAP cluster that serves as a replication target for a cluster running Element software. Before you create a SnapMirror relationship, you first create a SnapMirror endpoint.

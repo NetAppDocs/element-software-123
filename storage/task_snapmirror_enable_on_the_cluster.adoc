@@ -2,7 +2,7 @@
 permalink: storage/task_snapmirror_enable_on_the_cluster.html
 sidebar: sidebar
 keywords: snapmirror, enable, cluster, ui, manually enable
-summary: 'You must manually enable SnapMirror functionality at the cluster level through the NetAppElement UI. The system comes with SnapMirror functionality disabled by default, and it is not automatically enabled as part of a new installation or upgrade. Enabling the SnapMirror feature is a one-time configuration task.'
+summary: 'You must manually enable SnapMirror functionality at the cluster level through the Netapp Element UI. The system comes with SnapMirror functionality disabled by default, and it is not automatically enabled as part of a new installation or upgrade. Enabling the SnapMirror feature is a one-time configuration task.'
 ---
 
 = Enable SnapMirror on the cluster
@@ -10,7 +10,7 @@ summary: 'You must manually enable SnapMirror functionality at the cluster level
 :imagesdir: ../media/
 
 [.lead]
-You must manually enable SnapMirror functionality at the cluster level through the NetAppElement UI. The system comes with SnapMirror functionality disabled by default, and it is not automatically enabled as part of a new installation or upgrade. Enabling the SnapMirror feature is a one-time configuration task.
+You must manually enable SnapMirror functionality at the cluster level through the Netapp Element UI. The system comes with SnapMirror functionality disabled by default, and it is not automatically enabled as part of a new installation or upgrade. Enabling the SnapMirror feature is a one-time configuration task.
 
 SnapMirror can only be enabled for clusters running Element software used in conjunction with volumes on a NetApp ONTAP system. You should enable SnapMirror functionality only if your cluster is connected for use with NetApp ONTAP volumes.
 

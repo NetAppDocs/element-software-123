@@ -41,7 +41,7 @@ NOTE: Because a NetApp Element account ID is created automatically and assigned 
 
 On the Storage Containers page of the VVols tab, you can view information for all active storage containers on the cluster.
 
-* *Account ID*: The ID of the NetAppElement account associated with the storage container.
+* *Account ID*: The ID of the Netapp Element account associated with the storage container.
 
 * *Name*: The name of the storage container.
 

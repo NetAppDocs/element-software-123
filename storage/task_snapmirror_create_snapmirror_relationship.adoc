@@ -2,7 +2,7 @@
 permalink: storage/task_snapmirror_create_snapmirror_relationship.html
 sidebar: sidebar
 keywords: relationships, create, snapmirror, ui
-summary: 'You must create a SnapMirror relationship in the NetAppElement UI.'
+summary: 'You must create a SnapMirror relationship in the Netapp Element UI.'
 ---
 
 = Create a SnapMirror relationship
@@ -10,7 +10,7 @@ summary: 'You must create a SnapMirror relationship in the NetAppElement UI.'
 :imagesdir: ../media/
 
 [.lead]
-You must create a SnapMirror relationship in the NetAppElement UI.
+You must create a SnapMirror relationship in the Netapp Element UI.
 
 
 NOTE: When a volume is not yet enabled for SnapMirror and you select to create a relationship from the Element UI, SnapMirror is automatically enabled on that volume.
