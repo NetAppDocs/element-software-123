@@ -10,7 +10,7 @@ summary: 'You can change the default SSL certificate and private key of the stor
 :imagesdir: ../media/
 
 [.lead]
-You can change the default SSL certificate and private key of the storage node in the cluster using the NetAppElement API.
+You can change the default SSL certificate and private key of the storage node in the cluster using the Netapp Element API.
 
 When a NetApp Element software cluster is created, the cluster creates a unique self-signed Secure Sockets Layer (SSL) certificate and private key that is used for all HTTPS communication via the Element UI, per-node UI, or APIs. Element software supports self-signed certificates as well as certificates that are issued and verified by a trusted Certificate Authority (CA).
 

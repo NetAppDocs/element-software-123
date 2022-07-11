@@ -2,7 +2,7 @@
 permalink: storage/task_snapmirror_perform_failback_when_source_volume_exists.html
 sidebar: sidebar
 keywords: failback, perform, source volume, snapmirror, ui
-summary: 'You can resynchronize the original source volume and fail back using the NetAppElement UI. This procedure applies to scenarios where the original source volume still exists.'
+summary: 'You can resynchronize the original source volume and fail back using the Netapp Element UI. This procedure applies to scenarios where the original source volume still exists.'
 ---
 
 = Perform a failback when source volume still exists
@@ -10,7 +10,7 @@ summary: 'You can resynchronize the original source volume and fail back using t
 :imagesdir: ../media/
 
 [.lead]
-You can resynchronize the original source volume and fail back using the NetAppElement UI. This procedure applies to scenarios where the original source volume still exists.
+You can resynchronize the original source volume and fail back using the Netapp Element UI. This procedure applies to scenarios where the original source volume still exists.
 
 . In the Element UI, find the relationship that you broke to perform the failover.
 . Click the Actions icon and click *Reverse Resync*.
