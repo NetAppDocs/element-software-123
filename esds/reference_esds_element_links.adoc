@@ -2,7 +2,7 @@
 permalink: esds/reference_esds_element_links.html
 sidebar: sidebar
 keywords: element, solidfire esds, volumes, accounts, snapshots, virtual volumes, remote replication
-summary: After you install SolidFire eSDS on your storage clusters, you can use the Element UI, Element APIs, or the NetApp Element Plug-in for vCenter Server (VCP) to manage your storage clusters.
+summary: After you install SolidFire eSDS on your storage clusters, you can use the Element UI, Element APIs, or the NetApp Element Plug-in for vCenter Server to manage your storage clusters.
 ---
 
 = Manage SolidFire eSDS storage
@@ -10,7 +10,7 @@ summary: After you install SolidFire eSDS on your storage clusters, you can use 
 :imagesdir: ../media/
 
 [.lead]
-After you install SolidFire eSDS on your storage clusters, you can use the Element UI, Element APIs, or the NetApp Element Plug-in for vCenter Server (VCP) to manage your storage clusters.
+After you install SolidFire eSDS on your storage clusters, you can use the Element UI, Element APIs, or the NetApp Element Plug-in for vCenter Server to manage your storage clusters.
 
 Here are the links to the content for various storage management tasks:
 
