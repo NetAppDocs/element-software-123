@@ -6,7 +6,7 @@ summary: 'You can change VLAN attributes, such as VLAN name, netmask, and size o
 ---
 
 = Edit a virtual network
-:url-peak: 'https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_determine_which_VLAN_IP's_are_in_use_and_which_nodes_those_IP's_are_assigned_to_in_Element'
+:url-peak: https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_determine_which_VLAN_IP's_are_in_use_and_which_nodes_those_IP's_are_assigned_to_in_Element
 :icons: font
 :imagesdir: ../media/
 
@@ -34,5 +34,5 @@ You can add an IP address block by using the following procedure:
 .Link to troubleshooting KB articles
 Link to the Knowledge Base articles for help with troubleshooting issues with managing your VLAN IP address ranges.
 
-* https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/Duplicate_IP_warning_after_adding_a_storage_node_in_VLAN_on_Element_cluster[Duplicate IP warning after adding a storage node in VLAN on Element cluster]
-* {url-peak}[How to determine which VLAN IP's are in use and which nodes those IP's are assigned to in Element]
+* https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/Duplicate_IP_warning_after_adding_a_storage_node_in_VLAN_on_Element_cluster[Duplicate IP warning after adding a storage node in VLAN on Element cluster^]
+* How to {url-peak}[determine which VLAN IP's are in use and which nodes those IP's are assigned to in Element^]
