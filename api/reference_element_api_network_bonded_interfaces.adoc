@@ -33,7 +33,7 @@ string
 a|
 bond-downdelay
 a|
-Time to wait before disabling a slave after a link failure has been detected.
+Time to wait, in milliseconds, before disabling a slave after a link failure has been detected.
 a|
 string
 a|
@@ -45,9 +45,9 @@ string
 a|
 bond-miimon
 a|
-How often the MII link state is inspected for link failures.
+The frequency, in milliseconds, at which the MII link state is inspected for link failures.
 a|
-integer
+string
 a|
 bond-mode
 a|
@@ -85,13 +85,13 @@ When Bond Mode is LACP, the rate may change to one of the following:
 * LACP Slow
 
 a|
-integer
+string
 a|
 bond-updelay
 a|
-The time to wait before enabling a slave after a link is detected.
+The time, in milliseconds, to wait before enabling a slave after a link is detected.
 a|
-integer
+string
 a|
 dns-nameservers
 a|
