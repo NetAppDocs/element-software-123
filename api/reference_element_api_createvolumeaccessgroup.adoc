@@ -21,7 +21,7 @@ Consider the following when you create volume access groups:
 * A volume access group can contain up to 64 initiator IQNs.
 * An initiator can only belong to one volume access group.
 * A volume access group can contain up to 2000 volumes.
-* Each volume access group can belong to a maximum of four other volume access groups.
+* Each volume access group can belong to a maximum of four volume access groups.
 
 == Parameters
 
