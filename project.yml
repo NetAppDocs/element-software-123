@@ -33,7 +33,7 @@ sidebar:
     - section: hccstorage
     - section: api
     - title: Manage storage with the Element Plug-in for vCenter Server (link)
-      url: https://docs.netapp.com/us-en/vcp/
+      url: /element-plug-in-index.html
     - section: mnode
     - section: upgrade
     - title: Earlier versions
