@@ -1,13 +1,14 @@
 ---
-permalink: concepts/concept_intro_solidfire_active_iq.html
 sidebar: sidebar
-keywords: solidfire, active, iq, activeiq, tool, aiq
+permalink: monitor-storage-active-iq.html
+keywords: solidfire, active, iq, activeiq, tool, aiq, monitor, storage
 summary: 'Active IQ is a web-based tool that provides continually updated historical views of cluster-wide data. You can set up alerts for specific events, thresholds, or metrics. Active IQ enables you to monitor system performance and capacity, as well as stay informed about cluster health.'
 ---
 
-= SolidFire Active IQ
+= Monitor storage with SolidFire Active IQ
+:hardbreaks:
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
-include::../_include/solidfire_active_iq.adoc[]
+include::./_include/solidfire_active_iq.adoc[]
