@@ -32,8 +32,8 @@ sidebar:
     - section: storage
     - section: hccstorage
     - section: api
-    - title: Manage storage with the Element Plug-in for vCenter Server (link)
-      url: https://docs.netapp.com/us-en/vcp/
+    - title: Manage storage with the Element Plug-in for vCenter Server
+      url: /element-plug-in-index.html
     - title: Monitor storage with NetApp SolidFire Active IQ
       url: /monitor-storage-active-iq.html
     - section: mnode
