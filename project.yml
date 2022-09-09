@@ -34,6 +34,8 @@ sidebar:
     - section: api
     - title: Manage storage with the Element Plug-in for vCenter Server
       url: /element-plug-in-index.html
+    - title: Monitor storage with NetApp SolidFire Active IQ
+      url: /monitor-storage-active-iq.html
     - section: mnode
     - section: upgrade
     - title: Earlier versions
@@ -71,6 +73,8 @@ homepage:
           url: /api/index.html
         - title: Use Element Plug-in for vCenter Server
           url: https://docs.netapp.com/us-en/vcp/
+        - title: Use NetApp SolidFire Active IQ
+          url: https://docs.netapp.com/us-en/solidfire-active-iq/
         - title: Work with the management node
           url: /mnode/task_mnode_work_overview.html
     - title: Install and use SolidFire Enterprise SDS
