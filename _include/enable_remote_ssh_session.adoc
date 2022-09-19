@@ -1,8 +1,8 @@
 // This include file is referenced in the following two adoc files and standalone PDF:
 // hardware/task_rtfi_options_menu.adoc
-// mnode/task_mnode_enable_remote_support_connections.html
-// RTFI Configuration document from the NetApp SolidFire all-flash storage documentation resources
-// You must assess updates to this content for impact on all Element software documentation versions and on the RTFI Configuration document.
+// mnode/task_mnode_enable_remote_support_connections.adoc
+// RTFI Configuration document, referenced from the NetApp SolidFire all-flash storage documentation resources page
+// You must assess updates to this content for impact on all Element software documentation versions and on the RTFI Configuration PDF.
 You can open a TCP port for an SSH reverse tunnel connection with NetApp Support. This connection enables NetApp Support to log in to your management node.
 
 .Before you begin
