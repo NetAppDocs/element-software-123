@@ -14,6 +14,7 @@ Learn about installing and maintaining H-series and SF-series hardware.
 
 * xref:concept_h410s_h610s_info.adoc[H410S and H610S hardware information]
 * xref:concept_sfseries_info.adoc[SF-series hardware information]
+* xref:concept_rtfi_overview.html[Return to Factory Image information]
 
 == Find more information
 * https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]

@@ -1,0 +1,34 @@
+// This include file is referenced in the following two adoc files and standalone PDF:
+// hardware/task_rtfi_options_menu.adoc
+// mnode/task_mnode_enable_remote_support_connections.html
+// RTFI Configuration document from the NetApp SolidFire all-flash storage documentation resources
+// You must assess updates to this content for impact on all Element software documentation versions and on the RTFI Configuration document.
+You can open a TCP port for an SSH reverse tunnel connection with NetApp Support. This connection enables NetApp Support to log in to your management node.
+
+.Before you begin
+* For management services 2.18 and later, the capability for remote access is disabled on the management node by default. To enable remote access functionality, see https://docs.netapp.com/us-en/element-software/mnode/task_mnode_ssh_management.html[Manage SSH functionality on the management node].
+
+* If your management node is behind a proxy server, the following TCP ports are required in the sshd.config file:
++
+[cols=3*,options="header",cols="15,25,60"]
+|===
+| TCP port
+| Description
+| Connection direction
+| 443 | API calls/HTTPS for reverse port forwarding via open support tunnel to the web UI | Management node to storage nodes
+| 22 | SSH login access | Management node to storage nodes or from storage nodes to management node
+|===
+
+.Steps
+* Log in to your management node and open a terminal session.
+* At a prompt, enter the following:
++
+`rst -r  sfsupport.solidfire.com -u element -p <port_number>`
+
+* To close the remote support tunnel, enter the following:
++
+`rst --killall`
+
+* (Optional) Disable https://docs.netapp.com/us-en/element-software/mnode/task_mnode_ssh_management.html[remote access functionality] again.
++
+NOTE: SSH remains enabled on the management node if you do not disable it. SSH enabled configuration persists on the management node through updates and upgrades until it is manually disabled.
