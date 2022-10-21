@@ -20,7 +20,7 @@ You can retrieve logs from the services running on the management node using the
 * You have deployed a management node running version 11.3 or later.
 
 .Steps
-. Open the REST API UI on the management node:
+. Open the REST API UI on the management node.
 +
 ----
 https://<ManagementNodeIP>/mnode
