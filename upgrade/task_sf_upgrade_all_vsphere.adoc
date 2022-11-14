@@ -23,8 +23,9 @@ When you upgrade the VMware vSphere components of your SolidFire Element storage
 +
 [IMPORTANT]
 ====
-It is recommended to upgrade to NetApp Element Plug-in for vCenter Server 5.0 to give you the capability to deploy the plug-in with VMware vCenter 7.0 Update 3 without having to apply a workaround. 
-With Element Plug-in for vCenter Server 4.x, when you upgrade to VMware vCenter Server 7.0 U3, the plug-in fails to deploy. To resolve this issue using Spring Framework 4, see https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/vCenter_plug-in_deployment_fails_after_upgrading_vCenter_to_version_7.0_U3[this KB article^].
+You should upgrade to NetApp Element Plug-in for vCenter Server 5.0 to give you the capability to deploy the plug-in with VMware vCenter 7.0 Update 3 without having to apply a workaround. 
+
+With Element Plug-in for vCenter Server 4.x, when you upgrade to VMware vCenter Server 7.0 Update 3, the plug-in fails to deploy. To resolve this issue using Spring Framework 4, see https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/vCenter_plug-in_deployment_fails_after_upgrading_vCenter_to_version_7.0_U3[this KB article^].
 ====
 
 . https://docs.netapp.com/us-en/vcp/vcp_task_getstarted.html#register-the-plug-in-with-vcenter[Register^] the Element Plug-in for vCenter Server again with vCenter.
