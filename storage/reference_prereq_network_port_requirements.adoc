@@ -401,6 +401,14 @@ vCenter Plug-in API access
 a|
 vCenter Server
 a|
+Remote plug-in
+a|
+8333
+a|
+Remote vCenter Plug-in service
+a|
+vCenter Server
+a|
 Management node
 a|
 8443
