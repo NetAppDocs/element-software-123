@@ -42,7 +42,7 @@ The system opens a web browser tab that connects to the Element UI of the remote
 +
 After you confirm the pairing, the two clusters begin the process of connecting the volumes for pairing. During the pairing process, you can see messages in the *Volume Status* column of the *Volume Pairs* window. The volume pair displays `PausedMisconfigured` until the volume pair source and target are assigned.
 +
-After you successfully complete the pairing, it is recommended that you refresh the Volumes table to remove the *Pair* option from the *Actions* list for the paired volume. If you do not refresh the table, the *Pair* option remains available for selection. If you select the *Pair* option again, a new tab opens and because the volume is already paired, the system reports a `StartVolumePairing Failed: xVolumeAlreadyPaired` error message in the *Pair Volume* window of the Element UI page.
+After you successfully complete the pairing, you should refresh the Volumes table to remove the *Pair* option from the *Actions* list for the paired volume. If you do not refresh the table, the *Pair* option remains available for selection. If you select the *Pair* option again, a new tab opens and because the volume is already paired, the system reports a `StartVolumePairing Failed: xVolumeAlreadyPaired` error message in the *Pair Volume* window of the Element UI page.
 
 == Find more information
 
