@@ -13,7 +13,6 @@ summary: Documentation for previous releases is available in case you’re not r
 [.lead]
 Documentation for previous releases is available on the NetApp Support site. 
 
-* https://docs.netapp.com/us-en/element-software-123/index.html[Element 12.3.x documentation^]
 * https://mysupport.netapp.com/documentation/docweb/index.html?productID=63945&language=en-US[Element 12.2.1 documentation^]
 * https://mysupport.netapp.com/documentation/docweb/index.html?productID=63593&language=en-US[Element 12.2 documentation^]
 * https://mysupport.netapp.com/documentation/docweb/index.html?productID=63946&language=en-US[Element 12.0.1 documentation^]
