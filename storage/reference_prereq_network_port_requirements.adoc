@@ -146,6 +146,11 @@ a|
 443
 a|
 Provides access to components necessary to install/update on-premises deployment.
+
+|Management node
+|Storage node BMC/IPMI
+|623 UDP
+|RMCP port. This is required to manage IPMI-enabled systems.
 a|
 Management node
 a|
@@ -178,6 +183,12 @@ a|
 161 UDP
 a|
 SNMP polling
+
+|Storage node BMC/IPMI
+|Management node
+|623 UDP
+|RMCP port. This is required to manage IPMI-enabled systems.
+
 a|
 Storage node MIP
 a|
@@ -377,11 +388,27 @@ HTTPS UI and API access to storage cluster
 a|
 System administrator PC
 a|
+Storage node baseboard management controller (BMC)/Intelligent Platform Management Interface (IPMI) H410 and H600 series	
+a|
+443
+a|
+HTTPS UI and API access to node remote control
+a|
+System administrator PC
+a|
 Storage node MIP
 a|
 443
 a|
 HTTPS storage cluster creation, post-deployment UI access to storage cluster
+a|
+System administrator PC
+a|
+Storage node BMC/IPMI H410 and H600 series	
+a|
+623 UDP
+a|
+Remote Management Control Protocol port. This is required to manage IPMI-enabled systems.
 a|
 System administrator PC
 a|
@@ -398,6 +425,14 @@ a|
 443
 a|
 vCenter Plug-in API access
+a|
+vCenter Server
+a|
+Remote plug-in
+a|
+8333
+a|
+Remote vCenter Plug-in service
 a|
 vCenter Server
 a|
@@ -427,3 +462,4 @@ vCenter Plug-in registration. The port can be closed after registration is compl
 == For more information
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
+// 2022 DEC 14, DOC-4644
