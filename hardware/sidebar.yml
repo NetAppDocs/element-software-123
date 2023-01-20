@@ -26,7 +26,7 @@ entries:
       url: /hardware/task_sfseries_psurepl.html
   - title: Return to Factory Image information
     entries:
-    - title: Configure the Return to Factory Image
+    - title: Configure the RTFI
       url: /hardware/concept_rtfi_configure.html
     - title: RTFI deployment and installation options
       url: /hardware/task_rtfi_deployment_and_install_options.html

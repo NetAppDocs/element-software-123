@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:
 summary:
 ---
-= Configure the Return to Factory Image 
+= Configure the RTFI
 :icons: font
 :imagesdir: ../media/
 
