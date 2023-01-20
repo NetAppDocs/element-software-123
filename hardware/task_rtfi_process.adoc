@@ -4,13 +4,12 @@ sidebar: sidebar
 keywords:
 summary:
 ---
-
-= Perform the Return To Factory Image process
+= The RTFI process
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can begin the RTFI process by interacting with the node through text console prompts that appear before the system boots.
+You can begin the Return to Factory Image (RTFI) process by interacting with the node through text console prompts that appear before the system boots.
 
 WARNING: The RTFI process is data destructive and securely erases all data and configuration details from the node and installs a new operating system. Verify that the node used for the RTFI process is not active as part of a cluster.
 
@@ -21,8 +20,8 @@ The RTFI process performs the following high-level operations:
 . Starts the installation after user confirmation and validates the image.
 . Unlocks all drives on a node.
 . Validates and flashes firmware.
-. Checks the hardware.
-. Tests the hardware.
+. Checks hardware.
+. Tests hardware.
 . Secure erases all selected drives.
 . Partitions root drive and creates file systems.
 . Mounts and unpacks the image.
@@ -32,16 +31,17 @@ The RTFI process performs the following high-level operations:
 To configure your node after the RTFI process successfully completes, see the https://docs.netapp.com/us-en/element-software/index.html[documentation for your Element software version^]. After a node successfully completes the RTFI process, it transitions to the _available_ (unconfigured) state by default.
 
 == Perform the RTFI process
+Use the following procedure to restore the Element software on your SolidFire node. 
 
-Follow these steps to restore the Element software on your SolidFire node.
+For information on creating a USB key or using the BMC to perform the RTFI process, see link:task_rtfi_deployment_and_install_options.html[RTFI deployment and installation options]. 
 
 .Before you begin
-Verify that you have the following setup before you begin:
+Verify that you meet the following requirements:
 
-* Access to a console for the SolidFire node.
+* You have access to a console for the SolidFire node.
 * The node on which you are performing the RTFI process is powered up and connected to a network.
 * The node on which you are performing the RTFI process is not part of an active cluster.
-* Access to bootable installation media that contains the image of the relevant Element software version for your configuration.
+* You have access to bootable installation media that contains the image of the relevant Element software version for your configuration.
 
 Contact NetApp Support if you have any concerns before performing the RTFI process.
 
