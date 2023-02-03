@@ -63,6 +63,8 @@ homepage:
           url: /hardware/concept_h410s_h610s_info.html
         - title: SF-series hardware information
           url: /hardware/concept_sfseries_info.html
+        - title: Supported firmware revisions for NetApp H-Series storage nodes
+          url: /hardware/fw_storage_nodes.html
     - title: Manage storage
       links:
         - title: Use Element software UI
