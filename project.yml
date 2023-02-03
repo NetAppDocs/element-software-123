@@ -63,6 +63,8 @@ homepage:
           url: /hardware/concept_h410s_h610s_info.html
         - title: SF-series hardware information
           url: /hardware/concept_sfseries_info.html
+        - title: Return to Factory Image information
+          url: /hardware/concept_rtfi_configure.html
     - title: Manage storage
       links:
         - title: Use Element software UI
