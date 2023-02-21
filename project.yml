@@ -27,7 +27,6 @@ sidebar:
         url: /storage/reference_prereq_network_port_requirements.html
     - section: try
     - section: hardware
-    - section: esds
     - section: setup
     - section: storage
     - section: hccstorage
@@ -81,18 +80,6 @@ homepage:
           url: https://docs.netapp.com/us-en/solidfire-active-iq/
         - title: Work with the management node
           url: /mnode/task_mnode_work_overview.html
-    - title: Install and use SolidFire Enterprise SDS
-      links:
-        - title: SolidFire eSDS overview
-          url: /esds/concept_get_started_esds.html
-        - title: Quick start
-          url: https://docs.netapp.com/us-en/element-software/media/SDS_Quick_Start_Guide.pdf
-        - title: Requirements for installation
-          url: /esds/concept_esds_prerequisite_tasks.html
-        - title: Manage storage
-          url: /esds/reference_esds_element_links.html
-        - title: Maintain SolidFire eSDS
-          url: /esds/concept_esds_maintain.html
     - title: Use integration tools (login required)
       links:
         - title: Element CLI

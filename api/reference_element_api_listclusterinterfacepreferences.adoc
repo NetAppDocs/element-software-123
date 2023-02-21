@@ -12,8 +12,6 @@ summary: 'The ListClusterInterfacePreference method enables systems integrated w
 [.lead]
 The `ListClusterInterfacePreference` method enables systems integrated with storage clusters running Element software to list the existing cluster interface preferences stored on the system. This method is for internal use.
 
-NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
-
 == Parameters
 
 This method has no input parameters.
@@ -67,3 +65,5 @@ This method returns a response similar to the following example:
 == New since version
 
 11.0
+
+// 2023 FEB 21, DOC-4643

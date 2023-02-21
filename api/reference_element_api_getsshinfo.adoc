@@ -12,8 +12,6 @@ summary: 'You can use the GetSshInfo method to query the status of the SSH servi
 [.lead]
 You can use the `GetSshInfo` method to query the status of the SSH service on a single node.
 
-NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
-
 == Parameters
 
 This method has no input parameters.
@@ -57,3 +55,5 @@ This method returns a response similar to the following example:
     }
 }
 ----
+
+// 2023 FEB 21, DOC-4643
