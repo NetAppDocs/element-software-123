@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: mdss, remove, multi-drive slice service
 summary: 'You can remove the multi-drive slice service \(MDSS\) drives. This procedure applies only if the node has multiple slice drives.'
 ---
-
 = Remove MDSS drives
 :icons: font
 :imagesdir: ../media/
