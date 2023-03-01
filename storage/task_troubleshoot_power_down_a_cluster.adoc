@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: cluster, power down, mvip
 summary: 'You can power down an entire cluster after you have contacted NetApp Support and completed preliminary steps.'
 ---
-
 = Power down a cluster
 :icons: font
 :imagesdir: ../media/
@@ -28,7 +27,7 @@ When you restart the cluster, you must follow certain steps to verify that all n
 . Wait for 10 to 15 minutes for the cluster to settle.
 . Start bringing up the hosts to access the data. 
 
-If you want allow more time when powering on nodes and verifying that they are healthy after maintenance, contact technical support for assistance with delaying data synchronization to prevent unnecessary bin syncing.
+If you want to allow more time when powering on nodes and verifying that they are healthy after maintenance, contact technical support for assistance with delaying data synchronization to prevent unnecessary bin syncing.
 ====
 
 == Find more information
