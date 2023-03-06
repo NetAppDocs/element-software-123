@@ -19,7 +19,7 @@ You can create a storage cluster after you have configured all of the individual
 .About this task
 During new node configuration, 1G or 10G Management IP (MIP) addresses are assigned to each node. You must use one of the node IP addresses created during configuration to open the Create a New Cluster page. The IP address you use depends on the network you have chosen for cluster management.
 
-IMPORTANT: If you want to enable cluster-wide link:../concepts/concept_solidfire_concepts_security.html#encryption-at-rest-software[software encryption at rest], you must create the cluster using the link:../api/reference_element_api_createcluster.html[CreateCluster] API method instead and change the enableSoftwareEncryptionAtRest parameter to `true`. After software encryption at rest is enabled, it cannot be disabled on the cluster. Software encryption at rest is enabled by default for SolidFire eSDS clusters. Hardware-based encryption at rest can be link:../storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html[enabled and disabled] after cluster creation.
+IMPORTANT: If you want to enable cluster-wide link:../concepts/concept_solidfire_concepts_security.html#encryption-at-rest-software[software encryption at rest], you must create the cluster using the link:../api/reference_element_api_createcluster.html[CreateCluster] API method instead and change the enableSoftwareEncryptionAtRest parameter to `true`. After software encryption at rest is enabled, it cannot be disabled on the cluster. Hardware-based encryption at rest can be link:../storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html[enabled and disabled] after cluster creation.
 
 [NOTE]
 ===============================
@@ -57,3 +57,5 @@ The system might take several minutes to create the cluster depending on the num
 * link:../api/index.html[Managing storage with the Element API]
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
+
+// 2023 FEB 21, DOC-4643

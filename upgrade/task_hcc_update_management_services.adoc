@@ -13,7 +13,6 @@ keywords: netapp, solidfire, cluster, management services, hcc, update managemen
 :imagesdir: ../media/
 
 [.lead]
-
 You can update your management services to the latest bundle version after you have installed management node 11.3 or later.
 
 Beginning with the Element 11.3 management node release, the management node design has been changed based on a new modular architecture that provides individual services. These modular services provide central and extended management functionality for a SolidFire all-flash storage system. Management services include system telemetry, logging, and update services, the QoSSIOC service for Element Plug-in for vCenter Server, NetApp Hybrid Cloud Control, and more.

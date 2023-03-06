@@ -14,8 +14,6 @@ You can change the storage node network settings to give the node a new set of n
 
 You can see the network settings for a storage node on the *Network Settings* page when you log in to the node (https://<node IP>:442/hcc/node/network-settings). You can select either *Bond1G* (management) or *Bond10G* (storage) settings. The following list describes the settings that you can modify when a storage node is in Available, Pending, or Active state:
 
-NOTE: If you are running a SolidFire Enterprise SDS cluster, most networking settings in the per-node UI cannot be modified after node deployment.
-
 * *Method*
 +
 The method used to configure the interface. Possible methods:
@@ -84,3 +82,5 @@ Tag assigned when the virtual network was created.
 * *Routes*
 +
 Static routes to specific hosts or networks via the associated interface the routes are configured to use.
+
+// 2023 FEB 21, DOC-4643

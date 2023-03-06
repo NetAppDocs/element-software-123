@@ -12,8 +12,6 @@ summary: 'You can use the EnableSsh method to enable the SSH service for a singl
 [.lead]
 You can use the `EnableSsh` method to enable the Secure Shell (SSH) service for a single node. This method does not affect the cluster-wide SSH timeout duration, and does not exempt the node from having SSH disabled by the global SSH timeout.
 
-NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
-
 == Parameter
 
 This method has no input parameter.
@@ -56,3 +54,5 @@ This method returns a response similar to the following example:
   "result" : {"enabled": true}
 }
 ----
+
+// 2023 FEB 21, DOC-4643

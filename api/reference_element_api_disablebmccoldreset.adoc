@@ -12,8 +12,6 @@ summary: 'You can use the DisableBmcColdReset method to disable the background t
 [.lead]
 You can use the `DisableBmcColdReset` method to disable the background task that periodically resets the Baseboard Management Controller (BMC) for all nodes in the cluster.
 
-NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
-
 == Parameter
 
 This method has no input parameter.
@@ -61,3 +59,5 @@ This method returns a response similar to the following example:
 == New since version
 
 12.0
+
+// 2023 FEB 21, DOC-4643

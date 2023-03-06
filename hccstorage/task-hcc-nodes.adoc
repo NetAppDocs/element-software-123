@@ -17,8 +17,6 @@ You can view your storage assets in your system and determine their IP addresses
 
 You can view storage information for your multiple node systems. If link:../concepts/concept_solidfire_concepts_data_protection.html#custom_pd[custom protection domains] are assigned, you can see which protection domains are assigned to specific nodes.
 
-For SolidFire Enterprise SDS nodes, you can monitor inventory on the Storage tab.
-
 .Steps
 
 . Open the IP address of the management node in a web browser. For example:
@@ -51,3 +49,5 @@ TIP: To view the number of storage, look at the NetApp Hybrid Cloud Control (HCC
 == Find more information
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 * https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+
+// 2023 FEB 21, DOC-4643
