@@ -12,8 +12,6 @@ summary: 'You can use the GetIpmiInfo method to display a detailed reporting of 
 [.lead]
 You can use the `GetIpmiInfo` method to display a detailed reporting of sensors (objects) for node fans, intake and exhaust temperatures, and power supplies that are monitored by the system.
 
-NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
-
 == Parameters
 
 This method has no input parameters.
@@ -179,3 +177,5 @@ Due to the length of the returned response for this API method, portions of the 
 == New since version
 
 9.6
+
+// 2023 FEB 21, DOC-4643

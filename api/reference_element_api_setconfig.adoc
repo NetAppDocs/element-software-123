@@ -12,8 +12,6 @@ summary: 'You can use the SetConfig method to set the network and cluster inform
 [.lead]
 You can use the `SetConfig` method to set the network and cluster information for the node. This method includes the same settings in a single API method that are available using both `SetClusterConfig` and `SetNetworkConfig` methods. Only the fields you want changed need to be included with this method.
 
-NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
-
 == Parameter
 
 CAUTION:
@@ -99,3 +97,5 @@ The response from this method is the same as the return for the GetConfig method
 * xref:reference_element_api_setclusterconfig.adoc[SetClusterConfig]
 * xref:reference_element_api_setnetworkconfig.adoc[SetNetworkConfig]
 * xref:reference_element_api_response_example_getconfig.adoc[GetConfig]
+
+// 2023 FEB 21, DOC-4643

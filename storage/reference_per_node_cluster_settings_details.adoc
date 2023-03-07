@@ -14,8 +14,6 @@ You can verify cluster settings for a storage node after cluster configuration a
 
 The following list describes the cluster settings for a storage node indicated from the *Cluster Settings* page of the per-node UI (https://<node IP>:442/hcc/node/cluster-settings).
 
-NOTE: If you are running a SolidFire Enterprise SDS cluster, most networking settings in the per-node UI cannot be modified after node deployment.
-
 * *Role*
 +
 Role the node has in the cluster. Possible values:
@@ -67,3 +65,5 @@ Storage network interface using Bond10G.
 * *Encryption Capable*
 +
 Indicates whether or not the node supports drive encryption.
+
+// 2023 FEB 21, DOC-4643

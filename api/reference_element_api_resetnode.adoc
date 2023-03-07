@@ -12,8 +12,6 @@ summary: 'You can use the ResetNode method to reset a node to the factory settin
 [.lead]
 You can use the `ResetNode` method to reset a node to the factory settings. All data, packages (software upgrades, etc), configurations, and log files are deleted from the node when you call this method. However, network settings for the node are preserved during this operation. Nodes that are participating in a cluster cannot be reset to the factory settings.
 
-NOTE: SolidFire Enterprise SDS does not support this method. If you use this method on a SolidFire eSDS system, the method will return an error.
-
 == Parameters
 
 The ResetNode API can only be used on nodes that are in an "Available" state. It cannot be used on nodes that are "Active" in a cluster, or in a "Pending" state.
@@ -137,3 +135,5 @@ This method returns a response similar to the following example:
 == New since version
 
 9.6
+
+// 2023 FEB 21, DOC-4643

@@ -44,7 +44,7 @@ No
 a|
 enableSoftwareEncryptionAtRest
 a|
-Enable this parameter to use software-based encryption at rest. Defaults to true on SolidFire Enterprise SDS clusters. Defaults to false on all other clusters. After software encryption at rest is enabled, it cannot be disabled on the cluster.
+Enable this parameter to use software-based encryption at rest. Defaults to false on all clusters. After software encryption at rest is enabled, it cannot be disabled on the cluster.
 a|
 boolean
 a|
@@ -180,3 +180,5 @@ This method returns a response similar to the following example:
 * link:reference_element_api_getbootstrapconfig.html[GetBootstrapConfig]
 * https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
 * https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]
+
+// 2023 FEB 21, DOC-4643

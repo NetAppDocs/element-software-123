@@ -14,4 +14,4 @@ Setting up the Network Time Protocol (NTP) can be achieved in one of two ways: e
 
 The NTP is used to synchronize clocks over a network. Connection to an internal or external NTP server should be part of the initial cluster setup.
 
-NOTE: This feature is unavailable in SolidFire Enterprise SDS clusters.
+// 2023 FEB 21, DOC-4643
