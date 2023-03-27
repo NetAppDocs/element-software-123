@@ -14,21 +14,6 @@ You might need to allow the following TCP ports through your datacenter's edge f
 
 All ports are TCP unless stated otherwise, and should permit bi-directional communications between the NetApp Support Server, management node, and nodes running Element software.
 
-[NOTE]
-======================
-The NetApp Hybrid Cloud Control web UI and API download software packages from the NetApp online software repository. Because of this, some URLs or IP addresses might resolve to other URLs or IP addresses based on the content delivery network. If possible, you should work with a network engineer to add these URLs or IP addresses to the firewall rules, using the following general steps:
-
-.Steps
-
-. Use the Wget or cURL utilities to access a URL (support-sg-nawest.netapp.com, for example).
-. Check for connectivity as shown in the following example:
-+
-image::network_ports.PNG[Check port connectivity]
-. Receive a failure to access the URL (different from support-sg-nawest.netapp.com).
-. Edit the firewall rules to allow the new URL.
-. Repeat the above steps until the access attempt succeeds.
-======================
-
 TIP: Enable ICMP between the management node, nodes running Element software, and cluster MVIP.
 
 The following abbreviations are used in the table:
@@ -105,23 +90,6 @@ a|
 442
 a|
 UI and API access to storage node and Element software upgrades
-a|
-Management node
-a|
-New release notification:
-
-* `https://support.netapp.com/aods/`
-
-Software download:
-
-* `https://support-sg-emea.netapp.com`
-* `https://support-sg-naeast.netapp.com`
-* `https://support-sg-nawest.netapp.com`
-
-a|
-443
-a|
-Management node service upgrades
 a|
 Management node
 a|

@@ -12,6 +12,8 @@ summary: 'You can use the SetSSLCertificate method to set a user SSL certificate
 [.lead]
 You can use the `SetSSLCertificate` method to set a user SSL certificate and private key for the storage nodes in the cluster.
 
+NOTE: After using the API, you must reboot the management node.
+
 == Parameters
 
 This method has the following input parameters:
@@ -75,3 +77,5 @@ This method returns a response similar to the following example:
 == New since version
 
 10.0
+
+// 2023 MAR 24, DOC-3452
