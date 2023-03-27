@@ -39,6 +39,8 @@ https://<ManagementNodeIP>
 . Log in to NetApp Hybrid Cloud Control by providing the storage cluster administrator credentials.
 . Select *Upgrade* near the top right of the interface.
 . The EULA pops up. Scroll down, select *I accept for current and all future updates*, and select *Save*.
++
+NOTE: When you accept the EULA, it is recorded for all future updates and the automatic download feature is enabled. You will receive updates on NetApp software updates and upgrades, which you can install at your discretion and convenience. You can disable the automatic download feature by disabling network connectivity to the NetApp online software repository.
 
 * *Updated BMC for H610S nodes*: You have upgraded the BMC version for your H610S nodes. See link:https://docs.netapp.com/us-en/hci/docs/rn_H610S_BMC_3.84.07.html[release notes and upgrade instructions^].
 
@@ -84,68 +86,67 @@ If the cluster is up to date and/or no upgrade packages are available, the *Elem
 . Wait for the upload to complete. A progress bar shows the status of the upload.
 +
 CAUTION: The file upload will be lost if you navigate away from the browser window.
-+
-An on-screen message is displayed after the file is successfully uploaded and validated. Validation might take several minutes. If you navigate away from the browser window at this stage, the file upload is preserved.
 
+. Choose from the following options and perform the set of steps that are applicable to your cluster:
++
+[%header,cols=2*]
+|===
+|Option
+|Steps
+
+|Your management node has external connectivity.
+a|
+. Select the drop-down arrow next to the cluster you are upgrading.
 . Select *Firmware Only*, and select from the upgrade versions available.
 . Select *Begin Upgrade*.
 +
+
 TIP: The *Upgrade Status* changes during the upgrade to reflect the status of the process. It also changes in response to actions you take, such as pausing the upgrade, or if the upgrade returns an error. See <<Upgrade status changes>>.
 +
+
 NOTE: While the upgrade is in progress, you can leave the page and come back to it later to continue monitoring the progress. The page does not dynamically update status and current version if the cluster row is collapsed. The cluster row must be expanded to update the table or you can refresh the page.
 +
+
 You can download logs after the upgrade is complete.
+
+|Your management node is within a dark site without external connectivity.
+a|
+. Select the drop-down arrow next to the cluster you are upgrading.
+. Select *Browse* to upload the upgrade package that you downloaded.
+. Wait for the upload to complete. A progress bar shows the status of the upload.
+
+CAUTION: The file upload will be lost if you navigate away from the browser window.
+
+An on-screen message is displayed after the file is successfully uploaded and validated. Validation might take several minutes. If you navigate away from the browser window at this stage, the file upload is preserved.
+You can download logs after the upgrade is complete. For information about the various upgrade status changes, see <<Upgrade status changes>>.
+
+|===
 
 === Upgrade status changes
 
 Here are the different states that the *Upgrade Status* column in the UI shows before, during, and after the upgrade process:
-
-[%header,cols=2*]
-|===
-|Upgrade state
-|Description
-
-|Up to Date
+@@ -109,7 +122,7 @@ Here are the different states that the *Upgrade Status* column in the UI shows b
 |The cluster was upgraded to the latest Element version available or the firmware was upgraded to the latest version.
 
 |Unable to Detect
-|This status is displayed when the storage service API returns an upgrade status that is not in the enumerated list of possible upgrade statuses.
+|NetApp Hybrid Cloud Control shows this status instead of *Versions Available* when it does not have external connectivity to reach the online software repository. This status is also displayed when the storage service API returns an upgrade status that is not in the enumerated list of possible upgrade statuses.
 
 |Versions Available
 |Newer versions of Element and/or storage firmware are available for upgrade.
-
-|In Progress
-|The upgrade is in progress. A progress bar shows the upgrade status. On-screen messages also show node-level faults and display the node ID of each node in the cluster as the upgrade progresses. You can monitor the status of each node using the Element UI or the NetApp Element plug-in for vCenter Server UI.
-
-|Upgrade Pausing
-|You can choose to pause the upgrade. Depending on the state of the upgrade process, the pause operation can succeed or fail. You will see a UI prompt asking you to confirm the pause operation. To ensure that the cluster is in a safe spot before pausing an upgrade, it can take up to two hours for the upgrade operation to be completely paused. To resume the upgrade, select *Resume*.
-
-|Paused
-|You paused the upgrade. Select *Resume* to resume the process.
-
-|Error
-|An error has occurred during the upgrade. You can download the error log and send it to NetApp Support. After you resolve the error, you can return to the page, and select *Resume*.  When you resume the upgrade, the progress bar goes backwards for a few minutes while the system runs the health check and checks the current state of the upgrade.
-|===
-
-== What happens if an upgrade fails using NetApp Hybrid Cloud Control
-If a drive or node fails during an upgrade, the Element UI will show cluster faults. The upgrade process does not proceed to the next node, and waits for the cluster faults to resolve. The progress bar in the UI shows that the upgrade is waiting for the cluster faults to resolve. At this stage, selecting *Pause* in the UI will not work, because the upgrade waits for the cluster to be healthy. You will need to engage NetApp Support to assist with the failure investigation.
-
-NetApp Hybrid Cloud Control has a pre-set three-hour waiting period, during which one of the following scenarios can happen:
-
-* The cluster faults get resolved within the three-hour window, and upgrade resumes. You do not need to take any action in this scenario.
-* The problem persists after three hours, and the upgrade status shows *Error* with a red banner. You can resume the upgrade by selecting *Resume* after the problem is resolved.
-* NetApp Support has determined that the upgrade needs to be temporarily aborted to take corrective action before the three-hour window. Support will use the API to abort the upgrade.
-
-CAUTION: Aborting the cluster upgrade while a node is being updated might result in the drives being ungracefully removed from the node. If the drives are ungracefully removed, adding the drives back during an upgrade will require manual intervention by NetApp Support. The node might be taking longer to do firmware updates or post update syncing activities. If the upgrade progress seems stalled, contact NetApp Support for assistance.
-
-== Use NetApp Hybrid Cloud Control API to upgrade storage firmware
-
+@@ -143,6 +156,38 @@ CAUTION: Aborting the cluster upgrade while a node is being updated might result
 You can use APIs to upgrade storage nodes in a cluster to the latest Element software version. You can use an automation tool of your choice to run the APIs. The API workflow documented here uses the REST API UI available on the management node as an example.
 
 .Steps
-. Download the storage firmware upgrade package to a device that is accessible to the management node; go to the Element software https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[downloads page^] and download the latest storage firmware image.
+. Do one of the following depending on your connection:
++
+[%header,cols=2*]
+|===
+|Option
+|Steps
 
-. Upload the storage firmware upgrade package to the management node:
+|Your management node has external connectivity.
+a|
+. Verify the repository connection:
 .. Open the management node REST API UI on the management node:
 +
 ----
@@ -156,18 +157,26 @@ https://<ManagementNodeIP>/package-repository/1/
 ... Enter the client ID as `mnode-client`.
 ... Select *Authorize* to begin a session.
 ... Close the authorization window.
-.. From the REST API UI, select *POST /packages*.
+.. From the REST API UI, select *GET ​/packages​/remote-repository​/connection*.
 .. Select *Try it out*.
-.. Select *Browse* and select the upgrade package.
-.. Select *Execute* to initiate the upload.
-.. From the response, copy and save the package ID (`"id"`) for use in a later step.
-. Verify the status of the upload.
-.. From the REST API UI, select *GET​ /packages​/{id}​/status*.
+.. Select *Execute*.
+.. If code 200 is returned, go to the next step. If there is no connection to the remote repository, establish the connection or use the dark site option.
+. Find the upgrade package ID:
+.. From the REST API UI, select *GET /packages*.
 .. Select *Try it out*.
-.. Enter the firmware package ID you copied in the previous step in *id*.
+.. Select *Execute*.
+.. From the response, copy and save the firmware package ID for use in a later step.
+
+|Your management node is within a dark site without external connectivity.
+a|
+. Download the storage firmware upgrade package to a device that is accessible to the management node; go to the Element software https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[downloads page^] and download the latest storage firmware image.
+
+. Upload the storage firmware upgrade package to the management node:
+@@ -168,6 +213,7 @@ https://<ManagementNodeIP>/package-repository/1/
 .. Select *Execute* to initiate the status request.
 +
 The response indicates `state` as `SUCCESS` when complete.
+|===
 . Locate the installation asset ID:
 .. Open the management node REST API UI on the management node:
 +
