@@ -12,6 +12,8 @@ summary: 'You can use the SetNodeSSLCertificate method to set a user SSL certifi
 [.lead]
 You can use the `SetNodeSSLCertificate` method to set a user SSL certificate and private key for the management node.
 
+NOTE: After using the API, you must reboot the management node.
+
 == Parameters
 
 NOTE: You must call this method against the management node. For example:
@@ -77,3 +79,5 @@ This method returns a response similar to the following example:
     "result" : {}
 }
 ----
+
+// 2023 MAR 24, DOC-3452
