@@ -43,7 +43,7 @@ kmipKeyProvider
 a|
 An object containing details about the requested key provider.
 a|
-link:reference_element_api_keyproviderkmip.md#[KeyProviderKmip]
+link:reference_element_api_keyproviderkmip.html[KeyProviderKmip]
 |===
 
 == Request example

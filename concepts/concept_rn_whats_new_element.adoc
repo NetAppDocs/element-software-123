@@ -140,13 +140,6 @@ Element 12.3 performs periodic health checks on SolidFire appliance drives using
 
 SolidFire eSDS is now available on Dell R640 servers. See the https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT[NetApp Interoperability Matrix Tool (IMT)^] for more information about the supported configuration.
 
-=== New documentation for SolidFire eSDS
-
-The following new documentation is available for SolidFire eSDS:
-
-* https://docs.netapp.com/us-en/element-software/esds/task_esds_r640_drive_repl.html[Replace drives for Dell R640^]: Provides steps for replacing the drives in Dell R640 servers.
-* https://kb.netapp.com/Special:Search?query=solidfire+enterprise+SDS&type=wiki[Knowledge Base articles (login required)^]: Provides information about troubleshooting issues with your SolidFire eSDS system.
-
 === New location for SolidFire eSDS known issues
 
 You can now search for known issues on the https://mysupport.netapp.com/site/products/all/details/solidfire-enterprise-sds/bugsonline-tab[Bugs Online tool (login required)^].

@@ -91,7 +91,7 @@ kmipKeyServer
 a|
 An object containing details about the newly modified key server.
 a|
-link:reference_element_api_keyserverkmip.md#[KeyServerKmip]
+link:reference_element_api_keyserverkmip.html[KeyServerKmip]
 |===
 
 == Request example

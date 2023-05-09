@@ -25,7 +25,7 @@ WARNING: For SolidFire all-flash storage clusters, software encryption at rest m
 
 == Check encryption at rest status
 
-To see the current status of encryption at rest and/or software encryption at rest on the cluster, use the link:../api/reference_element_api_getclusterinfo.html[GetClusterInfo^] method. You can use the link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html[GetSoftwareEncryptionAtRestInfo^] method to get information the cluster uses to encrypt data at rest.
+To see the current status of encryption at rest and/or software encryption at rest on the cluster, use the link:../api/reference_element_api_getclusterinfo.html[GetClusterInfo] method. You can use the link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html[GetSoftwareEncryptionAtRestInfo] method to get information the cluster uses to encrypt data at rest.
 
 NOTE: The Element software UI dashboard at `https://<MVIP>/` currently only shows encryption at rest status for hardware-based encryption.
 
