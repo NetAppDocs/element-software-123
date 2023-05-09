@@ -28,7 +28,7 @@ protectionDomainLayout
 a|
 List of nodes, each with its associated protection domains.
 a|
-JSON list of link:reference_element_api_nodeprotectiondomains.md#GUID-3750B3B8-6A66-402F-85F1-E828005084BB[nodeProtectionDomains] objects.
+JSON list of link:reference_element_api_nodeprotectiondomains.html[nodeProtectionDomains] objects.
 |===
 
 == Request example

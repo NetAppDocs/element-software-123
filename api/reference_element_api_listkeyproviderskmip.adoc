@@ -62,7 +62,7 @@ kmipKeyProviders
 a|
 A list of KMIP key providers that have been created.
 a|
-link:reference_element_api_keyproviderkmip.md#[KeyProviderKmip] array
+link:reference_element_api_keyproviderkmip.html[KeyProviderKmip] array
 |===
 
 == Request example
