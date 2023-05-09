@@ -52,6 +52,6 @@ To test this, log out of the Element UI and log back in as a user in that group.
 
 *Related information*
 
-xref:task_system_manage_create_a_cluster_administrator_account.adoc[Create a cluster administrator account]
+* link:concept_system_manage_manage_cluster_administrator_users.html#create_cluster_admin_account[Create a cluster administrator account]
 
-xref:reference_system_manage_ldap_details.adoc[LDAP details]
+* link:concept_system_manage_manage_ldap.html#view_ldap_details[LDAP details]

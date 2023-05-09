@@ -30,5 +30,5 @@ protectionDomains
 a|
 List of protection domains of which the node is a member.
 a|
-link:reference_element_api_protectiondomain.md#GUID-96388C5C-ACA2-44D9-86CE-19FEF0825A11[protectionDomain]
+link:reference_element_api_protectiondomain.html[protectionDomain]
 |===

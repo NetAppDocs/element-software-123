@@ -72,7 +72,7 @@ kmipKeyServers
 a|
 The complete list of KMIP key servers which have been created.
 a|
-link:reference_element_api_keyserverkmip.md#[KeyServerKmip] array
+link:reference_element_api_keyserverkmip.html[KeyServerKmip] array
 |===
 
 == Request example

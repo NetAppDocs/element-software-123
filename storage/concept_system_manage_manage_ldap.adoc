@@ -170,7 +170,7 @@ This is the password for the readonly user account.
 To test this, log out of the Element UI and log back in as a user in that group.
 
 
-
+[[view_ldap_details]]
 == View LDAP details
 
 View LDAP information on the LDAP page on the Cluster tab.
