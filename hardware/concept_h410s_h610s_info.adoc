@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: h410s, h610s, hardware installation, hardware maintenance
 summary: You can find information about installing and maintaining H-series storage nodes.
 ---
-
 = H410S and H610S hardware information
 :icons: font
 :imagesdir: ../media/
