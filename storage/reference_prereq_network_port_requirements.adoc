@@ -53,7 +53,7 @@ Client iSCSI communications
 a|
 Management node
 a|
-sfsupport.solidfire.com
+`sfsupport.solidfire.com`
 a|
 22
 a|
@@ -93,7 +93,7 @@ UI and API access to storage node and Element software upgrades
 a|
 Management node
 a|
-monitoring.solidfire.com
+`monitoring.solidfire.com`
 a|
 443
 a|
