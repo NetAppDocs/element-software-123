@@ -48,8 +48,8 @@ format
 a|
 The format of the bulk volume operation. Possible values:
 
-* compressed
 * native
+* uncompressed
 
 a|
 string
@@ -112,3 +112,5 @@ The type of bulk operation. Possible values:
 a|
 string
 |===
+
+// 2023 SEP 4, DOC-4707
