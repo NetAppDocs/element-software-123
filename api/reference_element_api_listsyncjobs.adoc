@@ -62,7 +62,7 @@ This method returns a response similar to the following example:
            "sliceID":5,
            "srcServiceID":16,
            "stage":"whole",
-           "totalBytes":200278016remote0,
+           "totalBytes":2002780160,
            "type":"slice"
        },
        {
@@ -102,3 +102,5 @@ This method returns a response similar to the following example:
 == New since version
 
 9.6
+
+// 2023 OCT 4, DOC-4706
