@@ -6,6 +6,13 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: true
+  versions:
+   # Current repo stanza comes first
+    - version-number: "12.3"
+      url: /element-software-123
+   # Additional releases newest to oldest
+    - version-number: "12.5 and later"
+      url: /element-software
 sidebar:
   entries:
     - title: SolidFire and Element Software 12.3.x Documentation
