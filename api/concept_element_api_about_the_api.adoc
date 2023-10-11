@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: SolidFire,API,overview,about,Element
 summary: 'The Element API is based on the JSON-RPC protocol over HTTPS. JSON-RPC is a simple text-based RPC protocol based on the lightweight JSON data-interchange format. Client libraries are available for all major programming languages.'
 ---
-
 = About the Element software API
 :icons: font
 :imagesdir: ../media/
