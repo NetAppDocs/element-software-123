@@ -1,5 +1,5 @@
 section: upgrade
-title: Upgrade your NetApp SolidFire all-flash storage system for Element 12.3.x
+title: Upgrade your NetApp SolidFire all-flash storage system version Element 12.3.x
 entries:
   - title: Upgrade sequence overview
     url: /upgrade/concept_element_upgrade_overview.html
