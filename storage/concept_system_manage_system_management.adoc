@@ -18,5 +18,5 @@ You can manage your system in the Element UI. This includes enabling multi-facto
 * link:concept_system_manage_key_get_started_with_external_key_management.html[Get started with external key management]
 
 == For more information
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

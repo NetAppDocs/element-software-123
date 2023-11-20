@@ -10,6 +10,6 @@ You can find the following information about your system in SolidFire Active IQ:
 To learn about SolidFire Active IQ, see the https://docs.netapp.com/us-en/solidfire-active-iq/index.html[SolidFire Active IQ documentation^].
 
 == For more information
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 * https://mysupport.netapp.com/site/tools/tool-eula/5ddb829ebd393e00015179b2[NetApp Support Site > Tools for Active IQ^]

@@ -57,5 +57,5 @@ Some nodes provide additional out-of-band management capabilities via a dedicate
 
 == For more information
 * https://docs.netapp.com/us-en/hci/docs/hci_prereqs_network_switch.html[NetApp HCI network and switch requirements^]
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
