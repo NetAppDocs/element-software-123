@@ -195,4 +195,4 @@ If you need to manually add a new asset post installation, use the new HCC user 
 
 == Find more information
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
