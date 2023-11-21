@@ -1,5 +1,5 @@
 indexpage:
-  lead: NetApp XCP is a client-based software that allows for scalable and high-performance data migrations for any-to-NetApp and NetApp-to-NetApp data migrations and file analytics. Here you will find documentation for XCP 1.9.2 software including how to install, configure, and use XCP. Documentation for earlier releases of XCP are available on the NetApp Support Site.
+  lead: "A SolidFire all-flash storage system is comprised of hardware components such as drives and nodes that are combined into a pool of storage resources. Using the Element interface, API, or other management tools, you can manage these storage resource clusters with NetApp Element software. This site contains the documentation for Element software 12.3.x."
   tiles:
     - title: Get started
       links:
