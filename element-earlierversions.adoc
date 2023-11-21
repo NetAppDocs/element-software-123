@@ -28,7 +28,7 @@ Documentation for previous releases is available on the NetApp Support site.
 * https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62654[Element 11.1 documentation and earlier versions^]
 
 == For more information
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 
 // 2022 JAN 14, DOC-4373

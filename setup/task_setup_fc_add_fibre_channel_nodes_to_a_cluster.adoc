@@ -28,5 +28,5 @@ NOTE: If the node you are adding has a different version of Element than the ver
 The node appears in the list of active nodes.
 
 == Find more information
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

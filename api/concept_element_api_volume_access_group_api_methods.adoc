@@ -23,5 +23,5 @@ Volume access group methods enable you to add, remove, view, and modify volume a
 * xref:reference_element_api_getvolumeaccessgroupefficiency.adoc[GetVolumeAccessGroupEfficiency]
 
 == Find more information
-* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

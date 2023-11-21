@@ -42,5 +42,5 @@ NOTE: You must enable encryption at rest via the link:../api/reference_element_a
 [discrete]
 == Find more information
 * link:task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html[Enable and disable encryption for a cluster]
-* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]
