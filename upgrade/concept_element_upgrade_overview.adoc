@@ -4,14 +4,12 @@ permalink: upgrade/concept_element_upgrade_overview.html
 summary: You can keep your SolidFire Element storage system up-to-date after deployment by upgrading all NetApp storage components.
 keywords: netapp, solidfire upgrade, vcp upgrade, element upgrade, vsphere upgrade
 ---
-
 = Upgrade sequence overview
 :hardbreaks:
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ../media/
-:keywords: solidfire, cloud, onprem, documentation, help
 
 [.lead]
 You can keep your SolidFire Element storage system up-to-date after deployment by sequentially upgrading all NetApp storage components.
