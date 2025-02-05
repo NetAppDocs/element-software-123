@@ -4,19 +4,19 @@ permalink: upgrade/concept_element_upgrade_overview.html
 summary: You can keep your SolidFire Element storage system up-to-date after deployment by upgrading all NetApp storage components.
 keywords: netapp, solidfire upgrade, vcp upgrade, element upgrade, vsphere upgrade
 ---
-
 = Upgrade sequence overview
 :hardbreaks:
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ../media/
-:keywords: solidfire, cloud, onprem, documentation, help
 
 [.lead]
 You can keep your SolidFire Element storage system up-to-date after deployment by sequentially upgrading all NetApp storage components.
 
 These components include management services, HealthTools, NetApp Hybrid Cloud Control, Element software, management node, and (depending on your installation) the Element Plug-in for vCenter Server.
+
+NOTE: Beginning November 2023, you cannot start a component upgrade using NetApp Hybrid Cloud Control or REST API because the signing key certificates (private and public) expired on November 5, 2023. You can resolve this issue by following the workaround documented in the Knowledge Base article https://kb.netapp.com/onprem/solidfire/Element_OS/SolidFire_and_HCI_upgrades_unable_to_start_due_to_upgrade_package_upload_error[SolidFire and HCI upgrades unable to start due to upgrade package upload error^].
 
 The <<sys_upgrade,system upgrade sequence>> content describes the tasks that are needed to complete a SolidFire all-flash storage system upgrade. Ideally these procedures are performed as part of the larger upgrade sequence and not in isolation. If a component-based upgrade or update is needed, see the procedure prerequisites to ensure additional complexities are addressed.
 
@@ -65,4 +65,6 @@ NOTE: Upgrading the management node operating system is no longer required to up
 [discrete]
 == Find more information
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
+
+// 2023 DEC 12, DOC-4719

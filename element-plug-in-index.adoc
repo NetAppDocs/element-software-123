@@ -16,4 +16,4 @@ NetApp Element Plug-in for vCenter Server provides a plug-in to the VMware vSphe
 To learn about Element Plug-in for vCenter Server, see the https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server documentation^].
 
 == For more information
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]

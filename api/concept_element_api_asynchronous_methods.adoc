@@ -28,5 +28,5 @@ Note the following points when using asynchronous methods or obtaining the statu
 * You can obtain the status and results of all running or completed asynchronous methods using the ListAsyncResults method. In this case, the system does not purge results for completed operations.
 
 == Find more information
-* https://www.netapp.com/data-storage/solidfire/documentation/[NetApp SolidFire Resources Page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]

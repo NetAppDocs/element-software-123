@@ -28,5 +28,5 @@ For information about each method, see link:../api/index.html[Element Software A
 == Find more information
 
 * link:../api/index.html[Managing storage with the Element API]
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

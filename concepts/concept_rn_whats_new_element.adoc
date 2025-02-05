@@ -148,7 +148,7 @@ You can now search for known issues on the https://mysupport.netapp.com/site/pro
 == Find more information
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[NetApp Hybrid Cloud Control and Management Services Release Notes^]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation^]
 * http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center for previous versions^]
 * https://www.netapp.com/us/documentation/hci.aspx[NetApp HCI Resources page^]

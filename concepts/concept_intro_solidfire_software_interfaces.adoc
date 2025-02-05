@@ -74,5 +74,5 @@ https://mysupport.netapp.com/site/products/all/details/solidfire-vro/downloads-t
 https://mysupport.netapp.com/site/products/all/details/solidfire-vss-provider/downloads-tab[SolidFire VSS Provider^] integrates VSS shadow copies with Element snapshots and clones.
 
 == Find more information
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

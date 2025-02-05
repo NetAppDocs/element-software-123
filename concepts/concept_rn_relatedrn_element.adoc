@@ -34,7 +34,8 @@ NOTE: You will be prompted to log in using your NetApp Support credentials.
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[Management Services Release Notes^]
 
 == NetApp Element Plug-in for vCenter Server
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2886272[vCenter Plug-in 5.2 Release Notes^] _NEW_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP3316480[vCenter Plug-in 5.3 Release Notes^] _NEW_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2886272[vCenter Plug-in 5.2 Release Notes^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2885734[vCenter Plug-in 5.1 Release Notes^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2884992[vCenter Plug-in 5.0 Release Notes^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2884458[vCenter Plug-in 4.10 Release Notes^]
@@ -56,7 +57,7 @@ NOTE: You will be prompted to log in using your NetApp Support credentials.
 
 == Find more information
 
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
 * https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html[Documentation for earlier versions of NetApp SolidFire and Element products^]
 * https://www.netapp.com/data-storage/solidfire/[SolidFire all-flash storage overview^]

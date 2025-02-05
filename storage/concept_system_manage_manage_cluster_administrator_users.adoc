@@ -119,5 +119,5 @@ You can use the Element UI to change cluster administrator passwords.
 == Find more information
 * link:task_system_manage_enable_ldap_authentication.html[Enable LDAP authentication with the Element user interface]
 * link:concept_system_manage_manage_ldap.html[Disable LDAP]
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

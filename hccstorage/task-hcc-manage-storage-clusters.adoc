@@ -146,6 +146,6 @@ If you encounter errors when you are either enabling or disabling maintenance mo
 [discrete]
 == Find more information
 * link:../mnode/task_mnode_manage_storage_cluster_assets.html[Create and manage storage cluster assets]
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 
 // 2023 FEB 21, DOC-4643

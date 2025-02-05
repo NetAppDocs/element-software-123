@@ -64,5 +64,5 @@ NOTE: If you are trying instead to disassociate a volume from a QoS policy, you 
 
 == Find more information
 * link:task_data_manage_volumes_remove_a_qos_policy_association_of_a_volume.html[Remove the QoS policy association of a volume]
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

@@ -49,7 +49,6 @@ Fibre Channel nodes have the following characteristics:
 
 == Node states of operation
 
-[.lead]
 A node can be in one of several states depending on the level of configuration.
 
 * *Available*
@@ -74,7 +73,6 @@ Authentication is required to modify the node.
 
 In each of these states, some fields are read only.
 
-[discrete]
 == Find more information
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

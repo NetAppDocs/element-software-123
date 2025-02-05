@@ -41,5 +41,5 @@ xref:task_data_protection_back_up_and_restore_volumes.adoc[Back up and restore v
 
 
 == For more information
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

@@ -115,4 +115,4 @@ You can delete one or more initiators. When you delete an initiator, the system 
 * link:../concepts/concept_solidfire_concepts_initiators.html[Learn about initiators]
 * link:../concepts/concept_solidfire_concepts_volume_access_groups.html[Learn about volume access groups]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]

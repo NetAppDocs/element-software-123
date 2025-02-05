@@ -23,4 +23,4 @@ You can set up a cluster with Fibre Channel nodes and manage it using Element so
 
 
 == Find more information
-* https://www.netapp.com/data-storage/solidfire/documentation[SolidFire and Element Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]

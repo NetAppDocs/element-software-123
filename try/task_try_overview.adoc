@@ -16,4 +16,4 @@ Learn about resources and tools for helping you get started with Element softwar
 * link:task_use_demonode.html[Try storage features using Element Demo Node^]: Element Demo Node is a VMware virtual machine version of Element software, which provides an easy way to demonstrate many of the key storage features of NetApp HCI and SolidFire products.
 
 == Find more information
-* https://www.netapp.com/data-storage/solidfire/documentation/[SolidFire All-Flash Storage Resources page^]
+* https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
