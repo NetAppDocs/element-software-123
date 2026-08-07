@@ -17,8 +17,6 @@ In the Documentation Center, you can also find information about hardware instal
 * *NetApp SolidFire Resources page*
 +
 Provides resources about Element software, including links to video content and technical reports.
-+
-https://www.netapp.com/us/documentation/solidfire.aspx[SolidFire All-Flash Storage Resources]
 
 * *NetApp SolidFire Documentation Center*
 +

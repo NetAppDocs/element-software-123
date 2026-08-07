@@ -151,5 +151,4 @@ You can now search for known issues on the https://mysupport.netapp.com/site/pro
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation]
 * https://docs.netapp.com/us-en/element-software/index.html[SolidFire and Element Software Documentation^]
 * http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center for previous versions^]
-* https://www.netapp.com/us/documentation/hci.aspx[NetApp HCI Resources page^]
 * link:../hardware/fw_storage_nodes.html[Supported storage firmware versions for SolidFire storage nodes] _NEW_
